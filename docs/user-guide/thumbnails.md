@@ -13,7 +13,7 @@ After a class recording is processed, the system automatically generates:
 
 ### From the Trim Editor (Recommended)
 
-1. Open the trim editor for the class (click the 🎬 icon on the calendar)
+1. Open the trim editor for the class (click the video camera icon on the calendar)
 2. **Gold markers** on the timeline show AI-ranked candidates — brighter gold = higher ranked
 3. Use `<` / `>` keys to navigate between candidates
 4. Press `T` at any point to capture the current frame as a thumbnail — text overlay is added automatically
