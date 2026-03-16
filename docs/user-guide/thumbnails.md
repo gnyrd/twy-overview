@@ -14,13 +14,13 @@ After a class recording is processed, the system automatically generates:
 ### From the Trim Editor (Recommended)
 
 1. Open the trim editor for the class (click the 🎥 icon on the calendar)
-2. **Gold markers** on the timeline show AI-ranked candidates — brighter = higher ranked
+2. **Gold markers** on the timeline show AI-ranked candidates — brighter gold = higher ranked
 3. Use `<` / `>` keys to navigate between candidates
 4. Press `T` at any point to capture the current frame as a thumbnail — text overlay is added automatically
 5. A preview appears in the side panel
-6. Click **Publish Thumbnail** (amber button) to push it to Vimeo and HeyMarvelous
+6. After running **Trim & Publish**, the **Publish** button (amber) in the thumbnail panel becomes available — click it to push the thumbnail to Vimeo and HeyMarvelous
 
-You're not limited to the AI candidates — press `T` at any moment in the video to use that frame.
+You're not limited to the AI candidates — press `T` at any moment in the video to use that frame. A thumbnail must be selected before you can run Trim & Publish.
 
 ### From the Plan Detail Page
 

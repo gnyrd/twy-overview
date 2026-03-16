@@ -4,7 +4,7 @@ The trim editor lets you set the start and end points of a class recording, then
 
 ## Opening the Trim Editor
 
-From the calendar at **classes.tiffanywoodyoga.com**:
+From the calendar at **[classes.tiffanywoodyoga.com](https://classes.tiffanywoodyoga.com)**:
 
 1. Find the class date
 2. Click the **camera icon** (🎥) on the day cell
@@ -43,6 +43,8 @@ Click **✂ Trim & Publish** to do everything in one step:
 1. Creates the class entry in the HeyMarvelous on-demand library
 2. Trims the video with intro and outro bumpers
 3. Uploads the trimmed video to Vimeo
+
+A thumbnail must be selected before Trim & Publish is available (see [Thumbnails](thumbnails)).
 
 A progress bar shows the trim and upload status. The whole process typically takes 1–3 minutes depending on class length.
 

@@ -15,7 +15,7 @@ Clips are in **9:16 vertical format**, ready for Instagram, TikTok, or YouTube S
 
 ## Browsing Clips
 
-Open **clips.tiffanywoodyoga.com** to browse all clips.
+Open **[clips.tiffanywoodyoga.com](https://clips.tiffanywoodyoga.com)** to browse all clips.
 
 ### Class List
 

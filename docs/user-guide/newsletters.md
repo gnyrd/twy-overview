@@ -1,28 +1,26 @@
 # Newsletters
 
-TWEEE is a custom GPT that writes Tiffany Wood Yoga newsletters in Tiffany's voice. It automatically pulls upcoming class information and produces newsletter content ready for Mailchimp.
+Weekly newsletters keep students informed about upcoming classes, series themes, and studio news. Class plan information from the dashboard feeds directly into the newsletter writing process.
 
-## Using TWEEE
+## What Goes Into a Newsletter
 
-1. Open [TWEEE on ChatGPT](https://chatgpt.com/g/g-thtGYCFAR-tweee)
-2. Ask it to write a newsletter for the upcoming week (or whatever timeframe you need)
-3. TWEEE automatically pulls the latest class plans — including titles, series, themes, apex poses, and affirmations
-4. Review and edit the output
-5. Copy the final content into Mailchimp to send
+The class plans dashboard at **[classes.tiffanywoodyoga.com](https://classes.tiffanywoodyoga.com)** contains all the information that typically appears in newsletters:
 
-## What TWEEE Knows
+- **Upcoming class schedule** — dates, times, and class types
+- **Series and themes** — the current series title, monthly intentions, and energetic pulse
+- **Class details** — titles, apex poses, affirmations, and descriptions
+- **Monthly overviews** — the big-picture theme and scheduling for the month
 
-TWEEE has access to:
+## Sending Newsletters
 
-- **Upcoming class plans** — it reads directly from the class plans dashboard, so it always has current information
-- **Monthly overviews** — series themes, monthly intentions, and scheduling
-- **Tiffany's voice** — trained on 15 curated past newsletters, philosophy references, and voice guidelines
+Newsletters are composed and sent through **Mailchimp**. The typical workflow:
 
-You don't need to paste class details into the chat — TWEEE fetches them automatically.
+1. Make sure class plans are up to date on **[classes.tiffanywoodyoga.com](https://classes.tiffanywoodyoga.com)**
+2. Draft the newsletter content using the class plan details
+3. Send via Mailchimp to the subscriber list
 
 ## Tips
 
-- **Be specific about the timeframe** — "Write a newsletter for next week" or "Cover March 17–21"
-- **Ask for revisions** — TWEEE can adjust tone, length, or emphasis
-- **Add context** — mention any special events, schedule changes, or themes you want highlighted
-- **Review the class plans first** — make sure the plans are up to date on **classes.tiffanywoodyoga.com** before asking TWEEE to write, since it pulls live data
+- **Keep plans current** — newsletter content is only as good as the class plans, so review them before writing
+- **Highlight special events** — mention schedule changes, guest teachers, or new series
+- **Include the week's themes** — students appreciate knowing the apex pose, affirmation, and teaching lens ahead of time
