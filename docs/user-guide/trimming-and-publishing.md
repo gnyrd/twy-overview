@@ -7,7 +7,7 @@ The trim editor lets you set the start and end points of a class recording, then
 From the calendar at **[classes.tiffanywoodyoga.com](https://classes.tiffanywoodyoga.com)**:
 
 1. Find the class date
-2. Click the **camera icon** (🎥) on the day cell
+2. Click the **video camera icon** (🎬) on the day cell
 3. The trim editor loads with the video, waveform, and transcript
 
 ## Setting IN and OUT Points

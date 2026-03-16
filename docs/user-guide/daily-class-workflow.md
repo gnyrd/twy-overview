@@ -25,7 +25,7 @@ Open **[classes.tiffanywoodyoga.com](https://classes.tiffanywoodyoga.com)** and 
 
 ### 2. Select a Thumbnail
 
-From the calendar, click the **camera icon** (🎥) on the class date to open the trim editor.
+From the calendar, click the **video camera icon** (🎬) on the class date to open the trim editor.
 
 1. Gold markers on the timeline show AI-ranked thumbnail candidates — brighter gold = higher ranked
 2. Navigate between them with the `<` / `>` keys or buttons
