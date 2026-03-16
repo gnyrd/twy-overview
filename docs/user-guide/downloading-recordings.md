@@ -1,82 +1,33 @@
-# Downloading Recordings
+# Recordings
 
-Zoom cloud recordings are downloaded automatically by twy-download. You normally don't need to do anything — but here's how it works and how to intervene.
+Zoom class recordings are downloaded and processed automatically. You don't need to do anything — this page explains what to expect.
 
 ## How It Works
 
-Four specialized scripts each handle one type of recording:
+After each Zoom class ends:
 
-| Script | What It Downloads | Output Directory |
-|--------|-------------------|-----------------|
-| `zoom_download_classes.py` | "Zoom Meeting" recordings ≥ 15 min | `data/classes/` |
-| `zoom_download_shorts.py` | "Zoom Meeting" recordings < 15 min | `data/outtakes/` |
-| `zoom_download_privates.py` | All non-"Zoom Meeting" recordings | `data/privates/` |
-| `zoom_download.py` | Legacy all-in-one (classes + privates) | `data/classes/` + `data/privates/` |
+1. **Zoom processes the recording** — this takes about 5–15 minutes
+2. **The recording is downloaded automatically** — the system checks for new recordings every 30 minutes
+3. **Clips are generated** — once the recording arrives, social media clips with captions are created automatically (see [Social Media Clips](processing-clips))
 
-Each script runs on cron and maintains its own state file in `state/` to prevent duplicate downloads.
+## What to Expect
 
-## What Gets Downloaded
+- **Class recordings** (15 minutes or longer) are picked up and processed automatically
+- **Short recordings** (under 15 minutes) are saved separately as outtakes
+- **Private or named meetings** (not titled "Zoom Meeting") are saved separately
 
-For each recording, the script downloads:
+## Timing
 
-- Video file (shared screen with speaker view, gallery view, or audio-only)
-- Per-participant audio tracks (`audio/audio_firstname_lastname.m4a`)
-- Transcript (`audio_transcript.vtt`)
-- Participant list (`participants.json`)
-- Timeline (`timeline.json`)
-- Summary (`summary.json`)
+From the end of a class to clips being available:
 
-All files land in a dated directory: `YYYY-MM-DD_HHMM_{topic}/`
+- **~5–15 min** — Zoom finishes processing the cloud recording
+- **~30 min** — recording is downloaded
+- **~15–30 min** — clips are generated with captions
 
-## How Do I...
+Total: roughly **30–60 minutes** after class ends, everything is ready.
 
-### Check if a recording was downloaded
+## What If a Recording Doesn't Appear?
 
-```bash
-# SSH to the server, then:
-ls /root/twy/data/classes/ | grep 2026-03-15
-```
-
-Or check the state file:
-```bash
-cat /root/twy/download/state/downloads_classes.json | python3 -m json.tool | grep "2026-03-15"
-```
-
-### Force re-download a specific recording
-
-Delete the recording's entry from the relevant state file, then re-run the script:
-
-```bash
-# Edit the state file to remove the entry
-vi /root/twy/download/state/downloads_classes.json
-
-# Re-run
-python3 /root/twy/download/src/zoom/zoom_download_classes.py --days-back 7
-```
-
-### Download recordings from further back
-
-By default, scripts look back 7 days. Use `--days-back`:
-
-```bash
-python3 /root/twy/download/src/zoom/zoom_download_classes.py --days-back 30
-```
-
-### List available recordings without downloading
-
-```bash
-python3 /root/twy/download/src/zoom/zoom_list.py --days-back 14
-```
-
-### Check download health
-
-Look at the cron logs:
-```bash
-tail -50 /root/twy/download/logs/classes.log
-```
-
-## Troubleshooting
-
-- **Recording not appearing**: Zoom takes 5–15 min to process cloud recordings after a meeting ends. The download cron runs every 30 min.
-- **Incomplete files**: The download script validates file sizes (≥ 95% of expected) and retries up to 5 times with exponential backoff.
-- **"No recordings found"**: Check that the Zoom API credentials in `/root/twy/download/.env` are valid and that recordings exist in the date range.
+- **Wait at least an hour** — Zoom processing plus download time can take up to 45 minutes on a busy day
+- **Check that the class was recorded** — make sure cloud recording was enabled in Zoom
+- If a recording still hasn't appeared after an hour, contact your developer for help
