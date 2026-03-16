@@ -3,8 +3,9 @@
 html { font-size: 16px; -webkit-text-size-adjust: 100%; }
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  color: #1a1a1a;
-  background: #fff;
+  color: #fff;
+  background: linear-gradient(160deg, #a8d8f0 0%, #1a85c2 40%, #0d5a8a 70%, #062540 100%);
+  min-height: 100vh;
   line-height: 1.6;
 }
 
@@ -18,8 +19,9 @@ body {
 .sidebar {
   width: 260px;
   min-width: 260px;
-  background: #fafafa;
-  border-right: 1px solid #e5e5e5;
+  background: rgba(6, 37, 64, 0.45);
+  backdrop-filter: blur(6px);
+  border-right: 1px solid rgba(255,255,255,0.12);
   padding: 20px 0;
   display: flex;
   flex-direction: column;
@@ -28,64 +30,67 @@ body {
   height: 100vh;
   overflow-y: auto;
 }
-.sidebar-header { padding: 0 20px 16px; border-bottom: 1px solid #e5e5e5; }
+.sidebar-header { padding: 0 20px 16px; border-bottom: 1px solid rgba(255,255,255,0.1); }
 .sidebar-logo {
   font-size: 18px;
   font-weight: 800;
-  color: #222;
+  color: #fff;
   text-decoration: none;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.3);
 }
 .sidebar-pages { list-style: none; padding: 12px 0 4px; }
 .sidebar-pages li a {
   display: block;
   padding: 6px 20px 6px 24px;
   font-size: 14px;
-  color: #444;
+  color: rgba(255,255,255,0.7);
   text-decoration: none;
   border-left: 3px solid transparent;
   transition: all 0.15s;
 }
-.sidebar-pages li a:hover { color: #111; background: #f0f0f0; }
+.sidebar-pages li a:hover { color: #fff; background: rgba(255,255,255,0.1); }
 .sidebar-pages li.active a {
-  color: #c05a2c;
-  border-left-color: #fda085;
-  background: #fff5f0;
+  color: #fff;
+  border-left-color: rgba(255,255,255,0.9);
+  background: rgba(255,255,255,0.15);
   font-weight: 600;
 }
 .sidebar-footer {
   margin-top: auto;
   padding: 16px 20px 0;
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid rgba(255,255,255,0.1);
 }
-.sidebar-footer a { font-size: 13px; color: #888; text-decoration: none; }
-.sidebar-footer a:hover { color: #555; }
+.sidebar-footer a { font-size: 13px; color: rgba(255,255,255,0.4); text-decoration: none; }
+.sidebar-footer a:hover { color: rgba(255,255,255,0.75); }
 
 /* ── Content ───────────────────────────────────────────── */
 .content {
   flex: 1;
   max-width: 800px;
   padding: 40px 48px 80px;
+  background: transparent;
 }
-.content h1 { font-size: 28px; font-weight: 800; margin-bottom: 12px; color: #111; }
-.content h2 { font-size: 22px; font-weight: 700; margin: 32px 0 8px; color: #222; border-bottom: 1px solid #eee; padding-bottom: 4px; }
-.content h3 { font-size: 17px; font-weight: 700; margin: 24px 0 6px; color: #333; }
-.content h4 { font-size: 15px; font-weight: 700; margin: 20px 0 4px; color: #444; }
-.content p { margin: 8px 0 12px; }
+.content h1 { font-size: 28px; font-weight: 800; margin-bottom: 12px; color: #fff; text-shadow: 0 1px 4px rgba(0,0,0,0.2); }
+.content h2 { font-size: 22px; font-weight: 700; margin: 32px 0 8px; color: #fff; border-bottom: 1px solid rgba(255,255,255,0.2); padding-bottom: 4px; }
+.content h3 { font-size: 17px; font-weight: 700; margin: 24px 0 6px; color: rgba(255,255,255,0.95); }
+.content h4 { font-size: 15px; font-weight: 700; margin: 20px 0 4px; color: rgba(255,255,255,0.9); }
+.content p { margin: 8px 0 12px; color: rgba(255,255,255,0.9); }
 .content ul, .content ol { margin: 8px 0 12px 24px; }
-.content li { margin-bottom: 4px; }
-.content a { color: #c05a2c; text-decoration: none; }
-.content a:hover { text-decoration: underline; }
-.content strong { font-weight: 700; }
+.content li { margin-bottom: 4px; color: rgba(255,255,255,0.9); }
+.content a { color: #a8d8f0; text-decoration: none; }
+.content a:hover { text-decoration: underline; color: #fff; }
+.content strong { font-weight: 700; color: #fff; }
 .content code {
   font-family: "SF Mono", "Fira Code", "Fira Mono", Menlo, Consolas, monospace;
   font-size: 0.9em;
-  background: #f5f5f5;
+  background: rgba(0,0,0,0.2);
+  color: #d4efff;
   padding: 2px 5px;
   border-radius: 3px;
 }
 .content pre {
-  background: #f7f7f7;
-  border: 1px solid #e5e5e5;
+  background: rgba(0,0,0,0.25);
+  border: 1px solid rgba(255,255,255,0.12);
   border-radius: 6px;
   padding: 14px 18px;
   overflow-x: auto;
@@ -96,6 +101,7 @@ body {
   background: none;
   padding: 0;
   font-size: 13px;
+  color: #d4efff;
 }
 .content table {
   width: 100%;
@@ -106,15 +112,16 @@ body {
 .content th, .content td {
   text-align: left;
   padding: 8px 12px;
-  border: 1px solid #e5e5e5;
+  border: 1px solid rgba(255,255,255,0.15);
+  color: rgba(255,255,255,0.9);
 }
-.content th { background: #fafafa; font-weight: 700; }
+.content th { background: rgba(0,0,0,0.2); font-weight: 700; color: #fff; }
 .content blockquote {
-  border-left: 3px solid #fda085;
+  border-left: 3px solid rgba(255,255,255,0.5);
   padding: 4px 16px;
   margin: 12px 0;
-  color: #555;
-  background: #fffaf7;
+  color: rgba(255,255,255,0.75);
+  background: rgba(0,0,0,0.12);
 }
 
 /* ── Home cards ────────────────────────────────────────── */
@@ -122,31 +129,32 @@ body {
 .home-card {
   margin-bottom: 28px;
   padding: 20px 24px;
-  background: #fafafa;
-  border: 1px solid #eee;
+  background: rgba(0,0,0,0.15);
+  border: 1px solid rgba(255,255,255,0.15);
   border-radius: 8px;
 }
-.home-card h2 { font-size: 18px; margin: 0 0 8px; border: none; padding: 0; }
-.home-card h2 a { color: #222; }
+.home-card h2 { font-size: 18px; margin: 0 0 8px; border: none; padding: 0; color: #fff; }
+.home-card h2 a { color: #fff; }
 .home-card ul { list-style: none; margin: 0; padding: 0; }
 .home-card li { margin-bottom: 4px; }
-.home-card li a { font-size: 14px; color: #c05a2c; }
+.home-card li a { font-size: 14px; color: #a8d8f0; }
 
 /* ── Syntax highlighting (Pygments) ────────────────────── */
-.highlight { background: #f7f7f7; }
-.highlight .hll { background-color: #ffffcc; }
-.highlight .c, .highlight .cm, .highlight .c1, .highlight .cs { color: #6a737d; }
-.highlight .k, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kd { color: #d73a49; }
-.highlight .s, .highlight .sb, .highlight .sc, .highlight .sd, .highlight .s2, .highlight .se, .highlight .sh, .highlight .si, .highlight .sx, .highlight .sr, .highlight .s1, .highlight .ss { color: #032f62; }
-.highlight .mi, .highlight .mf, .highlight .mh, .highlight .il { color: #005cc5; }
-.highlight .na { color: #6f42c1; }
-.highlight .nb, .highlight .nc, .highlight .no, .highlight .nd, .highlight .ni, .highlight .ne, .highlight .nf, .highlight .nl, .highlight .nn { color: #6f42c1; }
-.highlight .o, .highlight .ow { color: #d73a49; }
-.highlight .p { color: #1a1a1a; }
+.highlight { background: transparent; }
+.highlight .hll { background-color: rgba(255,255,255,0.1); }
+.highlight .c, .highlight .cm, .highlight .c1, .highlight .cs { color: #8ecde8; }
+.highlight .k, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kd { color: #ff8fa3; }
+.highlight .s, .highlight .sb, .highlight .sc, .highlight .sd, .highlight .s2, .highlight .se, .highlight .sh, .highlight .si, .highlight .sx, .highlight .sr, .highlight .s1, .highlight .ss { color: #b5f0b5; }
+.highlight .mi, .highlight .mf, .highlight .mh, .highlight .il { color: #79d4f0; }
+.highlight .na { color: #d4aaff; }
+.highlight .nb, .highlight .nc, .highlight .no, .highlight .nd, .highlight .ni, .highlight .ne, .highlight .nf, .highlight .nl, .highlight .nn { color: #d4aaff; }
+.highlight .o, .highlight .ow { color: #ff8fa3; }
+.highlight .p { color: rgba(255,255,255,0.85); }
 
 /* ── TOC permalinks ────────────────────────────────────── */
-.headerlink { font-size: 0.8em; color: #ccc; margin-left: 4px; text-decoration: none; }
-.headerlink:hover { color: #888; }
+.content h1, .content h2, .content h3, .content h4 { position: relative; }
+.content .headerlink { position: absolute; inset: 0; font-size: 0; text-decoration: none; }
+.content h1:hover, .content h2:hover, .content h3:hover, .content h4:hover { opacity: 0.8; cursor: pointer; }
 
 /* ── Responsive ────────────────────────────────────────── */
 @media (max-width: 768px) {
@@ -157,7 +165,7 @@ body {
     height: auto;
     position: static;
     border-right: none;
-    border-bottom: 1px solid #e5e5e5;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
   }
   .content { padding: 24px 20px 60px; }
 }
