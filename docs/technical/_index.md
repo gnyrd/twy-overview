@@ -12,5 +12,6 @@ Developer-level documentation for the TWY content pipeline. Covers architecture,
 - [twy-tweee-gpt](twy-tweee-gpt) — Custom GPT for newsletter generation
 - [twy-announce](twy-announce) — Email reminders, status reports, WhatsApp toolbox
 - [twy-asset-management](twy-asset-management) — Asset organization and pose detection
+- [marvy](marvy) — HeyMarvelous/Namastream API client library (shared)
 - [Deployment](deployment) — systemd services, nginx, SSL, cron
 - [Environment Variables](environment-variables) — All `.env` variables across repos
