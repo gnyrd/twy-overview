@@ -24,7 +24,7 @@ def login():
         password = request.form.get("password", "")
         if os.getenv("DASHBOARD_PASS") and password == os.getenv("DASHBOARD_PASS"):
             session["logged_in"] = True
-            return redirect(url_for("docs.index"))
+            return redirect(url_for("index"))
         return render_template("login.html", error="Invalid password")
     return render_template("login.html")
 
