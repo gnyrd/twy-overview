@@ -1,0 +1,15 @@
+<nav class="sidebar">
+  <div class="sidebar-header">
+    <a href="{{ url_for('index') }}" class="sidebar-logo">{{ site_title }}</a>
+  </div>
+  <ul class="sidebar-pages">
+    {% for page in nav_pages %}
+    <li{% if current_slug is defined and current_slug == page.slug %} class="active"{% endif %}>
+      <a href="{{ url_for('doc_page', slug=page.slug) }}">{{ page.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+  <div class="sidebar-footer">
+    <a href="{{ url_for('auth.logout') }}">Sign out</a>
+  </div>
+</nav>

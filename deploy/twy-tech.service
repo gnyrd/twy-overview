@@ -1,0 +1,15 @@
+[Unit]
+Description=TWY Technical Reference (tech.tiffanywoodyoga.com)
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root/twy/overview
+EnvironmentFile=/root/twy/overview/.env.tech
+ExecStart=/usr/bin/python3 /root/twy/overview/app.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
