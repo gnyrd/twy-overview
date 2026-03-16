@@ -7,14 +7,17 @@ Configure via environment variables:
     SITE_TITLE      Display name shown in sidebar and page titles (default: TWY Docs)
     TWY_DOCS_PORT   Port to listen on (default: 5005)
 """
+import hashlib
+import hmac
 import os
+import subprocess
 from pathlib import Path
 from dotenv import load_dotenv
 
 load_dotenv()
 
 import markdown
-from flask import Flask, render_template, abort
+from flask import Flask, render_template, abort, request, jsonify
 
 from auth import auth_bp, login_required
 
@@ -105,6 +108,43 @@ def doc_page(slug):
 @app.route("/api/health")
 def health():
     return {"status": "ok"}
+
+
+# ---------------------------------------------------------------------------
+# GitHub webhook — auto-deploy on push
+# ---------------------------------------------------------------------------
+
+WEBHOOK_SECRET = os.getenv("GITHUB_WEBHOOK_SECRET", "")
+
+
+def _verify_signature(payload: bytes, signature: str) -> bool:
+    """Verify GitHub webhook HMAC-SHA256 signature."""
+    if not WEBHOOK_SECRET:
+        return False
+    expected = "sha256=" + hmac.new(
+        WEBHOOK_SECRET.encode(), payload, hashlib.sha256
+    ).hexdigest()
+    return hmac.compare_digest(expected, signature)
+
+
+@app.route("/api/webhook/deploy", methods=["POST"])
+def webhook_deploy():
+    signature = request.headers.get("X-Hub-Signature-256", "")
+    if not _verify_signature(request.get_data(), signature):
+        abort(403)
+
+    result = subprocess.run(
+        ["git", "pull", "--ff-only"],
+        cwd=BASE_DIR,
+        capture_output=True,
+        text=True,
+        timeout=30,
+    )
+    return jsonify({
+        "ok": result.returncode == 0,
+        "output": result.stdout.strip(),
+        "error": result.stderr.strip() if result.returncode != 0 else None,
+    })
 
 
 if __name__ == "__main__":
