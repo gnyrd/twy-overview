@@ -10,6 +10,10 @@ From the calendar at **[classes.tiffanywoodyoga.com](https://classes.tiffanywood
 2. Click the **video camera icon** on the day cell
 3. The trim editor loads with the video, waveform, and transcript
 
+## IN and OUT Points Are Saved
+
+The editor automatically **saves your IN and OUT points** to the class plan whenever you run Trim or Trim & Publish. The next time you open the editor for that class, the saved points are restored — you won't lose your work if you close the tab.
+
 ## Setting IN and OUT Points
 
 The editor shows three synchronized views:
