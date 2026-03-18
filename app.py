@@ -11,6 +11,7 @@ import hashlib
 import hmac
 import os
 import subprocess
+from datetime import datetime, timezone
 from pathlib import Path
 from dotenv import load_dotenv
 
@@ -63,6 +64,21 @@ def build_nav():
     return pages
 
 
+def _git_last_modified(path: Path) -> str | None:
+    """Return the last git commit date for a file as a human-readable string."""
+    try:
+        result = subprocess.run(
+            ["git", "log", "-1", "--format=%aI", "--", str(path)],
+            cwd=BASE_DIR, capture_output=True, text=True, timeout=5,
+        )
+        if result.returncode == 0 and result.stdout.strip():
+            dt = datetime.fromisoformat(result.stdout.strip())
+            return dt.strftime("%B %-d, %Y")
+    except Exception:
+        pass
+    return None
+
+
 # ---------------------------------------------------------------------------
 # App
 # ---------------------------------------------------------------------------
@@ -90,7 +106,8 @@ def index():
     md.reset()
     content = md.convert(path.read_text())
     title = _title_from_md(path)
-    return render_template("doc.html", content=content, title=title, current_slug=None)
+    last_updated = _git_last_modified(path)
+    return render_template("doc.html", content=content, title=title, current_slug=None, last_updated=last_updated)
 
 
 @app.route("/<slug>")
@@ -102,7 +119,8 @@ def doc_page(slug):
     md.reset()
     content = md.convert(path.read_text())
     title = _title_from_md(path)
-    return render_template("doc.html", content=content, title=title, current_slug=slug)
+    last_updated = _git_last_modified(path)
+    return render_template("doc.html", content=content, title=title, current_slug=slug, last_updated=last_updated)
 
 
 @app.route("/api/health")

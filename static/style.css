@@ -151,7 +151,16 @@ body {
 .highlight .o, .highlight .ow { color: #ff8fa3; }
 .highlight .p { color: rgba(255,255,255,0.85); }
 
-/* ── TOC permalinks ────────────────────────────────────── */
+/* ── Last updated ──────────────────────────────────────── */
+.last-updated {
+  margin-top: 48px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(255,255,255,0.15);
+  font-size: 13px;
+  color: rgba(255,255,255,0.4);
+}
+
+/* ── TOC permalinks ──────────────────────────────────────── */
 .content h1, .content h2, .content h3, .content h4 { position: relative; }
 .content .headerlink { position: absolute; inset: 0; font-size: 0; text-decoration: none; }
 .content h1:hover, .content h2:hover, .content h3:hover, .content h4:hover { opacity: 0.8; cursor: pointer; }

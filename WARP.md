@@ -2,6 +2,11 @@
 
 ## Recent Changes
 
+### Last Updated Attribution (2026-03-18)
+- Each doc page now shows "Last updated [date]" at the bottom
+- Date is pulled from the git log for that specific markdown file
+- Styled as subtle text with a top border separator
+
 ### Auto-Deploy Webhook (2026-03-16)
 - Added `/api/webhook/deploy` endpoint to app.py — receives GitHub webhook POSTs, verifies HMAC-SHA256 signature, runs `git pull --ff-only`
 - New env var: `GITHUB_WEBHOOK_SECRET` — must match the secret configured in the GitHub webhook

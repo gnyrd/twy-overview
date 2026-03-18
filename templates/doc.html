@@ -5,6 +5,9 @@
   {% include "_sidebar.html" %}
   <main class="content doc">
     {{ content | safe }}
+    {% if last_updated %}
+    <div class="last-updated">Last updated {{ last_updated }}</div>
+    {% endif %}
   </main>
 </div>
 {% endblock %}
