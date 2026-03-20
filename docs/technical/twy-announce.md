@@ -37,7 +37,7 @@ Posts subscriber counts and membership data to Slack at 6am MT.
 | `src/refresh_jwt.py` | Playwright → HeyMarvelous | JWT token for Metabase | `.jwt_cache.json` |
 | `src/daily_status_report.py` | HeyMarvelous Metabase | Active subscriptions by product | Slack webhook |
 
-Historical comparisons: week-over-week (7d), month-over-month (30d), year-over-year (365d).
+Historical comparisons: week-over-week (7d), month-over-month (30d), year-over-year (365d). Membership deltas are computed via live queries against the `subscriptions` table (joined to `purchases` where `amount_paid > 0` to exclude comps), not from snapshot comparisons.
 
 **Cron:** `0 13 * * * cd /root/twy/announce && python3 src/daily_status_report.py` (1pm UTC = 6am MT)
 

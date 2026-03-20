@@ -19,7 +19,7 @@ The class schedule is read from the Google Doc for the current month. Reminders 
 A daily report posts to Slack every morning at **6am Mountain Time** with a snapshot of:
 
 - **Subscribers** — email (Mailchimp), Instagram, and YouTube follower counts, with changes over the past week, month, and year
-- **Membership** — active subscription counts from HeyMarvelous, broken down by product
+- **Membership** — active paid subscription counts from HeyMarvelous (complimentary memberships excluded), with changes over the past week, month, and year, broken down by product
 - **Revenue** — monthly and annual billing cycle counts
 
 ## What If Something Seems Wrong?
