@@ -104,3 +104,54 @@ Cookie-based feature flag for WIP features.
 ```
 
 All paths configured via environment variables with sensible defaults in `config.py`.
+
+## Class Types
+
+| Value | Display | Description File |
+|-------|---------|-----------------|
+|  | Strength |  |
+|  | Stretch |  |
+|  | Flow |  |
+|  | Dynamic Flow |  |
+|  | Slow Flow |  |
+|  | Principles |  |
+|  | Expansion |  |
+|  | Meditation | *(none)* |
+|  | Final Integration |  |
+|  | Habit |  — second Saturday of each month |
+
+Description files live in . They are injected into the HeyMarvelous event description when publishing.
+
+## Class Types
+
+| Value | Display | Description File |
+|-------|---------|-----------------|
+|  | Strength |  |
+|  | Stretch |  |
+|  | Flow |  |
+|  | Dynamic Flow |  |
+|  | Slow Flow |  |
+|  | Principles |  |
+|  | Expansion |  |
+|  | Meditation | *(none)* |
+|  | Final Integration |  |
+|  | Habit |  - second Saturday of each month |
+
+Description files live in . They are injected into the HeyMarvelous event description when publishing.
+
+## Class Types
+
+| Value | Display | Description File |
+|-------|---------|-----------------|
+| `Strength` | Strength | `strength.md` |
+| `Stretch` | Stretch | `stretch.md` |
+| `Flow` | Flow | `flow.md` |
+| `Dynamic Flow` | Dynamic Flow | `flow.md` |
+| `Slow Flow` | Slow Flow | `flow.md` |
+| `Principles of Anusara®` | Principles | `principles.md` |
+| `Expansion` | Expansion | `expansion.md` |
+| `Meditation` | Meditation | *(none)* |
+| `Final Integration` | Final Integration | `integration.md` |
+| `Habit` | Habit | `habit.md` - second Saturday of each month |
+
+Description files live in `class_type_descriptions/`. They are injected into the HeyMarvelous event description when publishing.
