@@ -55,12 +55,14 @@ def _title_from_md(path: Path) -> str:
 
 
 def build_nav():
-    """Build sidebar navigation from the docs directory."""
+    """Build sidebar navigation from the docs directory, including subdirectories."""
     pages = []
-    for md_file in sorted(DOCS_DIR.glob("*.md")):
+    for md_file in sorted(DOCS_DIR.rglob("*.md")):
         if md_file.name == "_index.md":
             continue
-        pages.append({"slug": md_file.stem, "title": _title_from_md(md_file)})
+        rel = md_file.relative_to(DOCS_DIR)
+        slug = str(rel.with_suffix(""))
+        pages.append({"slug": slug, "title": _title_from_md(md_file)})
     return pages
 
 
@@ -110,17 +112,20 @@ def index():
     return render_template("doc.html", content=content, title=title, current_slug=None, last_updated=last_updated)
 
 
-@app.route("/<slug>")
+@app.route("/<path:slug>")
 @login_required
 def doc_page(slug):
+    # Strip .md extension if present (links may include it)
+    if slug.endswith(".md"):
+        slug = slug[:-3]
     path = DOCS_DIR / f"{slug}.md"
     if not path.is_file():
         abort(404)
     md.reset()
-    content = md.convert(path.read_text())
+    html_content = md.convert(path.read_text())
     title = _title_from_md(path)
     last_updated = _git_last_modified(path)
-    return render_template("doc.html", content=content, title=title, current_slug=slug, last_updated=last_updated)
+    return render_template("doc.html", content=html_content, title=title, current_slug=slug, last_updated=last_updated)
 
 
 @app.route("/api/health")
