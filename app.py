@@ -118,7 +118,14 @@ def doc_page(slug):
     # Strip .md extension if present (links may include it)
     if slug.endswith(".md"):
         slug = slug[:-3]
+    # Strip trailing slash if present
+    slug = slug.rstrip("/")
+    # Try flat file first, then subdirectory index
     path = DOCS_DIR / f"{slug}.md"
+    if not path.is_file():
+        path = DOCS_DIR / slug / "index.md"
+    if not path.is_file():
+        path = DOCS_DIR / slug / "_index.md"
     if not path.is_file():
         abort(404)
     md.reset()
