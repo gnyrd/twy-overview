@@ -1,22 +1,33 @@
 # How does the Yoga Habit page work?
 
-The Yoga Habit landing page is at: **https://habit.tiffanywoodyoga.com**
+## The page
+
+Visit **https://habit.tiffanywoodyoga.com** to see the public landing page for the monthly free class.
 
 ## What visitors see
 
-A page explaining the Yoga Habit program with a registration form.
+- The next Yoga Habit class date and time.
+- A registration button that links to the HeyMarvelous event.
+- If the visitor came from the newsletter, the page adjusts what it shows (lifestyle members see different CTAs than non-members).
 
-## Registration flow
+## After the class
 
-1. A visitor fills out the registration form.
-2. They receive a confirmation email.
-3. They get automatic follow-up emails over the next few days.
+The system automatically sends follow-up emails to attendees:
 
-## Coupon codes
+- A thank-you with a discount coupon code.
+- The coupon is unique per month (format: HABIT_MONYYYY, e.g., HABIT_APR2026).
+- Redemptions are tracked automatically.
 
-Coupon codes are generated and applied automatically. You do not need to create them manually.
+## Stats and analytics
 
-## Follow-up emails
+You can see how the Habit page is performing at any time:
 
-After someone registers, they receive a sequence of follow-up emails automatically.
-These are pre-written and sent on a schedule. You do not need to send them yourself.
+**https://habit.tiffanywoodyoga.com/stats?key=z0OvK27qdQ3BtZBc8D_6og**
+
+This shows registration trends, where visitors come from, and which buttons are getting clicks.
+
+## What you need to do
+
+Nothing for the page itself. It updates automatically based on the next scheduled Habit event.
+
+The **go.tiffanywoodyoga.com** URL also points here. This is what the MailChimp logo links to.

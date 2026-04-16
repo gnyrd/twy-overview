@@ -1,30 +1,30 @@
 # How do I use Tweee for class planning?
 
-## What Tweee is
+## What is Tweee?
 
-Tweee is a custom GPT built specifically for you. It helps you plan classes by suggesting themes, sequences, and structures based on your teaching style.
+Tweee is a custom ChatGPT assistant trained on your teaching philosophy, voice, and class planning style. It helps draft class plans.
 
 ## How to access it
 
-Open ChatGPT and find Tweee in your custom GPTs list. Start a conversation like you normally would.
+Open ChatGPT and find Tweee in your custom GPTs list.
 
-## How to save a class plan from Tweee
+## How to create a class plan
 
-When Tweee generates a class plan you like:
+1. Start a conversation with Tweee.
+2. Tell it the date, class type, and any theme or focus.
+3. Tweee drafts a plan in your voice.
+4. Review and adjust.
+5. Tell Tweee: "Save this plan to my dashboard" or just "Save this plan."
+6. The plan appears on the [class planning dashboard](class-plans).
 
-Tell Tweee to save the plan. You can say:
-- "Save this plan to my dashboard"
-- "Save this plan"
+## If Tweee cannot save
 
-Tweee will save it directly to your class planning dashboard. You can then go to the dashboard to review or edit it.
+Sometimes the save connection breaks. If that happens:
 
-## Why the 25th matters
+1. Ask Tweee to export the class plan as JSON.
+2. Paste the JSON into a Slack DM to JP.
+3. JP will save it server-side.
 
-Class plans need to be finalized by the 25th of the month because the newsletter uses them to generate content. See [Newsletters](newsletters) for why the deadline is important.
+## Deadlines
 
-## If Tweee is not working
-
-- Try refreshing ChatGPT.
-- If it says it can't save, the server connection may be temporarily down. Try again in a few minutes.
-- You can always create class plans directly on the dashboard.
-- Let JP know so the issue can be fixed.
+Class plans for month N need to be done by the **25th of month N-1**. At minimum, the Yoga Habit class date must have a plan by the 25th so the [newsletter pipeline](newsletters) can generate prompts.

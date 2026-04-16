@@ -1,28 +1,28 @@
 # How do I edit the monthly overview?
 
-Go to: **https://overview.tiffanywoodyoga.com**
+## Where to go
 
-This page shows a summary of everything happening this month.
+Open **https://classes.tiffanywoodyoga.com** and navigate to the overview editor (look for the Overview link in the sidebar or menu).
 
 ## What you control
 
-You can edit and set:
-- **Theme** — the overall focus or topic for the month
-- **Focus** — the specific area of practice (e.g., "Hip openers," "Backbends")
-- **Notes** — any additional context or announcements for the month
+You can set these for each month:
+
+- **Theme** -- the overarching theme for the month's classes.
+- **Focus** -- specific areas of focus (e.g., hips, backbends).
+- **Notes** -- any additional context or reminders.
 
 ## What's automatic
 
-These sections populate automatically from your saved class plans:
-- **Classes** — your scheduled classes for the month
-- **Events** — any special workshops or events
-- **Newsletter** — status of this month's newsletter
-- **Videos** — recent recordings and clips
+Class data, newsletter status, and video counts populate automatically from saved [class plans](class-plans) and recordings. You don't need to enter those.
 
-The overview pulls class information from your [class plans](class-plans), so make sure those are up to date.
+## How to edit
 
-## To make changes
+1. Click into any month's field.
+2. Type your changes.
+3. Click Save for that month.
+4. You can revert individual fields if you change your mind.
 
-Click on the section you want to edit. Make your changes and save.
+## What this is used for
 
-If something does not look right or will not save, let JP know.
+The monthly overview feeds into [newsletter](newsletters) generation and class planning prompts. When you set a theme for a month, Tweee and the newsletter system reference it.

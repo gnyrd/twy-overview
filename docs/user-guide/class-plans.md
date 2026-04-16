@@ -1,41 +1,36 @@
 # How do I create and edit class plans?
 
-Go to: **https://classes.tiffanywoodyoga.com**
+## Where to go
 
-This is your class planning dashboard. It is password-protected.
+Open **https://classes.tiffanywoodyoga.com** in your browser. You will need to log in with the dashboard password.
 
 ## What you see
 
-A calendar view showing all your upcoming classes. Each date shows the class plan for that day.
+A calendar view showing months. Each day that has a class plan shows a dot. Click a day to open its plan.
 
-## To edit a plan
+## How to edit a plan
 
-1. Click on the date you want to edit.
-2. Make your changes in the editor.
+1. Click the day on the calendar.
+2. Edit the text in the editor that opens.
 3. Click Save.
 
 Your changes are saved immediately.
 
 ## Class plan fields
 
-Each plan has these fields you can customize:
+Each plan can include:
 
-- **Title** — the name of the class (e.g., "Monday Fundamentals")
-- **Class type** — the style or level (e.g., "Beginner," "Gentle," "Flow")
-- **Apex pose** — the peak pose for the class
-- **Affirmation** — an inspirational message or intention
-- **Series** — if this class is part of a sequence or mini-series
-- **Theme** — the overarching theme connecting your month's classes
+- **Title** -- the name of the class
+- **Class type** -- regular, workshop, Yoga Habit, etc.
+- **Apex pose** -- the peak pose for the class
+- **Affirmation** -- the theme phrase
+- **Series** -- which monthly series this belongs to
+- **Theme** -- pulled from the [Monthly Overview](monthly-overview)
 
-For theme ideas and monthly context, see [Monthly Overview](monthly-overview).
+## Using Tweee instead
 
-## How Tweee connects to this
+You can also create class plans through [Tweee](tweee) (the custom GPT). Plans saved through Tweee appear on the same calendar. You can edit them here after Tweee saves them.
 
-If you use Tweee (the custom GPT) to plan a class, it can save the plan directly to this dashboard.
-You can still edit it here after Tweee saves it.
+## If something breaks
 
-For help with Tweee, see [Tweee](tweee).
-
-## If something looks wrong
-
-Refresh the page. If the problem persists, let JP know.
+If the calendar won't load or plans won't save, the classes service may be down. Contact JP.
