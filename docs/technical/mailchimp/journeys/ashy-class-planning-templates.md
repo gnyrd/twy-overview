@@ -13,8 +13,7 @@
 
 | # | Type | Subject | Delay | Sent |
 |---|------|---------|-------|------|
-| 0 | - | - | - | 0 |
-| 1 | - | - | - | 0 |
+| 1 | action-send_email | Planning Your Yoga Class | - | 0 |
 
 ## Lifetime stats
 

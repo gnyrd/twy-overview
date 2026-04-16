@@ -13,8 +13,7 @@
 
 | # | Type | Subject | Delay | Sent |
 |---|------|---------|-------|------|
-| 0 | - | - | - | 0 |
-| 1 | - | - | - | 0 |
+| 1 | action-send_email | Thank you for subscribing! | - | 0 |
 
 ## Lifetime stats
 

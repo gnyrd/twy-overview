@@ -13,14 +13,13 @@
 
 | # | Type | Subject | Delay | Sent |
 |---|------|---------|-------|------|
-| 0 | - | - | - | 0 |
-| 1 | - | - | - | 0 |
-| 2 | - | - | - | 0 |
-| 3 | - | - | - | 0 |
-| 4 | - | - | - | 0 |
-| 5 | - | - | - | 0 |
-| 6 | - | - | - | 0 |
-| 7 | - | - | - | 0 |
+| 1 | action-send_email | Welcome to our online learning platform! | - | 0 |
+| 2 | delay | - | 7 | 0 |
+| 3 | action-send_email | Welcome to our online learning platform! | - | 0 |
+| 4 | delay | - | 7 | 0 |
+| 5 | action-send_email | Welcome to our online learning platform! | - | 0 |
+| 6 | delay | - | 7 | 0 |
+| 7 | action-send_email | Welcome to our online learning platform! | - | 0 |
 
 ## Lifetime stats
 

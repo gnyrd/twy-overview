@@ -1,16 +1,19 @@
 # MailChimp Journeys
 
-## ZOMBIE (9)
+## LIVE (3)
+
+- [New Subscriber YLS Membership](journeys/new-subscriber-yls-membership) (ID 3209) -- Recent enrollment within 90 days (from HM cross-ref)
+- [Welcome: Members Favorites 2025](journeys/welcome-members-favorites-2025) (ID 6127) -- Recent enrollment within 90 days (from HM cross-ref)
+- [YLM Welcome Email Sequence](journeys/ylm-welcome-email-sequence) (ID 4423) -- Recent enrollment within 90 days (from HM cross-ref)
+
+## ZOMBIE (6)
 
 - [FINAL Palouse 2025 Registration Email Sequence](journeys/final-palouse-2025-registration-email-sequence) (ID 6057) -- Status=sending but last enrollment 306 days ago (stale)
-- [New Subscriber YLS Membership](journeys/new-subscriber-yls-membership) (ID 3209) -- Status=sending but last enrollment 97 days ago (stale)
 - [Optimal Blueprint Series](journeys/optimal-blueprint-series) (ID 3921) -- Status=sending but last enrollment 793 days ago (stale)
 - [Palouse 2 free classes email sequence](journeys/palouse-2-free-classes-email-sequence) (ID 6060) -- Status=sending but last enrollment 306 days ago (stale)
 - [Palouse 2025 Welcome Email](journeys/palouse-2025-welcome-email) (ID 6032) -- Status=sending but last enrollment 369 days ago (stale)
 - [Retreat Info – Auto Send](journeys/retreat-info-auto-send) (ID 6059) -- Status=sending but last enrollment 303 days ago (stale)
-- [Welcome: Members Favorites 2025](journeys/welcome-members-favorites-2025) (ID 6127) -- Status=sending but last enrollment 91 days ago (stale)
 - [YLM AD Campaign Sign Up](journeys/ylm-ad-campaign-sign-up) (ID 4635) -- Status=sending but last enrollment 246 days ago (stale)
-- [YLM Welcome Email Sequence](journeys/ylm-welcome-email-sequence) (ID 4423) -- Status=sending but last enrollment 97 days ago (stale)
 
 ## PAUSED (8)
 

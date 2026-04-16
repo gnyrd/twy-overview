@@ -1,7 +1,7 @@
 # Welcome: Members Favorites 2025
 
-**Classification**: ZOMBIE
-**Why**: Status=sending but last enrollment 91 days ago (stale)
+**Classification**: LIVE
+**Why**: Recent enrollment within 90 days (from HM cross-ref)
 
 ## Trigger
 
@@ -13,11 +13,10 @@
 
 | # | Type | Subject | Delay | Sent |
 |---|------|---------|-------|------|
-| 0 | - | - | - | 0 |
-| 1 | - | - | - | 0 |
-| 2 | - | - | - | 0 |
-| 3 | - | - | - | 0 |
-| 4 | - | - | - | 0 |
+| 1 | action-send_email | Your gift has arrived — let’s begin | - | 0 |
+| 2 | delay | - | 2 | 0 |
+| 3 | action-send_email | Which class has been your favorite so far? | - | 0 |
+| 4 | delay | - | 2 | 0 |
 
 ## Lifetime stats
 

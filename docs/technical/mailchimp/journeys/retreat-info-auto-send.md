@@ -13,9 +13,8 @@
 
 | # | Type | Subject | Delay | Sent |
 |---|------|---------|-------|------|
-| 0 | - | - | - | 0 |
-| 1 | - | - | - | 0 |
-| 2 | - | - | - | 0 |
+| 1 | delay | - | - | 0 |
+| 2 | action-send_email | Everything You Need for the Solstice Retreat 🌿 | - | 0 |
 
 ## Lifetime stats
 

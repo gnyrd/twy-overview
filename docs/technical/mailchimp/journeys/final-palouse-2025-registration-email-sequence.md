@@ -13,14 +13,13 @@
 
 | # | Type | Subject | Delay | Sent |
 |---|------|---------|-------|------|
-| 0 | - | - | - | 0 |
-| 1 | - | - | - | 0 |
-| 2 | - | - | - | 0 |
-| 3 | - | - | - | 0 |
-| 4 | - | - | - | 0 |
-| 5 | - | - | - | 0 |
-| 6 | - | - | - | 0 |
-| 7 | - | - | - | 0 |
+| 1 | action-send_email | Root Into the Light: Retreat Agreements & Sacred Prep ✨ | - | 0 |
+| 2 | delay | - | 2 | 0 |
+| 3 | action-send_email | Get Ready to Ignite Your Light: What to Bring 🔥 | - | 0 |
+| 4 | delay | - | 1 | 0 |
+| 5 | action-send_email | Your Sacred Weekend: Schedule + Locations 🌾 | - | 0 |
+| 6 | delay | - | 1 | 0 |
+| 7 | action-send_email | Prepare to Shine: Your Solstice Soul Map Awaits ✨ | - | 0 |
 
 ## Lifetime stats
 

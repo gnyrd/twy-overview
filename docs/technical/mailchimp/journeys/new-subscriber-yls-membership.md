@@ -1,7 +1,7 @@
 # New Subscriber YLS Membership
 
-**Classification**: ZOMBIE
-**Why**: Status=sending but last enrollment 97 days ago (stale)
+**Classification**: LIVE
+**Why**: Recent enrollment within 90 days (from HM cross-ref)
 
 ## Trigger
 
@@ -13,18 +13,17 @@
 
 | # | Type | Subject | Delay | Sent |
 |---|------|---------|-------|------|
-| 0 | - | - | - | 0 |
-| 1 | - | - | - | 0 |
-| 2 | - | - | - | 0 |
-| 3 | - | - | - | 0 |
-| 4 | - | - | - | 0 |
-| 5 | - | - | - | 0 |
-| 6 | - | - | - | 0 |
-| 7 | - | - | - | 0 |
-| 8 | - | - | - | 0 |
-| 9 | - | - | - | 0 |
-| 10 | - | - | - | 0 |
-| 11 | - | - | - | 0 |
+| 1 | action-send_email | Welcome to The Yoga Lifestyle Membership! | - | 0 |
+| 2 | delay | - | 3 | 0 |
+| 3 | action-send_email | How's it going? | - | 0 |
+| 4 | delay | - | 3 | 0 |
+| 5 | action-send_email | How to navigate the On-demand Library | - | 0 |
+| 6 | delay | - | 6 | 0 |
+| 7 | action-send_email | Get to know Tiffany | - | 0 |
+| 8 | delay | - | 21 | 0 |
+| 9 | action-send_email | Book a 30-minute Session with Tiffany | - | 0 |
+| 10 | delay | - | 3 | 0 |
+| 11 | action-send_email | Connecting with the community | - | 0 |
 
 ## Lifetime stats
 

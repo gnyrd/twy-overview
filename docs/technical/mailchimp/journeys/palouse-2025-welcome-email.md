@@ -13,8 +13,7 @@
 
 | # | Type | Subject | Delay | Sent |
 |---|------|---------|-------|------|
-| 0 | - | - | - | 0 |
-| 1 | - | - | - | 0 |
+| 1 | action-send_email | Congratulations! You’ve Chosen YOUR Light ✨ | - | 0 |
 
 ## Lifetime stats
 

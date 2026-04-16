@@ -1,7 +1,7 @@
 # YLM Welcome Email Sequence
 
-**Classification**: ZOMBIE
-**Why**: Status=sending but last enrollment 97 days ago (stale)
+**Classification**: LIVE
+**Why**: Recent enrollment within 90 days (from HM cross-ref)
 
 ## Trigger
 
@@ -13,22 +13,21 @@
 
 | # | Type | Subject | Delay | Sent |
 |---|------|---------|-------|------|
-| 0 | - | - | - | 0 |
-| 1 | - | - | - | 0 |
-| 2 | - | - | - | 0 |
-| 3 | - | - | - | 0 |
-| 4 | - | - | - | 0 |
-| 5 | - | - | - | 0 |
-| 6 | - | - | - | 0 |
-| 7 | - | - | - | 0 |
-| 8 | - | - | - | 0 |
-| 9 | - | - | - | 0 |
-| 10 | - | - | - | 0 |
-| 11 | - | - | - | 0 |
-| 12 | - | - | - | 0 |
-| 13 | - | - | - | 0 |
-| 14 | - | - | - | 0 |
-| 15 | - | - | - | 0 |
+| 1 | action-send_email | TWY: Welcome to Your Yoga Lifestyle Journey 🌟 | - | 0 |
+| 2 | delay | - | 1 | 0 |
+| 3 | action-send_email | TWY: Setting Up Your Ideal Yoga Space 🧘 | - | 0 |
+| 4 | delay | - | 1 | 0 |
+| 5 | action-send_email | TWY: Align Your Space with Your Practice 🌄 | - | 0 |
+| 6 | delay | - | 1 | 0 |
+| 7 | action-send_email | TWY: Dive Deeper into Anusara Yoga’s Alignment Principles ✨ | - | 0 |
+| 8 | delay | - | 1 | 0 |
+| 9 | action-send_email | TWY: Customize How You Learn Best 🎓 | - | 0 |
+| 10 | delay | - | 1 | 0 |
+| 11 | action-send_email | TWY: Let's Dive Deep into Your Yoga Goals 🌊 | - | 0 |
+| 12 | delay | - | 1 | 0 |
+| 13 | action-send_email | TWY: Planning Your Ideal Yoga Schedule 📅 | - | 0 |
+| 14 | delay | - | 1 | 0 |
+| 15 | action-send_email | TWY: Congratulations on Your First Week! 🎉 | - | 0 |
 
 ## Lifetime stats
 

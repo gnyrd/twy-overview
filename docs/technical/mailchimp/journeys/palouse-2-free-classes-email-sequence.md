@@ -13,9 +13,8 @@
 
 | # | Type | Subject | Delay | Sent |
 |---|------|---------|-------|------|
-| 0 | - | - | - | 0 |
-| 1 | - | - | - | 0 |
-| 2 | - | - | - | 0 |
+| 1 | delay | - | 1 | 0 |
+| 2 | action-send_email | A Gift for You—2 Free Yoga Classes to Enjoy 🌿 | - | 0 |
 
 ## Lifetime stats
 

@@ -4,7 +4,7 @@ Auto-generated mirror of MailChimp account state. Pulled from the MC API and cro
 
 ## Counts
 
-- **Journeys**: 23 total (0 LIVE, 9 ZOMBIE, 8 PAUSED, 6 DRAFT)
+- **Journeys**: 23 total (3 LIVE, 6 ZOMBIE, 8 PAUSED, 6 DRAFT)
 - **Campaigns**: 11 sent in last 90 days, 1 scheduled
 - **Tags**: 130
 - **Segments**: 29

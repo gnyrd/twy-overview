@@ -57,20 +57,17 @@
 - **undefined_env_vars** ([download](download/index.md)): Env var WATCHDOG_SCAN_DAYS is referenced but never defined in .env
 - **undefined_env_vars** ([announce](announce/index.md)): Env var YOUTUBE_HISTORY_DIR is referenced but never defined in .env
 
-### 🟡 MEDIUM (22)
+### 🟡 MEDIUM (19)
 
 - **duplicate_utilities** ([announce](announce/index.md)): Mailchimp client code duplicated between announce and classes
 - **duplicate_utilities** ([announce](announce/index.md)): Slack integration duplicated between announce and classes
 - **mc_duplicate_journey_name** (system): Multiple journeys named 'Welcome new contacts' (IDs: 4659,6126)
-- **mc_zombie_journey** (system): Journey 'New Subscriber YLS Membership' (ID 3209): Status=sending but last enrollment 97 days ago (stale)
 - **mc_zombie_journey** (system): Journey 'Optimal Blueprint Series' (ID 3921): Status=sending but last enrollment 793 days ago (stale)
-- **mc_zombie_journey** (system): Journey 'YLM Welcome Email Sequence' (ID 4423): Status=sending but last enrollment 97 days ago (stale)
 - **mc_zombie_journey** (system): Journey 'YLM AD Campaign Sign Up' (ID 4635): Status=sending but last enrollment 246 days ago (stale)
 - **mc_zombie_journey** (system): Journey 'Palouse 2025 Welcome Email' (ID 6032): Status=sending but last enrollment 369 days ago (stale)
 - **mc_zombie_journey** (system): Journey 'FINAL Palouse 2025 Registration Email Sequence' (ID 6057): Status=sending but last enrollment 306 days ago (stale)
 - **mc_zombie_journey** (system): Journey 'Retreat Info – Auto Send' (ID 6059): Status=sending but last enrollment 303 days ago (stale)
 - **mc_zombie_journey** (system): Journey 'Palouse 2 free classes email sequence' (ID 6060): Status=sending but last enrollment 306 days ago (stale)
-- **mc_zombie_journey** (system): Journey 'Welcome: Members Favorites 2025' (ID 6127): Status=sending but last enrollment 91 days ago (stale)
 - **missing_failure_wrappers** ([download](download/index.md)): Cron job missing failure wrapper: 15,45 * * * * cd /root/twy/download && /usr/bin/python3 src/zoom/zoom_download.py --days-back ...
 - **missing_failure_wrappers** ([clips](clips/index.md)): Cron job missing failure wrapper: */5 * * * * cd /root/twy/clips && ./src/pipeline/class_recording_watchdog.sh >> logs/watchdo...
 - **missing_failure_wrappers** ([announce](announce/index.md)): Cron job missing failure wrapper: 0 13 * * * cd /root/twy/announce && /usr/bin/python3 src/daily_status_report.py >> logs/dai...

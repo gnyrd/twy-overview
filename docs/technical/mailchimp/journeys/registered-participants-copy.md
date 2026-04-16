@@ -13,14 +13,13 @@
 
 | # | Type | Subject | Delay | Sent |
 |---|------|---------|-------|------|
-| 0 | - | - | - | 0 |
-| 1 | - | - | - | 0 |
-| 2 | - | - | - | 0 |
-| 3 | - | - | - | 0 |
-| 4 | - | - | - | 0 |
-| 5 | - | - | - | 0 |
-| 6 | - | - | - | 0 |
-| 7 | - | - | - | 0 |
+| 1 | action-send_email | Get Ready to Ignite the Light: What to Bring 🌞 | - | 0 |
+| 2 | delay | - | 65 | 0 |
+| 3 | action-send_email | The Sacred Gateway You’ve Said Yes To 🌌 | - | 0 |
+| 4 | delay | - | 70 | 0 |
+| 5 | action-send_email | Why the Palouse is Perfect for Your Journey 🌾 | - | 0 |
+| 6 | delay | - | 74 | 0 |
+| 7 | action-send_email | Prepare to Step Into Your Radiance ✨ | - | 0 |
 
 ## Lifetime stats
 
