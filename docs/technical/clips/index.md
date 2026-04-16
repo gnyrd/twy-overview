@@ -12,104 +12,42 @@ Video clip extraction pipeline from class recordings.
 
 | Schedule | Command | Failure Wrapper | Log |
 |----------|---------|-----------------|-----|
-| `*/5 * * * *` | `cd /root/twy/clips && ./src/pipeline/class_recording_watchdo...` | No | `-` |
+| `*/5 * * * *` | `cd /root/twy/clips && ./src/pipeline/class_recording_watchdog.sh >> logs/watchdog.log 2>&1...` | No | `-` |
 
 ## Endpoints
 
 | Method | Path | Auth | Description |
 |--------|------|------|-------------|
 | GET | `/` | No |  |
-| GET | `/` | No |  |
-| GET | `/` | No |  |
-| POST | `/api/extract-custom-clip` | No |  |
-| POST | `/api/extract-custom-clip` | No |  |
 | POST | `/api/extract-custom-clip` | No |  |
 | POST | `/api/extract-custom-opening` | No |  |
-| POST | `/api/extract-custom-opening` | No |  |
-| POST | `/api/extract-custom-opening` | No |  |
-| GET | `/api/health` | No |  |
-| GET | `/api/health` | No |  |
 | GET | `/api/health` | No |  |
 | POST | `/api/ig/queue` | No |  |
 | DELETE | `/api/ig/queue` | No |  |
-| POST | `/api/ig/queue` | No |  |
-| DELETE | `/api/ig/queue` | No |  |
-| POST | `/api/ig/queue` | No |  |
-| DELETE | `/api/ig/queue` | No |  |
 | POST | `/api/save-transcript` | No |  |
-| POST | `/api/save-transcript` | No |  |
-| POST | `/api/save-transcript` | No |  |
-| POST | `/api/wa/queue` | No |  |
-| DELETE | `/api/wa/queue` | No |  |
-| POST | `/api/wa/queue` | No |  |
-| DELETE | `/api/wa/queue` | No |  |
 | POST | `/api/wa/queue` | No |  |
 | DELETE | `/api/wa/queue` | No |  |
 | POST | `/api/yt/queue` | No |  |
 | DELETE | `/api/yt/queue` | No |  |
-| POST | `/api/yt/queue` | No |  |
-| DELETE | `/api/yt/queue` | No |  |
-| POST | `/api/yt/queue` | No |  |
-| DELETE | `/api/yt/queue` | No |  |
-| GET | `/class/<class_name>` | No |  |
-| GET | `/class/<class_name>` | No |  |
 | GET | `/class/<class_name>` | No |  |
 | GET | `/class/<class_name>/captioned` | No |  |
-| GET | `/class/<class_name>/captioned` | No |  |
-| GET | `/class/<class_name>/captioned` | No |  |
-| GET | `/class/<class_name>/uncaptioned` | No |  |
-| GET | `/class/<class_name>/uncaptioned` | No |  |
 | GET | `/class/<class_name>/uncaptioned` | No |  |
 | GET | `/clip/uncaptioned/<class_name>/<clip_name>` | No |  |
-| GET | `/clip/uncaptioned/<class_name>/<clip_name>` | No |  |
-| GET | `/clip/uncaptioned/<class_name>/<clip_name>` | No |  |
-| GET | `/download-uncaptioned/<class_name>/<filename>` | No |  |
-| GET | `/download-uncaptioned/<class_name>/<filename>` | No |  |
 | GET | `/download-uncaptioned/<class_name>/<filename>` | No |  |
 | GET | `/download/<class_name>/<variant>/<filename>` | No |  |
-| GET | `/download/<class_name>/<variant>/<filename>` | No |  |
-| GET | `/download/<class_name>/<variant>/<filename>` | No |  |
 | GET | `/download/youtube/<class_name>/opening.mp4` | No |  |
-| GET | `/download/youtube/<class_name>/opening.mp4` | No |  |
-| GET | `/download/youtube/<class_name>/opening.mp4` | No |  |
-| GET | `/ig/queue` | No |  |
-| GET | `/ig/queue` | No |  |
 | GET | `/ig/queue` | No |  |
 | GET | `/login` | No |  |
 | POST | `/login` | No |  |
-| GET | `/login` | No |  |
-| POST | `/login` | No |  |
-| GET | `/login` | No |  |
-| POST | `/login` | No |  |
-| GET | `/logout` | No |  |
-| GET | `/logout` | No |  |
 | GET | `/logout` | No |  |
 | GET | `/media/clip-thumbnail-uncaptioned/<class_name>/<clip_name>` | No |  |
-| GET | `/media/clip-thumbnail-uncaptioned/<class_name>/<clip_name>` | No |  |
-| GET | `/media/clip-thumbnail-uncaptioned/<class_name>/<clip_name>` | No |  |
-| GET | `/media/clip-thumbnail/<class_name>/<variant>/<clip_name>` | No |  |
-| GET | `/media/clip-thumbnail/<class_name>/<variant>/<clip_name>` | No |  |
 | GET | `/media/clip-thumbnail/<class_name>/<variant>/<clip_name>` | No |  |
 | GET | `/media/thumbnail/<class_name>` | No |  |
-| GET | `/media/thumbnail/<class_name>` | No |  |
-| GET | `/media/thumbnail/<class_name>` | No |  |
-| GET | `/media/video-uncaptioned/<class_name>/<filename>` | No |  |
-| GET | `/media/video-uncaptioned/<class_name>/<filename>` | No |  |
 | GET | `/media/video-uncaptioned/<class_name>/<filename>` | No |  |
 | GET | `/media/video/<class_name>/<variant>/<filename>` | No |  |
-| GET | `/media/video/<class_name>/<variant>/<filename>` | No |  |
-| GET | `/media/video/<class_name>/<variant>/<filename>` | No |  |
-| GET | `/media/youtube/<class_name>/opening.mp4` | No |  |
-| GET | `/media/youtube/<class_name>/opening.mp4` | No |  |
 | GET | `/media/youtube/<class_name>/opening.mp4` | No |  |
 | GET | `/media/youtube/<class_name>/opening_thumb.jpg` | No |  |
-| GET | `/media/youtube/<class_name>/opening_thumb.jpg` | No |  |
-| GET | `/media/youtube/<class_name>/opening_thumb.jpg` | No |  |
 | GET | `/preview/<action>` | No |  |
-| GET | `/preview/<action>` | No |  |
-| GET | `/preview/<action>` | No |  |
-| GET | `/yt/queue` | No |  |
-| GET | `/yt/queue` | No |  |
 | GET | `/yt/queue` | No |  |
 
 ## Dependencies

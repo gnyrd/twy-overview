@@ -1,15 +1,15 @@
 # How do newsletters work?
 
-Newsletters are generated automatically on the **25th of the month before** they go out.
-For example, the April newsletter is generated on March 25th.
+The newsletter creation process happens on the 25th of each month.
 
-## The review process
+## The process
 
-1. The system generates a draft newsletter.
-2. The draft appears in the **#review-newsletters** Slack channel.
-3. You review it there. If it looks good, approve it.
-4. If changes are needed, note them in Slack.
-5. Once approved, it gets sent to the mailing list.
+- **On the 25th**, the system generates prompts for next month's newsletter. For example, on March 25th, it generates the April newsletter.
+- **The same day**, the draft appears in the **#review-newsletters** Slack channel for you to review.
+- **After you approve**, JP schedules the send for early April (typically the first Tuesday of the month).
+- **If you don't respond within 3 days**, JP will follow up in Slack.
+
+Once approved, you don't need to do anything else — JP handles the send.
 
 ## What goes in the newsletter
 

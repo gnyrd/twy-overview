@@ -10,68 +10,21 @@ No service configured.
 
 | Schedule | Command | Failure Wrapper | Log |
 |----------|---------|-----------------|-----|
-| `*/5 * * * *` | `cd /root/twy/video-editor && /usr/bin/python3 src/twy-thumbn...` | No | `-` |
+| `*/5 * * * *` | `cd /root/twy/video-editor && /usr/bin/python3 src/twy-thumbnail-watchdog >> data/logs/thumbnail_watchdog.log 2>&1...` | No | `-` |
 
 ## Endpoints
 
 | Method | Path | Auth | Description |
 |--------|------|------|-------------|
 | GET | `/` | No |  |
-| GET | `/` | No |  |
-| GET | `/` | No |  |
-| GET | `/` | No |  |
-| GET | `/` | No |  |
-| GET | `/` | No |  |
 | POST | `/api/generate-thumbnail-manual` | No |  |
-| POST | `/api/generate-thumbnail-manual` | No |  |
-| POST | `/api/generate-thumbnail-manual` | No |  |
-| POST | `/api/generate-thumbnail-manual` | No |  |
-| POST | `/api/generate-thumbnail-manual` | No |  |
-| POST | `/api/generate-thumbnail-manual` | No |  |
-| GET | `/api/health` | No |  |
-| GET | `/api/health` | No |  |
-| GET | `/api/health` | No |  |
-| GET | `/api/health` | No |  |
-| GET | `/api/health` | No |  |
 | GET | `/api/health` | No |  |
 | POST | `/api/rank-thumbnails` | No |  |
-| POST | `/api/rank-thumbnails` | No |  |
-| POST | `/api/rank-thumbnails` | No |  |
 | POST | `/api/select-thumbnail` | No |  |
-| POST | `/api/select-thumbnail` | No |  |
-| POST | `/api/select-thumbnail` | No |  |
-| POST | `/api/select-thumbnail` | No |  |
-| POST | `/api/select-thumbnail` | No |  |
-| POST | `/api/select-thumbnail` | No |  |
-| GET | `/class/<class_name>` | No |  |
-| GET | `/class/<class_name>` | No |  |
-| GET | `/class/<class_name>` | No |  |
-| GET | `/class/<class_name>` | No |  |
-| GET | `/class/<class_name>` | No |  |
 | GET | `/class/<class_name>` | No |  |
 | GET | `/login` | No |  |
 | POST | `/login` | No |  |
-| GET | `/login` | No |  |
-| POST | `/login` | No |  |
-| GET | `/login` | No |  |
-| POST | `/login` | No |  |
-| GET | `/login` | No |  |
-| POST | `/login` | No |  |
-| GET | `/login` | No |  |
-| POST | `/login` | No |  |
-| GET | `/login` | No |  |
-| POST | `/login` | No |  |
 | GET | `/logout` | No |  |
-| GET | `/logout` | No |  |
-| GET | `/logout` | No |  |
-| GET | `/logout` | No |  |
-| GET | `/logout` | No |  |
-| GET | `/logout` | No |  |
-| GET | `/media/candidate/<class_name>/<filename>` | No |  |
-| GET | `/media/candidate/<class_name>/<filename>` | No |  |
-| GET | `/media/candidate/<class_name>/<filename>` | No |  |
-| GET | `/media/candidate/<class_name>/<filename>` | No |  |
-| GET | `/media/candidate/<class_name>/<filename>` | No |  |
 | GET | `/media/candidate/<class_name>/<filename>` | No |  |
 
 ## Dependencies

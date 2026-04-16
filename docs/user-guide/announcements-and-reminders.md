@@ -1,18 +1,6 @@
 # Announcements and Reminders
 
-Class reminders and status reports are sent automatically. No action is needed on your part — this page explains what goes out and when.
-
-## Email Class Reminders
-
-An email reminder is sent to students approximately **26 hours before each class**.
-
-Each reminder includes:
-
-- Class title and description
-- Affirmation and apex pose
-- Join link for the Zoom class
-
-The class schedule is read from the Google Doc for the current month. Reminders are only sent once per class — if a reminder has already gone out, it won't be sent again.
+The status report is sent automatically. No action is needed on your part — this page explains what goes out and when.
 
 ## Daily Status Report (Slack)
 
@@ -22,7 +10,10 @@ A daily report posts to Slack every morning at **6am Mountain Time** with a snap
 - **Membership** — active paid subscription counts from HeyMarvelous (complimentary memberships excluded), with changes over the past week, month, and year, broken down by product
 - **Revenue** — monthly and annual billing cycle counts
 
+## Email Class Reminders
+
+Class reminders are currently paused. This feature is not yet active.
+
 ## What If Something Seems Wrong?
 
-- **Reminder didn't go out** — class reminders run every 30 minutes, so there can be a small delay. If a reminder hasn't gone out within a few hours of the expected time, contact your developer.
 - **Slack report missing** — the daily report depends on several external services (Mailchimp, Instagram, YouTube, HeyMarvelous). If one source is temporarily unavailable, the report may be delayed or incomplete.

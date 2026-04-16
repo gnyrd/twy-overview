@@ -17,16 +17,8 @@ No cron jobs.
 | Method | Path | Auth | Description |
 |--------|------|------|-------------|
 | GET | `/` | No |  |
-| GET | `/` | No |  |
-| GET | `/` | No |  |
-| GET | `/<slug>` | No |  |
-| GET | `/<slug>` | No |  |
-| GET | `/<slug>` | No |  |
+| GET | `/<path:slug>` | No |  |
 | GET | `/api/health` | No |  |
-| GET | `/api/health` | No |  |
-| GET | `/api/health` | No |  |
-| POST | `/api/webhook/deploy` | No |  |
-| POST | `/api/webhook/deploy` | No |  |
 | POST | `/api/webhook/deploy` | No |  |
 
 ## Dependencies

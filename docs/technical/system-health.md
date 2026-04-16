@@ -60,15 +60,15 @@
 
 - **duplicate_utilities** ([announce](announce/index.md)): Mailchimp client code duplicated between announce and classes
 - **duplicate_utilities** ([announce](announce/index.md)): Slack integration duplicated between announce and classes
+- **missing_failure_wrappers** ([download](download/index.md)): Cron job missing failure wrapper: 15,45 * * * * cd /root/twy/download && /usr/bin/python3 src/zoom/zoom_download.py --days-back ...
+- **missing_failure_wrappers** ([clips](clips/index.md)): Cron job missing failure wrapper: */5 * * * * cd /root/twy/clips && ./src/pipeline/class_recording_watchdog.sh >> logs/watchdo...
 - **missing_failure_wrappers** ([announce](announce/index.md)): Cron job missing failure wrapper: 0 13 * * * cd /root/twy/announce && /usr/bin/python3 src/daily_status_report.py >> logs/dai...
 - **missing_failure_wrappers** ([announce](announce/index.md)): Cron job missing failure wrapper: 55 11 * * * cd /root/twy/announce && ./src/youtube_daily.sh >> logs/youtube.log 2>&1
-- **missing_failure_wrappers** ([clips](clips/index.md)): Cron job missing failure wrapper: */5 * * * * cd /root/twy/clips && ./src/pipeline/class_recording_watchdog.sh >> logs/watchdo...
-- **missing_failure_wrappers** ([download](download/index.md)): Cron job missing failure wrapper: 15,45 * * * * cd /root/twy/download && /usr/bin/python3 src/zoom/zoom_download.py --days-back ...
+- **missing_failure_wrappers** ([video-editor](video-editor/index.md)): Cron job missing failure wrapper: */5 * * * * cd /root/twy/video-editor && /usr/bin/python3 src/twy-thumbnail-watchdog >> data...
 - **missing_failure_wrappers** ([download](download/index.md)): Cron job missing failure wrapper: */5 * * * * cd /root/twy/download && /usr/bin/python3 src/zoom/zoom_download_watchdog.py >> ...
 - **missing_failure_wrappers** ([download](download/index.md)): Cron job missing failure wrapper: 0 8 * * * cd /root/twy/download && /usr/bin/python3 src/dianes_upload_privates.py >> ../da...
 - **missing_failure_wrappers** ([download](download/index.md)): Cron job missing failure wrapper: 0 9 * * * cd /root/twy/download && /usr/bin/python3 src/dianes_cleanup.py >> ../data/logs/...
 - **missing_failure_wrappers** ([download](download/index.md)): Cron job missing failure wrapper: 0 10 * * * cd /root/twy/download && /usr/bin/python3 src/classes_archive.py >> ../data/logs...
-- **missing_failure_wrappers** ([video-editor](video-editor/index.md)): Cron job missing failure wrapper: */5 * * * * cd /root/twy/video-editor && /usr/bin/python3 src/twy-thumbnail-watchdog >> data...
 - **missing_failure_wrappers** ([yoga-habit](yoga-habit/index.md)): Cron job missing failure wrapper: 0 10 1 * * /root/twy/yoga-habit/scripts/refresh_geolite2.sh >> /root/twy/data/logs/geolite2...
 
 ### 🔵 LOW (41)
@@ -77,25 +77,25 @@
 - **orphan_env_vars** ([clips](clips/index.md)): Env var CAPTIONED_SUBDIR is defined but never referenced in code
 - **orphan_env_vars** ([clips](clips/index.md)): Env var CLIPS_SUBDIR is defined but never referenced in code
 - **orphan_env_vars** ([clips](clips/index.md)): Env var EXTRACTED_SUBDIR is defined but never referenced in code
+- **orphan_env_vars** (system): Env var INSTAGRAM_ACCOUNT is defined but never referenced in code
 - **orphan_env_vars** ([announce](announce/index.md)): Env var INSTAGRAM_ACCOUNT is defined but never referenced in code
-- **orphan_env_vars** ([central](central/index.md)): Env var INSTAGRAM_ACCOUNT is defined but never referenced in code
 - **orphan_env_vars** ([secrets](secrets/index.md)): Env var INSTAGRAM_ACCOUNT is defined but never referenced in code
+- **orphan_env_vars** (system): Env var INSTAGRAM_PASSWORD is defined but never referenced in code
 - **orphan_env_vars** ([announce](announce/index.md)): Env var INSTAGRAM_PASSWORD is defined but never referenced in code
-- **orphan_env_vars** ([central](central/index.md)): Env var INSTAGRAM_PASSWORD is defined but never referenced in code
 - **orphan_env_vars** ([secrets](secrets/index.md)): Env var INSTAGRAM_PASSWORD is defined but never referenced in code
 - **orphan_env_vars** ([announce](announce/index.md)): Env var INSTAGRAM_REMOTE_DEST is defined but never referenced in code
 - **orphan_env_vars** ([classes](classes/index.md)): Env var MAILCHIMP_NONMEMBER_LIST_ID is defined but never referenced in code
 - **orphan_env_vars** ([classes](classes/index.md)): Env var MAILCHIMP_TYL_LIST_ID is defined but never referenced in code
 - **orphan_env_vars** ([classes](classes/index.md)): Env var MARVELOUS_ADMIN_SECONDARY_PASSWORD is defined but never referenced in code
 - **orphan_env_vars** ([announce](announce/index.md)): Env var MARVELOUS_AUTH_JSON is defined but never referenced in code
+- **orphan_env_vars** (system): Env var MARVELOUS_MAGIC_URL is defined but never referenced in code
 - **orphan_env_vars** ([announce](announce/index.md)): Env var MARVELOUS_MAGIC_URL is defined but never referenced in code
-- **orphan_env_vars** ([central](central/index.md)): Env var MARVELOUS_MAGIC_URL is defined but never referenced in code
 - **orphan_env_vars** ([secrets](secrets/index.md)): Env var MARVELOUS_MAGIC_URL is defined but never referenced in code
 - **orphan_env_vars** ([secrets](secrets/index.md)): Env var MAXMIND_LICENSE_KEY is defined but never referenced in code
-- **orphan_env_vars** ([central](central/index.md)): Env var NOTIFY_EMAIL_FROM is defined but never referenced in code
+- **orphan_env_vars** (system): Env var NOTIFY_EMAIL_FROM is defined but never referenced in code
 - **orphan_env_vars** ([secrets](secrets/index.md)): Env var NOTIFY_EMAIL_FROM is defined but never referenced in code
 - **orphan_env_vars** ([video-editor](video-editor/index.md)): Env var NOTIFY_EMAIL_FROM is defined but never referenced in code
-- **orphan_env_vars** ([central](central/index.md)): Env var NOTIFY_EMAIL_TO is defined but never referenced in code
+- **orphan_env_vars** (system): Env var NOTIFY_EMAIL_TO is defined but never referenced in code
 - **orphan_env_vars** ([secrets](secrets/index.md)): Env var NOTIFY_EMAIL_TO is defined but never referenced in code
 - **orphan_env_vars** ([video-editor](video-editor/index.md)): Env var NOTIFY_EMAIL_TO is defined but never referenced in code
 - **orphan_env_vars** ([clips](clips/index.md)): Env var PARTICIPANTS_FILE is defined but never referenced in code

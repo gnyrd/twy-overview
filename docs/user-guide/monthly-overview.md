@@ -4,12 +4,22 @@ Go to: **https://overview.tiffanywoodyoga.com**
 
 This page shows a summary of everything happening this month.
 
-## What each section means
+## What you control
 
-- **Classes**: Your scheduled classes for the month.
-- **Events**: Any special workshops or events.
-- **Newsletter**: Status of this month's newsletter.
-- **Videos**: Recent recordings and clips.
+You can edit and set:
+- **Theme** — the overall focus or topic for the month
+- **Focus** — the specific area of practice (e.g., "Hip openers," "Backbends")
+- **Notes** — any additional context or announcements for the month
+
+## What's automatic
+
+These sections populate automatically from your saved class plans:
+- **Classes** — your scheduled classes for the month
+- **Events** — any special workshops or events
+- **Newsletter** — status of this month's newsletter
+- **Videos** — recent recordings and clips
+
+The overview pulls class information from your [class plans](class-plans), so make sure those are up to date.
 
 ## To make changes
 

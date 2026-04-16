@@ -33,16 +33,8 @@ Documentation sites (docs.tiffanywoodyoga.com, tech.tiffanywoodyoga.com). Flask 
 ## Endpoints
 
 - `GET /`
-- `GET /`
-- `GET /`
-- `GET /<slug>`
-- `GET /<slug>`
-- `GET /<slug>`
+- `GET /<path:slug>`
 - `GET /api/health`
-- `GET /api/health`
-- `GET /api/health`
-- `POST /api/webhook/deploy`
-- `POST /api/webhook/deploy`
 - `POST /api/webhook/deploy`
 
 ## Lint Findings

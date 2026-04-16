@@ -10,22 +10,22 @@ No service configured.
 
 | Schedule | Command | Failure Wrapper | Log |
 |----------|---------|-----------------|-----|
-| `*/5 * * * *` | `cd /root/twy/announce && /root/twy/announce/scripts/notify_o...` | Yes | `/root/twy/data/logs/class_video_notifier.log` |
-| `0 * * * *` | `cd /root/twy/announce && /root/twy/announce/scripts/notify_o...` | Yes | `-` |
-| `0 1 * * *` | `cd /root/twy/announce && /root/twy/announce/scripts/notify_o...` | Yes | `-` |
-| `0 13 * * *` | `cd /root/twy/announce && /usr/bin/python3 src/daily_status_r...` | No | `-` |
-| `0 13 28 * *` | `cd /root/twy/classes && /root/twy/announce/scripts/notify_on...` | Yes | `/root/twy/data/logs/habit-event.log` |
-| `0 15 * * *` | `cd /root/twy/announce && /root/twy/announce/scripts/notify_o...` | Yes | `/root/twy/data/logs/habit_redemptions.log` |
-| `0 17 * * *` | `cd /root/twy/announce && /root/twy/announce/scripts/notify_o...` | Yes | `/root/twy/data/logs/habit_followup.log` |
-| `0 8 1 * *` | `cd /root/twy/classes && /root/twy/announce/scripts/notify_on...` | Yes | `/root/twy/data/logs/monthly_series.log` |
-| `0 8 7 * *` | `cd /root/twy/classes && /root/twy/announce/scripts/notify_on...` | Yes | `/root/twy/data/logs/monthly_series.log` |
-| `0 9 * * *` | `cd /root/twy/announce && /root/twy/announce/scripts/notify_o...` | Yes | `/root/twy/data/logs/newsletter_prompts.log` |
-| `0 9 * * 0` | `cd /root/twy/classes && /root/twy/announce/scripts/notify_on...` | Yes | `/root/twy/data/logs/marvy_sync.log` |
-| `0 9,18 * * *` | `cd /root/twy/announce && /root/twy/announce/scripts/notify_o...` | Yes | `-` |
-| `30 10 1 * *` | `cd /root/twy/classes && /root/twy/announce/scripts/notify_on...` | Yes | `/root/twy/data/logs/marvy_sync.log` |
-| `5 7 * * *` | `cd /root/twy/classes && /root/twy/announce/scripts/notify_on...` | Yes | `/root/twy/data/logs/marvy_sync.log` |
-| `55 11 * * *` | `cd /root/twy/announce && /root/twy/announce/scripts/notify_o...` | Yes | `-` |
-| `55 11 * * *` | `cd /root/twy/announce && ./src/youtube_daily.sh >> logs/yout...` | No | `-` |
+| `*/5 * * * *` | `cd /root/twy/announce && /root/twy/announce/scripts/notify_on_failure.py class-video-notifier /usr/bin/python3 src/class...` | Yes | `/root/twy/data/logs/class_video_notifier.log` |
+| `0 * * * *` | `cd /root/twy/announce && /root/twy/announce/scripts/notify_on_failure.py refresh-jwt /usr/bin/python3 src/refresh_jwt.py...` | Yes | `-` |
+| `0 1 * * *` | `cd /root/twy/announce && /root/twy/announce/scripts/notify_on_failure.py mailchimp-sync ./scripts/run_mailchimp_sync.sh...` | Yes | `-` |
+| `0 13 * * *` | `cd /root/twy/announce && /usr/bin/python3 src/daily_status_report.py >> logs/daily_report.log 2>&1...` | No | `-` |
+| `0 13 28 * *` | `cd /root/twy/classes && /root/twy/announce/scripts/notify_on_failure.py create-next-habit-event /usr/bin/python3 scripts...` | Yes | `/root/twy/data/logs/habit-event.log` |
+| `0 15 * * *` | `cd /root/twy/announce && /root/twy/announce/scripts/notify_on_failure.py track-redemptions /usr/bin/python3 src/track_re...` | Yes | `/root/twy/data/logs/habit_redemptions.log` |
+| `0 17 * * *` | `cd /root/twy/announce && /root/twy/announce/scripts/notify_on_failure.py run-habit-followup /usr/bin/python3 src/run_hab...` | Yes | `/root/twy/data/logs/habit_followup.log` |
+| `0 8 1 * *` | `cd /root/twy/classes && /root/twy/announce/scripts/notify_on_failure.py monthly-series-workflow /usr/bin/python3 scripts...` | Yes | `/root/twy/data/logs/monthly_series.log` |
+| `0 8 7 * *` | `cd /root/twy/classes && /root/twy/announce/scripts/notify_on_failure.py monthly-series-workflow /usr/bin/python3 scripts...` | Yes | `/root/twy/data/logs/monthly_series.log` |
+| `0 9 * * *` | `cd /root/twy/announce && /root/twy/announce/scripts/notify_on_failure.py generate-newsletter-prompts /usr/bin/python3 sr...` | Yes | `/root/twy/data/logs/newsletter_prompts.log` |
+| `0 9 * * 0` | `cd /root/twy/classes && /root/twy/announce/scripts/notify_on_failure.py marvy-sync-weekly /usr/bin/python3 scripts/sync....` | Yes | `/root/twy/data/logs/marvy_sync.log` |
+| `0 9,18 * * *` | `cd /root/twy/announce && /root/twy/announce/scripts/notify_on_failure.py refresh-marvelous-events /usr/bin/python3 scrip...` | Yes | `-` |
+| `30 10 1 * *` | `cd /root/twy/classes && /root/twy/announce/scripts/notify_on_failure.py marvy-sync-monthly /usr/bin/python3 scripts/sync...` | Yes | `/root/twy/data/logs/marvy_sync.log` |
+| `5 7 * * *` | `cd /root/twy/classes && /root/twy/announce/scripts/notify_on_failure.py marvy-sync-daily /usr/bin/python3 scripts/sync.p...` | Yes | `/root/twy/data/logs/marvy_sync.log` |
+| `55 11 * * *` | `cd /root/twy/announce && /root/twy/announce/scripts/notify_on_failure.py mailchimp-subscriber-data /usr/bin/python3 src/...` | Yes | `-` |
+| `55 11 * * *` | `cd /root/twy/announce && ./src/youtube_daily.sh >> logs/youtube.log 2>&1...` | No | `-` |
 
 ## Endpoints
 

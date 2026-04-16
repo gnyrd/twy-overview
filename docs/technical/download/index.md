@@ -11,11 +11,11 @@ Zoom recording download and archive pipeline.
 
 | Schedule | Command | Failure Wrapper | Log |
 |----------|---------|-----------------|-----|
-| `*/5 * * * *` | `cd /root/twy/download && /usr/bin/python3 src/zoom/zoom_down...` | No | `-` |
-| `0 10 * * *` | `cd /root/twy/download && /usr/bin/python3 src/classes_archiv...` | No | `-` |
-| `0 8 * * *` | `cd /root/twy/download && /usr/bin/python3 src/dianes_upload_...` | No | `-` |
-| `0 9 * * *` | `cd /root/twy/download && /usr/bin/python3 src/dianes_cleanup...` | No | `-` |
-| `15,45 * * * *` | `cd /root/twy/download && /usr/bin/python3 src/zoom/zoom_down...` | No | `-` |
+| `*/5 * * * *` | `cd /root/twy/download && /usr/bin/python3 src/zoom/zoom_download_watchdog.py >> ../data/logs/zoom_download_watchdog.log ...` | No | `-` |
+| `0 10 * * *` | `cd /root/twy/download && /usr/bin/python3 src/classes_archive.py >> ../data/logs/classes_archive.log 2>&1...` | No | `-` |
+| `0 8 * * *` | `cd /root/twy/download && /usr/bin/python3 src/dianes_upload_privates.py >> ../data/logs/dianes_upload.log 2>&1...` | No | `-` |
+| `0 9 * * *` | `cd /root/twy/download && /usr/bin/python3 src/dianes_cleanup.py >> ../data/logs/dianes_cleanup.log 2>&1...` | No | `-` |
+| `15,45 * * * *` | `cd /root/twy/download && /usr/bin/python3 src/zoom/zoom_download.py --days-back 1 >> ../data/logs/zoom_download.log 2>&1...` | No | `-` |
 
 ## Endpoints
 

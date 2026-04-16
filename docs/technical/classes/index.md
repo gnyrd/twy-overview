@@ -18,8 +18,6 @@ No cron jobs.
 | Method | Path | Auth | Description |
 |--------|------|------|-------------|
 | GET | `/api/health` | No |  |
-| GET | `/api/health` | No |  |
-| GET | `/api/health` | No |  |
 
 ## Dependencies
 

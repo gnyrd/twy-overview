@@ -12,26 +12,16 @@ Yoga Habit landing page, Flask app on port 5008.
 
 | Schedule | Command | Failure Wrapper | Log |
 |----------|---------|-----------------|-----|
-| `0 10 1 * *` | `/root/twy/yoga-habit/scripts/refresh_geolite2.sh >> /root/tw...` | No | `/root/twy/data/logs/geolite2_refresh.log` |
+| `0 10 1 * *` | `/root/twy/yoga-habit/scripts/refresh_geolite2.sh >> /root/twy/data/logs/geolite2_refresh.log 2>&1...` | No | `/root/twy/data/logs/geolite2_refresh.log` |
 
 ## Endpoints
 
 | Method | Path | Auth | Description |
 |--------|------|------|-------------|
 | GET | `/` | No |  |
-| GET | `/` | No |  |
-| GET | `/` | No |  |
-| GET | `/ping` | No |  |
-| GET | `/ping` | No |  |
 | GET | `/ping` | No |  |
 | GET | `/stats` | No |  |
-| GET | `/stats` | No |  |
-| GET | `/stats` | No |  |
 | POST | `/subscribe` | No |  |
-| POST | `/subscribe` | No |  |
-| POST | `/subscribe` | No |  |
-| POST | `/track` | No |  |
-| POST | `/track` | No |  |
 | POST | `/track` | No |  |
 
 ## Dependencies

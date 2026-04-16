@@ -17,37 +17,15 @@ No cron jobs.
 | Method | Path | Auth | Description |
 |--------|------|------|-------------|
 | GET | `/` | No |  |
-| GET | `/` | No |  |
-| GET | `/` | No |  |
-| POST | `/api/query` | No |  |
-| POST | `/api/query` | No |  |
 | POST | `/api/query` | No |  |
 | GET | `/api/saved-queries` | No |  |
 | POST | `/api/saved-queries` | No |  |
-| GET | `/api/saved-queries` | No |  |
-| POST | `/api/saved-queries` | No |  |
-| GET | `/api/saved-queries` | No |  |
-| POST | `/api/saved-queries` | No |  |
-| DELETE | `/api/saved-queries/<name>` | No |  |
-| DELETE | `/api/saved-queries/<name>` | No |  |
 | DELETE | `/api/saved-queries/<name>` | No |  |
 | GET | `/api/schema` | No |  |
-| GET | `/api/schema` | No |  |
-| GET | `/api/schema` | No |  |
 | POST | `/api/sync` | No |  |
-| POST | `/api/sync` | No |  |
-| POST | `/api/sync` | No |  |
-| GET | `/api/sync-status` | No |  |
-| GET | `/api/sync-status` | No |  |
 | GET | `/api/sync-status` | No |  |
 | GET | `/login` | No |  |
 | POST | `/login` | No |  |
-| GET | `/login` | No |  |
-| POST | `/login` | No |  |
-| GET | `/login` | No |  |
-| POST | `/login` | No |  |
-| GET | `/logout` | No |  |
-| GET | `/logout` | No |  |
 | GET | `/logout` | No |  |
 
 ## Dependencies
