@@ -1,26 +1,20 @@
-# Newsletters
+# How do newsletters work?
 
-Weekly newsletters keep students informed about upcoming classes, series themes, and studio news. Class plan information from the dashboard feeds directly into the newsletter writing process.
+Newsletters are generated automatically on the **25th of the month before** they go out.
+For example, the April newsletter is generated on March 25th.
 
-## What Goes Into a Newsletter
+## The review process
 
-The class plans dashboard at **[classes.tiffanywoodyoga.com](https://classes.tiffanywoodyoga.com)** contains all the information that typically appears in newsletters:
+1. The system generates a draft newsletter.
+2. The draft appears in the **#review-newsletters** Slack channel.
+3. You review it there. If it looks good, approve it.
+4. If changes are needed, note them in Slack.
+5. Once approved, it gets sent to the mailing list.
 
-- **Upcoming class schedule** — dates, times, and class types
-- **Series and themes** — the current series title, monthly intentions, and energetic pulse
-- **Class details** — titles, apex poses, affirmations, and descriptions
-- **Monthly overviews** — the big-picture theme and scheduling for the month
+## What goes in the newsletter
 
-## Sending Newsletters
+- Upcoming classes and events
+- Any special announcements
+- Content pulled from your recent class themes
 
-Newsletters are composed and sent through **Mailchimp**. The typical workflow:
-
-1. Make sure class plans are up to date on **[classes.tiffanywoodyoga.com](https://classes.tiffanywoodyoga.com)**
-2. Draft the newsletter content using the class plan details
-3. Send via Mailchimp to the subscriber list
-
-## Tips
-
-- **Keep plans current** — newsletter content is only as good as the class plans, so review them before writing
-- **Highlight special events** — mention schedule changes, guest teachers, or new series
-- **Include the week's themes** — students appreciate knowing the apex pose, affirmation, and teaching lens ahead of time
+You do not need to write the newsletter yourself. The system drafts it. You just review and approve.
