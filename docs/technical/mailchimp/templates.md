@@ -1,4 +1,4 @@
-# MailChimp Templates (user-created)
+# MailChimp Templates
 
 | ID | Name | Uses | Last used | Classification |
 |----|------|------|-----------|----------------|
