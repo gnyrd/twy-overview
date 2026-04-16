@@ -55,36 +55,54 @@ def _title_from_md(path: Path) -> str:
 
 
 def build_nav():
-    """Build sidebar: top-level .md files plus index.md from every subdirectory at any depth.
+    """Build sidebar: top-level .md files, immediate-subdir .md files, and index.md at any depth.
 
-    Individual non-index pages within subdirectories are NOT shown — they\'re accessed
-    by drilling into their section\'s index page.
+    - Top-level .md files (excluding homepage indexes) become entries.
+    - Files in immediate subdirectories appear as entries (e.g., mailchimp/tags.md).
+    - index.md and _index.md at any depth represent their section.
+    - Non-index pages deeper than depth-1 are NOT shown (they\'re drilled into from a section page).
     """
     pages = []
-    # Top-level .md files (excluding _index.md which is the homepage)
+    seen = set()
+
+    def add(slug, title):
+        if slug in seen:
+            return
+        seen.add(slug)
+        pages.append({"slug": slug, "title": title})
+
+    # Top-level .md files
     for md_file in sorted(DOCS_DIR.glob("*.md")):
         if md_file.name in ("_index.md", "index.md"):
             continue
-        slug = md_file.stem
-        pages.append({"slug": slug, "title": _title_from_md(md_file)})
-    # index.md from every subdirectory at any depth
-    for index in sorted(DOCS_DIR.rglob("index.md")):
-        # Skip top-level index.md (it\'s the homepage)
-        if index.parent == DOCS_DIR:
-            continue
-        rel = index.parent.relative_to(DOCS_DIR)
-        slug = str(rel)
-        pages.append({"slug": slug, "title": _title_from_md(index)})
-    # Same for _index.md at depth (subdirs that use underscore convention)
-    for index in sorted(DOCS_DIR.rglob("_index.md")):
-        if index.parent == DOCS_DIR:
-            continue
-        rel = index.parent.relative_to(DOCS_DIR)
-        slug = str(rel)
-        # Avoid duplicate if both index.md and _index.md exist
-        if any(p["slug"] == slug for p in pages):
-            continue
-        pages.append({"slug": slug, "title": _title_from_md(index)})
+        add(md_file.stem, _title_from_md(md_file))
+
+    # Walk subdirectories
+    for subdir in sorted(p for p in DOCS_DIR.iterdir() if p.is_dir()):
+        # The subdir\'s own index.md (or _index.md) becomes an entry
+        for idx_name in ("index.md", "_index.md"):
+            idx = subdir / idx_name
+            if idx.is_file():
+                add(subdir.name, _title_from_md(idx))
+                break
+        # Depth-1 .md siblings within this subdir (excluding indexes)
+        for md_file in sorted(subdir.glob("*.md")):
+            if md_file.name in ("index.md", "_index.md"):
+                continue
+            slug = f"{subdir.name}/{md_file.stem}"
+            add(slug, _title_from_md(md_file))
+        # Deeper subdirs: only include their index.md as a section entry
+        for deeper_idx in sorted(subdir.rglob("index.md")):
+            if deeper_idx.parent == subdir:
+                continue  # already handled above
+            rel = deeper_idx.parent.relative_to(DOCS_DIR)
+            add(str(rel), _title_from_md(deeper_idx))
+        for deeper_idx in sorted(subdir.rglob("_index.md")):
+            if deeper_idx.parent == subdir:
+                continue
+            rel = deeper_idx.parent.relative_to(DOCS_DIR)
+            add(str(rel), _title_from_md(deeper_idx))
+
     return sorted(pages, key=lambda x: x["title"].lower())
 
 
