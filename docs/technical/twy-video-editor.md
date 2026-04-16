@@ -3,7 +3,7 @@
 Thumbnail generation and video bumper tools for Tiffany Wood Yoga.
 
 **Repo:** `gnyrd/twy-video-editor` → `/root/twy/thumbnails/`
-**Live:** https://classes.tiffanywood.yoga/thumbnails/ (port 5004)
+**Live:** https://classes.tiffanywoodyoga.com/thumbnails/ (port 5004)
 **Service:** `twy-thumbnails`
 
 ## Components
@@ -50,7 +50,7 @@ Flask app mounted at `/thumbnails/` via Werkzeug `DispatcherMiddleware`. Shows t
 |---------|-------|
 | Unit file | `/etc/systemd/system/twy-thumbnails.service` |
 | Port | 5004 |
-| URL | `classes.tiffanywood.yoga/thumbnails/` |
+| URL | `classes.tiffanywoodyoga.com/thumbnails/` |
 | Process | `/usr/bin/python3 /root/twy/thumbnails/src/dashboard/dashboard.py` |
 | Working dir | `/root/twy` |
 | Env file | `/root/twy/thumbnails/.env` |

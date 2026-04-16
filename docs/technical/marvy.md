@@ -68,7 +68,7 @@ Two-step flow:
 1. `POST /auth/login/` with email + password (triggers magic code email)
 2. `POST /auth/magic-code/` with magic code → returns `{ "key": "token..." }`
 
-Token stored on `Client` instance. In production, token management is handled by `twy-announce/src/refresh_jwt.py` (Playwright-based browser automation). Token cached at `/root/twy/marvy/.marvy_auth.json` (gitignored), read by twy-class-plans at startup.
+Token stored on `Client` instance. In production, token management is handled by `twy-announce/src/refresh_jwt.py` (Playwright-based browser automation). Token cached at `/root/twy/.marvy_auth.json` (gitignored), read by twy-class-plans at startup.
 
 ## Usage
 

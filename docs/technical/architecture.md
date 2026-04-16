@@ -82,10 +82,10 @@ HeyMarvelous (Namastream API)
 
 | Service | Port | URL | systemd Unit |
 |---------|------|-----|-------------|
-| Class Plans Dashboard | 5003 | `classes.tiffanywood.yoga` | `twy-class-dashboard` |
-| Thumbnails Dashboard | 5004 | `classes.tiffanywood.yoga/thumbnails/` | `twy-thumbnails` |
-| Clips Dashboard | — | `clips.tiffanywood.yoga` | — |
-| Docs (this site) | 5005 | `docs.tiffanywood.yoga` | `twy-docs` |
+| Class Plans Dashboard | 5003 | `classes.tiffanywoodyoga.com` | `twy-class-dashboard` |
+| Thumbnails Dashboard | 5004 | `classes.tiffanywoodyoga.com/thumbnails/` | `twy-thumbnails` |
+| Clips Dashboard | — | `clips.tiffanywoodyoga.com` | — |
+| Docs (this site) | 5005 | `docs.tiffanywoodyoga.com` | `twy-docs` |
 
 All behind nginx reverse proxy with Let's Encrypt SSL.
 

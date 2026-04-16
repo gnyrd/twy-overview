@@ -11,7 +11,7 @@ TWEEE is a ChatGPT Custom GPT configured with:
 
 1. **System prompt** — condensed instructions at `docs/guides/TWEEE-GPT-INSTRUCTIONS-CONDENSED.md`
 2. **Knowledge files** — uploaded to GPT's knowledge store (not served via API)
-3. **GPT Actions** — HTTP calls to the class-plans API at `classes.tiffanywood.yoga`
+3. **GPT Actions** — HTTP calls to the class-plans API at `classes.tiffanywoodyoga.com`
 
 ### API Endpoints Used
 

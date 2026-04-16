@@ -35,7 +35,7 @@ All secrets and configuration live in `.env` files per repo. Never hardcoded.
 | `TWY_CLASS_VIDEOS_DIR` | No | Trimmed video output (default: `../data/class-videos`) |
 | `TWY_BUMPERS_INTRO` | No | Intro bumper path |
 | `TWY_BUMPERS_OUTRO` | No | Outro bumper path |
-| `TWY_CLIPS_URL` | No | Clips dashboard URL (default: `https://clips.tiffanywood.yoga`) |
+| `TWY_CLIPS_URL` | No | Clips dashboard URL (default: `https://clips.tiffanywoodyoga.com`) |
 
 ## twy-video-editor (`/root/twy/thumbnails/.env`)
 

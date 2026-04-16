@@ -3,7 +3,7 @@
 Flask dashboard for class plan management, video trim/publish workflow, and thumbnail selection. Also serves the API consumed by TWEEE GPT.
 
 **Repo:** `gnyrd/twy-class-plans` → `/root/twy/class-plans/`
-**Live:** https://classes.tiffanywood.yoga (port 5003)
+**Live:** https://classes.tiffanywoodyoga.com (port 5003)
 **Service:** `twy-class-dashboard`
 
 ## Application Structure
@@ -69,7 +69,7 @@ dashboard/
 
 ## Class Plan Schema
 
-Files: `data/class-plans/YYYY-MM-DD.json`
+Files: `data/class-plans/YYYY-MM/YYYY-MM-DD.json`
 
 Key fields: `id`, `date`, `time`, `duration`, `title`, `series`, `class_type`, `description`, `apex_pose`, `energetic_pulse`, `teaching_lens`, `physical_focus`, `physical_arc`, `upas_key_actions`, `affirmation`, `categories`, `level`, `props`, `published`, `marvelous_event_id`, `marvelous_media_id`, `selected_thumbnail`
 
