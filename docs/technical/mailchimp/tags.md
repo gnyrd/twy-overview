@@ -1,6 +1,6 @@
 # MailChimp Tags
 
-## STATUS (8)
+## STATUS (5)
 
 | Tag | Members | Applied by | Classification |
 |-----|---------|------------|----------------|
@@ -9,18 +9,13 @@
 | `Status - Member Canceled` | 0 | - | DEAD |
 | `Status - TWY Archive - Canceled` | 1 | sync_mailchimp.py | LIVE |
 | `Status - Yoga Lifestyle - Canceled` | 3 | sync_mailchimp.py | LIVE |
-| `Status – Lead` | 0 | sync_mailchimp.py | DEAD |
-| `Status – Member` | 0 | sync_mailchimp.py | DEAD |
-| `Status – Member Canceled` | 0 | - | DEAD |
 
-## MEMBERSHIP (4)
+## MEMBERSHIP (2)
 
 | Tag | Members | Applied by | Classification |
 |-----|---------|------------|----------------|
 | `Membership - TWY Archive` | 7 | sync_mailchimp.py | LIVE |
 | `Membership - Yoga Lifestyle` | 27 | sync_mailchimp.py | LIVE |
-| `Membership – TWY Archive` | 1 | sync_mailchimp.py | LIVE |
-| `Membership – Yoga Lifestyle` | 3 | sync_mailchimp.py | LIVE |
 
 ## ROLE (2)
 

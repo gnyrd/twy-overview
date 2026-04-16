@@ -20,7 +20,7 @@
 | Campaign Pasted Segment - 06 Dec 2024 08:53:46 am | 808 | - | 808 members but never targeted by a campaign |
 | Campaign Pasted Segment - 06 Dec 2024 08:59:34 am | 2 | 2024-12-06 | 2 members but last used 495 days ago |
 | Campaign Pasted Segment - 07 Aug 2024 01:16:50 pm | 5 | 2024-08-07 | 5 members but last used 616 days ago |
-| Campaign Pasted Segment - 12 May 2025 02:19:59 pm | 3 | 2025-05-22 | 3 members but last used 328 days ago |
+| Campaign Pasted Segment - 12 May 2025 02:19:59 pm | 3 | 2025-05-22 | 3 members but last used 329 days ago |
 | Campaign Pasted Segment - 13 Aug 2024 03:44:52 pm | 14 | - | 14 members but never targeted by a campaign |
 | Campaign Pasted Segment - 13 Aug 2024 03:46:39 pm | 14 | - | 14 members but never targeted by a campaign |
 | Campaign Pasted Segment - 17 May 2024 01:45:19 pm | 1 | 2024-05-17 | 1 members but last used 698 days ago |
