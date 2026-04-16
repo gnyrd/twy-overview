@@ -104,6 +104,8 @@ def inject_globals():
 def index():
     path = DOCS_DIR / "_index.md"
     if not path.is_file():
+        path = DOCS_DIR / "index.md"
+    if not path.is_file():
         abort(404)
     md.reset()
     content = md.convert(path.read_text())
