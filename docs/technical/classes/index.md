@@ -7,7 +7,7 @@ Class plan dashboard, Tweee API, Flask web app on port 5003.
 - **Status**: active (running)
 - **Systemd unit**: `twy-class-dashboard`
 - **Port**: 5003
-- **URL**: https://classes.tiffanywoodyoga.com/thumbnails/
+- **URL**: [https://classes.tiffanywoodyoga.com/thumbnails/](https://classes.tiffanywoodyoga.com/thumbnails/)
 
 ## Cron Jobs
 

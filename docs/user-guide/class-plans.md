@@ -2,7 +2,7 @@
 
 ## Where to go
 
-Open **https://classes.tiffanywoodyoga.com** in your browser. You will need to log in with the dashboard password.
+Open [https://classes.tiffanywoodyoga.com](https://classes.tiffanywoodyoga.com) in your browser. You will need to log in with the dashboard password.
 
 ## What you see
 

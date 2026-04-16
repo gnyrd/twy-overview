@@ -2,7 +2,7 @@
 
 ## Where to go
 
-Open **https://classes.tiffanywoodyoga.com** and navigate to the overview editor (look for the Overview link in the sidebar or menu).
+Open [https://classes.tiffanywoodyoga.com](https://classes.tiffanywoodyoga.com) and navigate to the overview editor (look for the Overview link in the sidebar or menu).
 
 ## What you control
 

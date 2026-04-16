@@ -2,7 +2,7 @@
 
 ## The page
 
-Visit **https://habit.tiffanywoodyoga.com** to see the public landing page for the monthly free class.
+Visit [https://habit.tiffanywoodyoga.com](https://habit.tiffanywoodyoga.com) to see the public landing page for the monthly free class.
 
 ## What visitors see
 
@@ -22,7 +22,7 @@ The system automatically sends follow-up emails to attendees:
 
 You can see how the Habit page is performing at any time:
 
-**https://habit.tiffanywoodyoga.com/stats?key=z0OvK27qdQ3BtZBc8D_6og**
+[https://habit.tiffanywoodyoga.com/stats?key=z0OvK27qdQ3BtZBc8D_6og](https://habit.tiffanywoodyoga.com/stats?key=z0OvK27qdQ3BtZBc8D_6og)
 
 This shows registration trends, where visitors come from, and which buttons are getting clicks.
 
@@ -30,4 +30,4 @@ This shows registration trends, where visitors come from, and which buttons are 
 
 Nothing for the page itself. It updates automatically based on the next scheduled Habit event.
 
-The **go.tiffanywoodyoga.com** URL also points here. This is what the MailChimp logo links to.
+The [go.tiffanywoodyoga.com](https://go.tiffanywoodyoga.com) URL also points here. This is what the MailChimp logo links to.
