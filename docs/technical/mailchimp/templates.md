@@ -10,4 +10,3 @@
 | 1870 | Mexico Retreat Template: Long | 0 | - | DEAD |
 | 2845 | 2023 Newsletter Template | 0 | - | DEAD |
 | 5125 | March 2023 Series Promo with Playable Video | 0 | - | DEAD |
-| 10576832 | Blue Monday | 0 | - | DEAD |

@@ -8,7 +8,7 @@ Auto-generated mirror of MailChimp account state. Pulled from the MC API and cro
 - **Campaigns**: 11 sent in last 90 days, 1 scheduled
 - **Tags**: 125
 - **Segments**: 29
-- **User templates**: 9
+- **User templates**: 8
 - **Journey enrollments in progress**: 3
 
 ## Sections
