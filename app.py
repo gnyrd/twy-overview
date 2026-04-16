@@ -55,7 +55,11 @@ def _title_from_md(path: Path) -> str:
 
 
 def build_nav():
-    """Build sidebar: top-level .md files plus one entry per subdirectory (its index.md)."""
+    """Build sidebar: top-level .md files plus index.md from every subdirectory at any depth.
+
+    Individual non-index pages within subdirectories are NOT shown — they\'re accessed
+    by drilling into their section\'s index page.
+    """
     pages = []
     # Top-level .md files (excluding _index.md which is the homepage)
     for md_file in sorted(DOCS_DIR.glob("*.md")):
@@ -63,14 +67,23 @@ def build_nav():
             continue
         slug = md_file.stem
         pages.append({"slug": slug, "title": _title_from_md(md_file)})
-    # One entry per subdirectory (use its index.md as the link target)
-    for subdir in sorted(p for p in DOCS_DIR.iterdir() if p.is_dir()):
-        index = subdir / "index.md"
-        if not index.is_file():
-            index = subdir / "_index.md"
-        if not index.is_file():
+    # index.md from every subdirectory at any depth
+    for index in sorted(DOCS_DIR.rglob("index.md")):
+        # Skip top-level index.md (it\'s the homepage)
+        if index.parent == DOCS_DIR:
             continue
-        slug = subdir.name
+        rel = index.parent.relative_to(DOCS_DIR)
+        slug = str(rel)
+        pages.append({"slug": slug, "title": _title_from_md(index)})
+    # Same for _index.md at depth (subdirs that use underscore convention)
+    for index in sorted(DOCS_DIR.rglob("_index.md")):
+        if index.parent == DOCS_DIR:
+            continue
+        rel = index.parent.relative_to(DOCS_DIR)
+        slug = str(rel)
+        # Avoid duplicate if both index.md and _index.md exist
+        if any(p["slug"] == slug for p in pages):
+            continue
         pages.append({"slug": slug, "title": _title_from_md(index)})
     return sorted(pages, key=lambda x: x["title"].lower())
 
