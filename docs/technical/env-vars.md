@@ -58,6 +58,7 @@
 | `MARVELOUS_USERNAME` |  (/root/twy/.env), announce, classes, secrets (/root/twy/secrets/.env) | announce (/root/twy/announce/src/run_habit_followup.py), classes (/root/twy/classes/scripts/create_next_habit_event.py), classes (/root/twy/classes/scripts/sync.py) | ✅ OK |
 | `MARVY_AUTH_FILE` |  (/root/twy/.env), classes, secrets (/root/twy/secrets/.env) | classes (/root/twy/classes/dashboard/marvelous.py), classes (/root/twy/classes/dashboard/views.py), classes (/root/twy/classes/scripts/monthly_series_workflow.py), classes (/root/twy/classes/scripts/post_recording_workflow.py), classes (/root/twy/classes/scripts/remove_thumbnail.py), classes (/root/twy/classes/scripts/replace_video.py) | ✅ OK |
 | `MAXMIND_LICENSE_KEY` | secrets (/root/twy/secrets/.env) | - | 🔵 Orphan |
+| `MC_ENV_PATH` | - | docs-scanner (/root/twy/docs-scanner/tests/test_mc_client.py), docs-scanner (/root/twy/docs-scanner/twy_docs/mc/client.py) | ⚠️ Undefined |
 | `NOTIFY_EMAIL_FROM` |  (/root/twy/.env), secrets (/root/twy/secrets/.env), video-editor (/root/twy/video-editor/.env) | - | 🔵 Orphan |
 | `NOTIFY_EMAIL_TO` |  (/root/twy/.env), secrets (/root/twy/secrets/.env), video-editor (/root/twy/video-editor/.env) | - | 🔵 Orphan |
 | `OPENAI_API_KEY` |  (/root/twy/.env), clips, clips (/root/twy/clips/.env), secrets (/root/twy/secrets/.env), video-editor (/root/twy/video-editor/.env) | clips (/root/twy/clips/src/utils/ai_analyzer.py) | ✅ OK |

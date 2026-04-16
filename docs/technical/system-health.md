@@ -14,7 +14,7 @@
 
 ## Lint Findings
 
-### 🟠 HIGH (39)
+### 🟠 HIGH (40)
 
 - **broken_services** ([data-viewer](data-viewer/index.md)): Service data-viewer is activating (auto-restart)
 - **undefined_env_vars** ([classes](classes/index.md)): Env var API_TOKEN is referenced but never defined in .env
@@ -38,6 +38,7 @@
 - **undefined_env_vars** ([announce](announce/index.md)): Env var MARVELOUS_FORCE_JWT_REFRESH is referenced but never defined in .env
 - **undefined_env_vars** ([announce](announce/index.md)): Env var MARVELOUS_LOOKAHEAD_DAYS is referenced but never defined in .env
 - **undefined_env_vars** ([announce](announce/index.md)): Env var MARVELOUS_TOKEN is referenced but never defined in .env
+- **undefined_env_vars** ([docs-scanner](docs-scanner/index.md)): Env var MC_ENV_PATH is referenced but never defined in .env
 - **undefined_env_vars** ([marvy](marvy/index.md)): Env var OUTPUT_FILE is referenced but never defined in .env
 - **undefined_env_vars** ([announce](announce/index.md)): Env var REMINDER_OFFSETS is referenced but never defined in .env
 - **undefined_env_vars** ([overview](overview/index.md)): Env var SITE_TITLE is referenced but never defined in .env
@@ -56,10 +57,20 @@
 - **undefined_env_vars** ([download](download/index.md)): Env var WATCHDOG_SCAN_DAYS is referenced but never defined in .env
 - **undefined_env_vars** ([announce](announce/index.md)): Env var YOUTUBE_HISTORY_DIR is referenced but never defined in .env
 
-### 🟡 MEDIUM (12)
+### 🟡 MEDIUM (22)
 
 - **duplicate_utilities** ([announce](announce/index.md)): Mailchimp client code duplicated between announce and classes
 - **duplicate_utilities** ([announce](announce/index.md)): Slack integration duplicated between announce and classes
+- **mc_duplicate_journey_name** (system): Multiple journeys named 'Welcome new contacts' (IDs: 4659,6126)
+- **mc_zombie_journey** (system): Journey 'New Subscriber YLS Membership' (ID 3209): Status=sending but last enrollment 97 days ago (stale)
+- **mc_zombie_journey** (system): Journey 'Optimal Blueprint Series' (ID 3921): Status=sending but last enrollment 793 days ago (stale)
+- **mc_zombie_journey** (system): Journey 'YLM Welcome Email Sequence' (ID 4423): Status=sending but last enrollment 97 days ago (stale)
+- **mc_zombie_journey** (system): Journey 'YLM AD Campaign Sign Up' (ID 4635): Status=sending but last enrollment 246 days ago (stale)
+- **mc_zombie_journey** (system): Journey 'Palouse 2025 Welcome Email' (ID 6032): Status=sending but last enrollment 369 days ago (stale)
+- **mc_zombie_journey** (system): Journey 'FINAL Palouse 2025 Registration Email Sequence' (ID 6057): Status=sending but last enrollment 306 days ago (stale)
+- **mc_zombie_journey** (system): Journey 'Retreat Info – Auto Send' (ID 6059): Status=sending but last enrollment 303 days ago (stale)
+- **mc_zombie_journey** (system): Journey 'Palouse 2 free classes email sequence' (ID 6060): Status=sending but last enrollment 306 days ago (stale)
+- **mc_zombie_journey** (system): Journey 'Welcome: Members Favorites 2025' (ID 6127): Status=sending but last enrollment 91 days ago (stale)
 - **missing_failure_wrappers** ([download](download/index.md)): Cron job missing failure wrapper: 15,45 * * * * cd /root/twy/download && /usr/bin/python3 src/zoom/zoom_download.py --days-back ...
 - **missing_failure_wrappers** ([clips](clips/index.md)): Cron job missing failure wrapper: */5 * * * * cd /root/twy/clips && ./src/pipeline/class_recording_watchdog.sh >> logs/watchdo...
 - **missing_failure_wrappers** ([announce](announce/index.md)): Cron job missing failure wrapper: 0 13 * * * cd /root/twy/announce && /usr/bin/python3 src/daily_status_report.py >> logs/dai...
@@ -71,8 +82,39 @@
 - **missing_failure_wrappers** ([download](download/index.md)): Cron job missing failure wrapper: 0 10 * * * cd /root/twy/download && /usr/bin/python3 src/classes_archive.py >> ../data/logs...
 - **missing_failure_wrappers** ([yoga-habit](yoga-habit/index.md)): Cron job missing failure wrapper: 0 10 1 * * /root/twy/yoga-habit/scripts/refresh_geolite2.sh >> /root/twy/data/logs/geolite2...
 
-### 🔵 LOW (41)
+### 🔵 LOW (72)
 
+- **mc_journey_trigger_unknown** (system): Journey 'Optimal Blueprint Series' (ID 3921) has no HM product mapped - enrollment cannot be cross-referenced
+- **mc_journey_trigger_unknown** (system): Journey 'YLM AD Campaign Sign Up' (ID 4635) has no HM product mapped - enrollment cannot be cross-referenced
+- **mc_journey_trigger_unknown** (system): Journey 'Palouse 2025 Welcome Email' (ID 6032) has no HM product mapped - enrollment cannot be cross-referenced
+- **mc_journey_trigger_unknown** (system): Journey 'FINAL Palouse 2025 Registration Email Sequence' (ID 6057) has no HM product mapped - enrollment cannot be cross-referenced
+- **mc_journey_trigger_unknown** (system): Journey 'Retreat Info – Auto Send' (ID 6059) has no HM product mapped - enrollment cannot be cross-referenced
+- **mc_journey_trigger_unknown** (system): Journey 'Palouse 2 free classes email sequence' (ID 6060) has no HM product mapped - enrollment cannot be cross-referenced
+- **mc_orphan_segment** (system): Segment 'Campaign Pasted Segment - 17 May 2024 09:47:51 am' (ID 2977799) has 0 members
+- **mc_orphan_tag** (system): Tag 'Kripalu' (ID 282) has 0 members
+- **mc_orphan_tag** (system): Tag 'Kripalu 2022' (ID 5018) has 0 members
+- **mc_orphan_tag** (system): Tag 'Top 20 Mexico' (ID 6186) has 0 members
+- **mc_orphan_tag** (system): Tag 'Free Course Members' (ID 2959807) has 0 members
+- **mc_orphan_tag** (system): Tag 'Foundations of Anusara Yoga - Four Class Series Btests' (ID 2980520) has 0 members
+- **mc_orphan_tag** (system): Tag 'Retreat Info Sent' (ID 3017624) has 0 members
+- **mc_orphan_tag** (system): Tag 'test' (ID 3017831) has 0 members
+- **mc_orphan_tag** (system): Tag 'Campaign Pasted Segment - 19 Jul 2024 03:59:58 pm' (ID 3018781) has 0 members
+- **mc_orphan_tag** (system): Tag 'Status – Member' (ID 3018791) has 0 members
+- **mc_orphan_tag** (system): Tag 'Status – Lead' (ID 3018792) has 0 members
+- **mc_orphan_tag** (system): Tag 'Status – Member Canceled' (ID 3018793) has 0 members
+- **mc_orphan_tag** (system): Tag 'Lifecycle – Alumni' (ID 3018795) has 0 members
+- **mc_orphan_tag** (system): Tag 'Lifecycle – VIP' (ID 3018796) has 0 members
+- **mc_orphan_tag** (system): Tag 'Region – Utah' (ID 3018797) has 0 members
+- **mc_orphan_tag** (system): Tag 'Blitz – Dec 2025 – Yoga Lifestyle – Responded' (ID 3018802) has 0 members
+- **mc_orphan_tag** (system): Tag 'YLM Ad Hoc' (ID 3018913) has 0 members
+- **mc_orphan_tag** (system): Tag 'Status - Member Canceled' (ID 3018914) has 0 members
+- **mc_unused_template** (system): Template 'Mexico Retreat Template: Short' (ID 1831): Last used 1190 days ago
+- **mc_unused_template** (system): Template 'Mexico Retreat Template: Medium' (ID 1868): Never used
+- **mc_unused_template** (system): Template 'Mexico Retreat Template: Long' (ID 1870): Never used
+- **mc_unused_template** (system): Template '2023 Newsletter Template' (ID 2845): Never used
+- **mc_unused_template** (system): Template 'Mexico Welcome Email' (ID 4775): Last used 1140 days ago
+- **mc_unused_template** (system): Template 'March 2023 Series Promo with Playable Video' (ID 5125): Never used
+- **mc_unused_template** (system): Template 'Blue Monday' (ID 10576832): Never used
 - **orphan_env_vars** ([clips](clips/index.md)): Env var ASPECT_RATIO is defined but never referenced in code
 - **orphan_env_vars** ([clips](clips/index.md)): Env var CAPTIONED_SUBDIR is defined but never referenced in code
 - **orphan_env_vars** ([clips](clips/index.md)): Env var CLIPS_SUBDIR is defined but never referenced in code
