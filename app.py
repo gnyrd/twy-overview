@@ -55,15 +55,24 @@ def _title_from_md(path: Path) -> str:
 
 
 def build_nav():
-    """Build sidebar navigation from the docs directory, including subdirectories."""
+    """Build sidebar: top-level .md files plus one entry per subdirectory (its index.md)."""
     pages = []
-    for md_file in sorted(DOCS_DIR.rglob("*.md")):
-        if md_file.name == "_index.md":
+    # Top-level .md files (excluding _index.md which is the homepage)
+    for md_file in sorted(DOCS_DIR.glob("*.md")):
+        if md_file.name in ("_index.md", "index.md"):
             continue
-        rel = md_file.relative_to(DOCS_DIR)
-        slug = str(rel.with_suffix(""))
+        slug = md_file.stem
         pages.append({"slug": slug, "title": _title_from_md(md_file)})
-    return pages
+    # One entry per subdirectory (use its index.md as the link target)
+    for subdir in sorted(p for p in DOCS_DIR.iterdir() if p.is_dir()):
+        index = subdir / "index.md"
+        if not index.is_file():
+            index = subdir / "_index.md"
+        if not index.is_file():
+            continue
+        slug = subdir.name
+        pages.append({"slug": slug, "title": _title_from_md(index)})
+    return sorted(pages, key=lambda x: x["title"].lower())
 
 
 def _git_last_modified(path: Path) -> str | None:
