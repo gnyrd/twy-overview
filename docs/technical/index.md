@@ -16,6 +16,7 @@ Auto-generated project catalog.
 | [overview](overview/index.md) | Documentation sites (docs.tiffanywoodyoga.com, tech.tiffanywoodyoga.com). Flask  |
 | [paths](paths/index.md) | Path computation and central environment loading. |
 | [secrets](secrets/index.md) | Git-crypt encrypted central credentials. |
+| [stats](stats/index.md) |  |
 | [tweee-gpt](tweee-gpt/index.md) | Knowledge base and prompts for custom OpenAI GPT. Not a running service. |
 | [video-editor](video-editor/index.md) | Thumbnail extraction and Vimeo publishing pipeline. |
 | [yoga-habit](yoga-habit/index.md) | Yoga Habit landing page, Flask app on port 5008. |

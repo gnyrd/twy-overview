@@ -1,26 +1,26 @@
 # MailChimp Campaigns
 
-## Recently Sent (last 90 days) (11)
+## Recently Sent (last 90 days) (10)
 
 | Date | Subject | Classification | Recipients | Opens | Clicks |
 |------|---------|----------------|-----------|-------|--------|
+| 2026-04-22 | Saturday is where it lands | LIVE | 27 | 20 | 0 |
+| 2026-04-21 | Your center hasn't gone anywhere | LIVE | 16 | 14 | 0 |
 | 2026-04-14 | Thank you for practicing with us | LIVE | 16 | 12 | 0 |
 | 2026-04-07 | April: Stronger, Softer, Steadier | LIVE | 26 | 20 | 0 |
-| 2026-04-07 | Try a Yoga Habit with us (it’s free) | LIVE | 909 | 315 | 12 |
-| 2026-03-26 | This Saturday: Integrate, Align, and Come Home to Yourself | LIVE | 939 | 322 | 14 |
+| 2026-04-07 | Try a Yoga Habit with us (it’s free) | LIVE | 909 | 316 | 12 |
+| 2026-03-26 | This Saturday: Integrate, Align, and Come Home to Yourself | LIVE | 939 | 323 | 14 |
 | 2026-03-19 | Marvelous & Mercury Retrograde | LIVE | 29 | 19 | 0 |
-| 2026-02-28 | Tomorrow 9am MT: Radiant Balance (90 min) | LIVE | 924 | 396 | 14 |
+| 2026-02-28 | Tomorrow 9am MT: Radiant Balance (90 min) | LIVE | 924 | 396 | 19 |
 | 2026-02-03 | ✨ Keep flowing, your way | LIVE | 8 | 4 | 0 |
-| 2026-01-30 | Your Only Saturday Class This Month | LIVE | 926 | 403 | 23 |
-| 2026-01-26 | Update: No Classes Tonight or Tomorrow | LIVE | 925 | 435 | 25 |
-| 2026-01-18 | A Gentle Pause + A Gift for You 🌿 | LIVE | 898 | 372 | 23 |
-| 2026-01-18 | A Tender Pause & Love from My Heart 💛 | LIVE | 27 | 23 | 7 |
+| 2026-01-30 | Your Only Saturday Class This Month | LIVE | 926 | 404 | 23 |
 
-## Scheduled (1)
+## Scheduled (2)
 
 | Date | Subject | Classification | Recipients | Opens | Clicks |
 |------|---------|----------------|-----------|-------|--------|
-| 2026-04-21 | Your center hasn't gone anywhere | LIVE | 16 | 0 | 0 |
+| 2026-05-01 | This might be the missing piece | LIVE | 909 | 0 | 0 |
+| 2026-05-01 | Open, but not unprotected | LIVE | 28 | 0 | 0 |
 
 ## Drafts (95)
 
@@ -122,7 +122,7 @@
 | 2023-01-11 | - | DEAD | 0 | 0 | 0 |
 | 2022-12-15 | delete | DEAD | 938 | 0 | 0 |
 
-## Paused (33)
+## Paused (41)
 
 | Date | Subject | Classification | Recipients | Opens | Clicks |
 |------|---------|----------------|-----------|-------|--------|
@@ -130,7 +130,15 @@
 | 2024-08-27 | Thank You for an Incredible Retreat Experience! 🌿 | DEAD | 938 | 15 | 0 |
 | 2024-08-15 | Important Details for Your Retreat Journey ✨ | DEAD | 938 | 15 | 14 |
 | 2024-08-13 | Plug into the Retreat: Important Agreements and Preparation ✨ | DEAD | 938 | 15 | 43 |
+| 2024-08-12 | TWY: Congratulations on Your First Week! 🎉 | DEAD | 938 | 7 | 0 |
+| 2024-08-11 | TWY: Planning Your Ideal Yoga Schedule 📅 | DEAD | 938 | 6 | 1 |
+| 2024-08-10 | TWY: Let's Dive Deep into Your Yoga Goals 🌊 | DEAD | 938 | 8 | 0 |
+| 2024-08-09 | TWY: Customize How You Learn Best 🎓 | DEAD | 938 | 6 | 1 |
 | 2024-08-08 | Welcome to Core & Restore Retreat! 🌟 | DEAD | 938 | 17 | 26 |
+| 2024-08-08 | TWY: Dive Deeper into Anusara Yoga’s Alignment Principles ✨ | DEAD | 938 | 6 | 0 |
+| 2024-08-07 | TWY: Align Your Space with Your Practice 🌄 | DEAD | 938 | 6 | 1 |
+| 2024-07-17 | TWY: Setting Up Your Ideal Yoga Space 🧘 | DEAD | 938 | 6 | 2 |
+| 2024-07-16 | TWY: Welcome to Your Yoga Lifestyle Journey 🌟 | DEAD | 938 | 8 | 6 |
 | 2023-06-12 | Planning Your Yoga Class | DEAD | 938 | 9 | 41 |
 | 2023-02-18 | New Email | DEAD | 938 | 10 | 20 |
 | 2022-12-13 | Thank you for subscribing! | DEAD | 938 | 16 | 12 |
