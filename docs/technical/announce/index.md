@@ -10,21 +10,14 @@ No service configured.
 
 | Schedule | Command | Failure Wrapper | Log |
 |----------|---------|-----------------|-----|
-| `*/5 * * * *` | `cd /root/twy/announce && /root/twy/announce/scripts/notify_on_failure.py class-video-notifier /usr/bin/python3 src/class...` | Yes | `/root/twy/data/logs/class_video_notifier.log` |
-| `0 * * * *` | `cd /root/twy/announce && /root/twy/announce/scripts/notify_on_failure.py refresh-jwt /usr/bin/python3 src/refresh_jwt.py...` | Yes | `-` |
-| `0 1 * * *` | `cd /root/twy/announce && /root/twy/announce/scripts/notify_on_failure.py mailchimp-sync ./scripts/run_mailchimp_sync.sh...` | Yes | `-` |
+| `*/5 * * * *` | `cd /root/twy/announce && /usr/bin/python3 src/class_video_notifier.py >> /root/twy/data/logs/class_video_notifier.log 2>...` | No | `/root/twy/data/logs/class_video_notifier.log` |
+| `0 * * * *` | `cd /root/twy/announce && /usr/bin/python3 src/refresh_jwt.py >> logs/jwt_refresh.log 2>&1...` | No | `-` |
+| `0 1 * * *` | `cd /root/twy/announce && ./scripts/run_mailchimp_sync.sh` | No | `-` |
 | `0 13 * * *` | `cd /root/twy/announce && /usr/bin/python3 src/daily_status_report.py >> logs/daily_report.log 2>&1...` | No | `-` |
-| `0 13 28 * *` | `cd /root/twy/classes && /root/twy/announce/scripts/notify_on_failure.py create-next-habit-event /usr/bin/python3 scripts...` | Yes | `/root/twy/data/logs/habit-event.log` |
-| `0 15 * * *` | `cd /root/twy/announce && /root/twy/announce/scripts/notify_on_failure.py track-redemptions /usr/bin/python3 src/track_re...` | Yes | `/root/twy/data/logs/habit_redemptions.log` |
-| `0 17 * * *` | `cd /root/twy/announce && /root/twy/announce/scripts/notify_on_failure.py run-habit-followup /usr/bin/python3 src/run_hab...` | Yes | `/root/twy/data/logs/habit_followup.log` |
-| `0 8 1 * *` | `cd /root/twy/classes && /root/twy/announce/scripts/notify_on_failure.py monthly-series-workflow /usr/bin/python3 scripts...` | Yes | `/root/twy/data/logs/monthly_series.log` |
-| `0 8 7 * *` | `cd /root/twy/classes && /root/twy/announce/scripts/notify_on_failure.py monthly-series-workflow /usr/bin/python3 scripts...` | Yes | `/root/twy/data/logs/monthly_series.log` |
-| `0 9 * * *` | `cd /root/twy/announce && /root/twy/announce/scripts/notify_on_failure.py generate-newsletter-prompts /usr/bin/python3 sr...` | Yes | `/root/twy/data/logs/newsletter_prompts.log` |
-| `0 9 * * 0` | `cd /root/twy/classes && /root/twy/announce/scripts/notify_on_failure.py marvy-sync-weekly /usr/bin/python3 scripts/sync....` | Yes | `/root/twy/data/logs/marvy_sync.log` |
-| `0 9,18 * * *` | `cd /root/twy/announce && /root/twy/announce/scripts/notify_on_failure.py refresh-marvelous-events /usr/bin/python3 scrip...` | Yes | `-` |
-| `30 10 1 * *` | `cd /root/twy/classes && /root/twy/announce/scripts/notify_on_failure.py marvy-sync-monthly /usr/bin/python3 scripts/sync...` | Yes | `/root/twy/data/logs/marvy_sync.log` |
-| `5 7 * * *` | `cd /root/twy/classes && /root/twy/announce/scripts/notify_on_failure.py marvy-sync-daily /usr/bin/python3 scripts/sync.p...` | Yes | `/root/twy/data/logs/marvy_sync.log` |
-| `55 11 * * *` | `cd /root/twy/announce && /root/twy/announce/scripts/notify_on_failure.py mailchimp-subscriber-data /usr/bin/python3 src/...` | Yes | `-` |
+| `0 8 * * *` | `cd /root/twy/classes && /root/twy/announce/scripts/notify_on_failure.py hm-placeholder-topup /usr/bin/python3 scripts/hm...` | Yes | `/root/twy/data/logs/hm_placeholders_cron.log` |
+| `0 9 * * *` | `cd /root/twy/announce && /usr/bin/python3 src/generate_newsletter_prompts.py >> /root/twy/data/logs/newsletter_prompts.l...` | No | `/root/twy/data/logs/newsletter_prompts.log` |
+| `0 9,18 * * *` | `cd /root/twy/announce && /usr/bin/python3 scripts/refresh_marvelous_events.py >> logs/marvelous_sync.log 2>&1...` | No | `-` |
+| `55 11 * * *` | `cd /root/twy/announce && /usr/bin/python3 src/mailchimp_subscriber_data.py >> logs/mailchimp.log 2>&1...` | No | `-` |
 | `55 11 * * *` | `cd /root/twy/announce && ./src/youtube_daily.sh >> logs/youtube.log 2>&1...` | No | `-` |
 
 ## Endpoints
@@ -89,7 +82,6 @@ No endpoints.
 | `YOUTUBE_API_KEY` | Yes | Yes |
 | `YOUTUBE_CHANNEL_ID` | Yes | Yes |
 | `YOUTUBE_HISTORY_DIR` | No | Yes |
-| `YOUTUBE_REMOTE_DEST` | Yes | No |
 
 ## Key Files
 
@@ -100,6 +92,7 @@ No endpoints.
 - `announce/src/class_video_notifier.py` (entry_point)
 - `announce/src/daily_status_report.py` (entry_point)
 - `announce/src/generate_newsletter_prompts.py` (entry_point)
+- `announce/src/historical_active_counts.py` (entry_point)
 - `announce/src/instagram_follower_data.py` (entry_point)
 - `announce/src/mailchimp_subscriber_data.py` (entry_point)
 - `announce/src/refresh_jwt.py` (entry_point)
@@ -137,8 +130,14 @@ No endpoints.
 - 🟠 **HIGH** [undefined_env_vars]: Env var REMINDER_OFFSETS is referenced but never defined in .env
 - 🟠 **HIGH** [undefined_env_vars]: Env var SLACK_CHANNEL is referenced but never defined in .env
 - 🟠 **HIGH** [undefined_env_vars]: Env var YOUTUBE_HISTORY_DIR is referenced but never defined in .env
+- 🟡 **MEDIUM** [missing_failure_wrappers]: Cron job missing failure wrapper: 0 9,18 * * * cd /root/twy/announce && /usr/bin/python3 scripts/refresh_marvelous_events.py >>...
+- 🟡 **MEDIUM** [missing_failure_wrappers]: Cron job missing failure wrapper: 0 * * * * cd /root/twy/announce && /usr/bin/python3 src/refresh_jwt.py >> logs/jwt_refresh...
+- 🟡 **MEDIUM** [missing_failure_wrappers]: Cron job missing failure wrapper: 0 1 * * * cd /root/twy/announce && ./scripts/run_mailchimp_sync.sh
 - 🟡 **MEDIUM** [missing_failure_wrappers]: Cron job missing failure wrapper: 0 13 * * * cd /root/twy/announce && /usr/bin/python3 src/daily_status_report.py >> logs/dai...
+- 🟡 **MEDIUM** [missing_failure_wrappers]: Cron job missing failure wrapper: 55 11 * * * cd /root/twy/announce && /usr/bin/python3 src/mailchimp_subscriber_data.py >> lo...
 - 🟡 **MEDIUM** [missing_failure_wrappers]: Cron job missing failure wrapper: 55 11 * * * cd /root/twy/announce && ./src/youtube_daily.sh >> logs/youtube.log 2>&1
+- 🟡 **MEDIUM** [missing_failure_wrappers]: Cron job missing failure wrapper: */5 * * * * cd /root/twy/announce && /usr/bin/python3 src/class_video_notifier.py >> /root/t...
+- 🟡 **MEDIUM** [missing_failure_wrappers]: Cron job missing failure wrapper: 0 9 * * * cd /root/twy/announce && /usr/bin/python3 src/generate_newsletter_prompts.py >> ...
 - 🟡 **MEDIUM** [duplicate_utilities]: Mailchimp client code duplicated between announce and classes
 - 🟡 **MEDIUM** [duplicate_utilities]: Slack integration duplicated between announce and classes
 - 🔵 **LOW** [orphan_env_vars]: Env var INSTAGRAM_ACCOUNT is defined but never referenced in code
@@ -150,4 +149,3 @@ No endpoints.
 - 🔵 **LOW** [orphan_env_vars]: Env var TRELLO_BOARD_ID is defined but never referenced in code
 - 🔵 **LOW** [orphan_env_vars]: Env var TRELLO_TOKEN is defined but never referenced in code
 - 🔵 **LOW** [orphan_env_vars]: Env var VERNIO_API_KEY is defined but never referenced in code
-- 🔵 **LOW** [orphan_env_vars]: Env var YOUTUBE_REMOTE_DEST is defined but never referenced in code

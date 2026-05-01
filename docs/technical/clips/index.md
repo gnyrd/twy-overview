@@ -60,11 +60,7 @@ Video clip extraction pipeline from class recordings.
 | Variable | Defined | Referenced |
 |----------|---------|------------|
 | `ANTHROPIC_API_KEY` | Yes | Yes |
-| `ASPECT_RATIO` | Yes | No |
-| `CAPTIONED_SUBDIR` | Yes | No |
-| `CLIPS_SUBDIR` | Yes | No |
 | `DASHBOARD_PASS` | Yes | Yes |
-| `EXTRACTED_SUBDIR` | Yes | No |
 | `FLASK_PORT` | Yes | Yes |
 | `FLASK_SECRET_KEY` | Yes | Yes |
 | `OPENAI_API_KEY` | Yes | Yes |
@@ -74,7 +70,6 @@ Video clip extraction pipeline from class recordings.
 | `TWY_CLASSES_DIR` | Yes | No |
 | `TWY_PROJECT_DIR` | Yes | No |
 | `TWY_STATE_DIR` | Yes | Yes |
-| `UNCAPTIONED_SUBDIR` | Yes | No |
 
 ## Key Files
 
@@ -116,17 +111,15 @@ Video clip extraction pipeline from class recordings.
 - `clips/src/yt/__init__.py` (module)
 - `clips/src/yt/state.py` (module)
 - `clips/docs/ig_posting_example/test_slide.py` (test)
+- `clips/tests/test_cleanup_old_class.py` (test)
+- `clips/tests/test_load_class_detail.py` (test)
+- `clips/tests/test_load_class_detail_uncaptioned.py` (test)
 
 ## Lint Findings
 
 - 🟡 **MEDIUM** [missing_failure_wrappers]: Cron job missing failure wrapper: */5 * * * * cd /root/twy/clips && ./src/pipeline/class_recording_watchdog.sh >> logs/watchdo...
-- 🔵 **LOW** [orphan_env_vars]: Env var ASPECT_RATIO is defined but never referenced in code
-- 🔵 **LOW** [orphan_env_vars]: Env var CAPTIONED_SUBDIR is defined but never referenced in code
-- 🔵 **LOW** [orphan_env_vars]: Env var CLIPS_SUBDIR is defined but never referenced in code
-- 🔵 **LOW** [orphan_env_vars]: Env var EXTRACTED_SUBDIR is defined but never referenced in code
 - 🔵 **LOW** [orphan_env_vars]: Env var PARTICIPANTS_FILE is defined but never referenced in code
 - 🔵 **LOW** [orphan_env_vars]: Env var SRT_SUBDIR is defined but never referenced in code
 - 🔵 **LOW** [orphan_env_vars]: Env var THUMBNAIL_SUFFIX is defined but never referenced in code
 - 🔵 **LOW** [orphan_env_vars]: Env var TWY_CLASSES_DIR is defined but never referenced in code
 - 🔵 **LOW** [orphan_env_vars]: Env var TWY_PROJECT_DIR is defined but never referenced in code
-- 🔵 **LOW** [orphan_env_vars]: Env var UNCAPTIONED_SUBDIR is defined but never referenced in code

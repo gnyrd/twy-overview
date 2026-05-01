@@ -14,7 +14,9 @@
 | [clips](clips/index.md) | [paths](paths/index.md) | python_import | cross-project import |
 | [data-viewer](data-viewer/index.md) | [paths](paths/index.md) | python_import | cross-project import |
 | [download](download/index.md) | [paths](paths/index.md) | python_import | cross-project import |
+| [stats](stats/index.md) | [paths](paths/index.md) | python_import | cross-project import |
 | [video-editor](video-editor/index.md) | [paths](paths/index.md) | python_import | cross-project import |
+| [yoga-habit](yoga-habit/index.md) | [paths](paths/index.md) | python_import | cross-project import |
 
 ## Diagram
 
@@ -30,5 +32,7 @@ graph LR
   clips --> paths
   data-viewer --> paths
   download --> paths
+  stats --> paths
   video-editor --> paths
+  yoga-habit --> paths
 ```
