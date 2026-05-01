@@ -5,17 +5,18 @@
 | Tag | Members | Applied by | Classification |
 |-----|---------|------------|----------------|
 | `Status - Lead` | 16 | sync_mailchimp.py | LIVE |
-| `Status - Member` | 32 | sync_mailchimp.py | LIVE |
+| `Status - Member` | 34 | sync_mailchimp.py | LIVE |
 | `Status - Member Canceled` | 0 | - | DEAD |
 | `Status - TWY Archive - Canceled` | 1 | sync_mailchimp.py | LIVE |
 | `Status - Yoga Lifestyle - Canceled` | 3 | sync_mailchimp.py | LIVE |
 
-## MEMBERSHIP (2)
+## MEMBERSHIP (3)
 
 | Tag | Members | Applied by | Classification |
 |-----|---------|------------|----------------|
 | `Membership - TWY Archive` | 7 | sync_mailchimp.py | LIVE |
-| `Membership - Yoga Lifestyle` | 27 | sync_mailchimp.py | LIVE |
+| `Membership - Yoga Lifestyle` | 29 | sync_mailchimp.py | LIVE |
+| `Membership – Yoga Lifestyle` | 1 | sync_mailchimp.py | LIVE |
 
 ## ROLE (2)
 

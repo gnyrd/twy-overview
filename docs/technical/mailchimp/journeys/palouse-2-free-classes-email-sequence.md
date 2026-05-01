@@ -1,7 +1,7 @@
 # Palouse 2 free classes email sequence
 
 **Classification**: ZOMBIE
-**Why**: Status=sending but last enrollment 306 days ago (stale)
+**Why**: Status=sending but last enrollment 320 days ago (stale)
 
 ## Trigger
 

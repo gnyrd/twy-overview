@@ -26,6 +26,7 @@ Yoga Habit landing page, Flask app on port 5008.
 
 ## Dependencies
 
+- **Imports from**: [paths](../paths/index.md)
 - **Pip packages**: Flask==3.1.0, geoip2==4.8.0, pytest==8.3.5, requests==2.32.3
 
 ## Environment Variables

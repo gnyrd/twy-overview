@@ -1,7 +1,7 @@
 # Palouse 2025 Welcome Email
 
 **Classification**: ZOMBIE
-**Why**: Status=sending but last enrollment 369 days ago (stale)
+**Why**: Status=sending but last enrollment 383 days ago (stale)
 
 ## Trigger
 
