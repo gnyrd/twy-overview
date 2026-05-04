@@ -14,6 +14,11 @@ No service configured.
 | `0 * * * *` | `cd /root/twy/announce && /usr/bin/python3 src/refresh_jwt.py >> logs/jwt_refresh.log 2>&1...` | No | `-` |
 | `0 1 * * *` | `cd /root/twy/announce && ./scripts/run_mailchimp_sync.sh` | No | `-` |
 | `0 13 * * *` | `cd /root/twy/announce && /usr/bin/python3 src/daily_status_report.py >> logs/daily_report.log 2>&1...` | No | `-` |
+| `0 14 1 * *` | `cd /root/twy/announce && /root/twy/announce/scripts/notify_on_failure.py monthly_campaigns /usr/bin/python3 src/run_camp...` | Yes | `/root/twy/data/logs/run_campaigns.log` |
+| `0 16 * * *` | `/root/twy/announce/scripts/notify_on_failure.py plan-versions-cleanup /usr/bin/python3 /root/twy/classes/scripts/cleanup...` | Yes | `/root/twy/data/logs/plan_versions_cleanup.log` |
+| `0 17 * * *` | `/root/twy/announce/scripts/notify_on_failure.py campaign-send-check /usr/bin/python3 /root/twy/announce/src/verify_campa...` | Yes | `/root/twy/data/logs/verify_campaign_sent.log` |
+| `0 18 * * *` | `cd /root/twy/announce && /root/twy/announce/scripts/notify_on_failure.py habit_followup /usr/bin/python3 src/run_habit_f...` | Yes | `/root/twy/data/logs/habit_followup.log` |
+| `0 5 * * *` | `/root/twy/announce/scripts/notify_on_failure.py plans-rsync-mini /root/twy/classes/scripts/rsync_plans_to_mini.sh >> /ro...` | Yes | `/root/twy/data/logs/plans_rsync_mini.log` |
 | `0 8 * * *` | `cd /root/twy/classes && /root/twy/announce/scripts/notify_on_failure.py hm-placeholder-topup /usr/bin/python3 scripts/hm...` | Yes | `/root/twy/data/logs/hm_placeholders_cron.log` |
 | `0 9 * * *` | `cd /root/twy/announce && /usr/bin/python3 src/generate_newsletter_prompts.py >> /root/twy/data/logs/newsletter_prompts.l...` | No | `/root/twy/data/logs/newsletter_prompts.log` |
 | `0 9,18 * * *` | `cd /root/twy/announce && /usr/bin/python3 scripts/refresh_marvelous_events.py >> logs/marvelous_sync.log 2>&1...` | No | `-` |
@@ -100,6 +105,7 @@ No endpoints.
 - `announce/src/run_habit_followup.py` (entry_point)
 - `announce/src/sync_mailchimp.py` (entry_point)
 - `announce/src/track_redemptions.py` (entry_point)
+- `announce/src/verify_campaign_sent.py` (entry_point)
 - `announce/src/youtube_subscriber_data.py` (entry_point)
 - `announce/scripts/analyze_extra_has_recurring.py` (module)
 - `announce/scripts/compare_sync_accuracy.py` (module)

@@ -7,12 +7,12 @@
 
 ## ZOMBIE (6)
 
-- [FINAL Palouse 2025 Registration Email Sequence](journeys/final-palouse-2025-registration-email-sequence) (ID 6057) -- Status=sending but last enrollment 320 days ago (stale)
-- [Optimal Blueprint Series](journeys/optimal-blueprint-series) (ID 3921) -- Status=sending but last enrollment 807 days ago (stale)
-- [Palouse 2 free classes email sequence](journeys/palouse-2-free-classes-email-sequence) (ID 6060) -- Status=sending but last enrollment 320 days ago (stale)
-- [Palouse 2025 Welcome Email](journeys/palouse-2025-welcome-email) (ID 6032) -- Status=sending but last enrollment 383 days ago (stale)
-- [Retreat Info – Auto Send](journeys/retreat-info-auto-send) (ID 6059) -- Status=sending but last enrollment 317 days ago (stale)
-- [YLM AD Campaign Sign Up](journeys/ylm-ad-campaign-sign-up) (ID 4635) -- Status=sending but last enrollment 260 days ago (stale)
+- [FINAL Palouse 2025 Registration Email Sequence](journeys/final-palouse-2025-registration-email-sequence) (ID 6057) -- Status=sending but last enrollment 324 days ago (stale)
+- [Optimal Blueprint Series](journeys/optimal-blueprint-series) (ID 3921) -- Status=sending but last enrollment 811 days ago (stale)
+- [Palouse 2 free classes email sequence](journeys/palouse-2-free-classes-email-sequence) (ID 6060) -- Status=sending but last enrollment 324 days ago (stale)
+- [Palouse 2025 Welcome Email](journeys/palouse-2025-welcome-email) (ID 6032) -- Status=sending but last enrollment 387 days ago (stale)
+- [Retreat Info – Auto Send](journeys/retreat-info-auto-send) (ID 6059) -- Status=sending but last enrollment 321 days ago (stale)
+- [YLM AD Campaign Sign Up](journeys/ylm-ad-campaign-sign-up) (ID 4635) -- Status=sending but last enrollment 264 days ago (stale)
 
 ## PAUSED (9)
 

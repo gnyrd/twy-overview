@@ -14,6 +14,11 @@ All times shown as cron expressions (server runs in UTC; MT = UTC-6/UTC-7).
 | `0 10 1 * *` | [yoga-habit](yoga-habit/index.md) | /root/twy/yoga-habit/scripts/refresh_geolite2.sh >> /root/twy/data/logs/geolite2_refresh.log 2>&1 | ❌ | `/root/twy/data/logs/geolite2_refresh.log` |
 | `0 13 * * *` | [announce](announce/index.md) | cd /root/twy/announce && /usr/bin/python3 src/daily_status_report.py >> logs/daily_report.log 2>&1 | ❌ | - |
 | `0 13 28 * *` | [classes](classes/index.md) | cd /root/twy/classes && /usr/bin/python3 scripts/create_next_habit_event.py >> /root/twy/data/logs/habit-event.log 2>&1 | ❌ | `/root/twy/data/logs/habit-event.log` |
+| `0 14 1 * *` | [announce](announce/index.md) | cd /root/twy/announce && /root/twy/announce/scripts/notify_on_failure.py monthly_campaigns /usr/bin/python3 src/run_camp | ✅ | `/root/twy/data/logs/run_campaigns.log` |
+| `0 16 * * *` | [announce](announce/index.md) | /root/twy/announce/scripts/notify_on_failure.py plan-versions-cleanup /usr/bin/python3 /root/twy/classes/scripts/cleanup | ✅ | `/root/twy/data/logs/plan_versions_cleanup.log` |
+| `0 17 * * *` | [announce](announce/index.md) | /root/twy/announce/scripts/notify_on_failure.py campaign-send-check /usr/bin/python3 /root/twy/announce/src/verify_campa | ✅ | `/root/twy/data/logs/verify_campaign_sent.log` |
+| `0 18 * * *` | [announce](announce/index.md) | cd /root/twy/announce && /root/twy/announce/scripts/notify_on_failure.py habit_followup /usr/bin/python3 src/run_habit_f | ✅ | `/root/twy/data/logs/habit_followup.log` |
+| `0 5 * * *` | [announce](announce/index.md) | /root/twy/announce/scripts/notify_on_failure.py plans-rsync-mini /root/twy/classes/scripts/rsync_plans_to_mini.sh >> /ro | ✅ | `/root/twy/data/logs/plans_rsync_mini.log` |
 | `0 8 * * *` | [download](download/index.md) | cd /root/twy/download && /usr/bin/python3 src/dianes_upload_privates.py >> ../data/logs/dianes_upload.log 2>&1 | ❌ | - |
 | `0 8 * * *` | [announce](announce/index.md) | cd /root/twy/classes && /root/twy/announce/scripts/notify_on_failure.py hm-placeholder-topup /usr/bin/python3 scripts/hm | ✅ | `/root/twy/data/logs/hm_placeholders_cron.log` |
 | `0 8 1 * *` | [classes](classes/index.md) | cd /root/twy/classes && /usr/bin/python3 scripts/monthly_series_workflow.py >> /root/twy/data/logs/monthly_series.log 2> | ❌ | `/root/twy/data/logs/monthly_series.log` |

@@ -4,7 +4,7 @@ SQL query builder for HeyMarvelous data.
 
 ## Service
 
-- **Status**: activating (auto-restart)
+- **Status**: active (running)
 - **Systemd unit**: `data-viewer`
 - **Port**: 5007
 
@@ -46,4 +46,4 @@ No cron jobs.
 
 ## Lint Findings
 
-- 🟠 **HIGH** [broken_services]: Service data-viewer is activating (auto-restart)
+No lint findings.

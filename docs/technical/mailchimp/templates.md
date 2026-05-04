@@ -3,7 +3,7 @@
 | ID | Name | Uses | Last used | Classification |
 |----|------|------|-----------|----------------|
 | 10576418 | Weekly Mailing Template | 9 | 2025-11-26 | HISTORICAL |
-| 10576833 | TWY Newsletter - Blue | 7 | 2026-05-01 | LIVE |
+| 10576833 | TWY Newsletter - Blue | 8 | 2026-05-01 | LIVE |
 | 1831 | Mexico Retreat Template: Short | 2 | 2023-01-11 | DEAD |
 | 4775 | Mexico Welcome Email | 2 | 2023-03-03 | DEAD |
 | 1868 | Mexico Retreat Template: Medium | 0 | - | DEAD |

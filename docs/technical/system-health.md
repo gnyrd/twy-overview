@@ -4,7 +4,7 @@
 
 | Service | Project | Unit | Status |
 |---------|---------|------|--------|
-| data-viewer | [data-viewer](data-viewer/index.md) | `data-viewer` | ❓ activating (auto-restart) |
+| data-viewer | [data-viewer](data-viewer/index.md) | `data-viewer` | ✅ active (running) |
 | twy-class-dashboard | [classes](classes/index.md) | `twy-class-dashboard` | ✅ active (running) |
 | twy-clips-dashboard | [clips](clips/index.md) | `twy-clips-dashboard` | ✅ active (running) |
 | twy-docs | [overview](overview/index.md) | `twy-docs` | ✅ active (running) |
@@ -14,9 +14,8 @@
 
 ## Lint Findings
 
-### 🟠 HIGH (42)
+### 🟠 HIGH (41)
 
-- **broken_services** ([data-viewer](data-viewer/index.md)): Service data-viewer is activating (auto-restart)
 - **undefined_env_vars** ([classes](classes/index.md)): Env var API_TOKEN is referenced but never defined in .env
 - **undefined_env_vars** ([marvy](marvy/index.md)): Env var API_TOKEN is referenced but never defined in .env
 - **undefined_env_vars** ([overview](overview/index.md)): Env var DOCS_DIR is referenced but never defined in .env
@@ -65,12 +64,12 @@
 - **duplicate_utilities** ([announce](announce/index.md)): Slack integration duplicated between announce and classes
 - **mc_duplicate_journey_name** (system): Multiple journeys named 'Welcome new contacts' (IDs: 4659,6126)
 - **mc_near_duplicate_tag** (system): Near-duplicate tags (likely hyphen vs em-dash): 'Membership - Yoga Lifestyle'(29), 'Membership – Yoga Lifestyle'(1). Canonical form: 'Membership - Yoga Lifestyle'
-- **mc_zombie_journey** (system): Journey 'Optimal Blueprint Series' (ID 3921): Status=sending but last enrollment 807 days ago (stale)
-- **mc_zombie_journey** (system): Journey 'YLM AD Campaign Sign Up' (ID 4635): Status=sending but last enrollment 260 days ago (stale)
-- **mc_zombie_journey** (system): Journey 'Palouse 2025 Welcome Email' (ID 6032): Status=sending but last enrollment 383 days ago (stale)
-- **mc_zombie_journey** (system): Journey 'FINAL Palouse 2025 Registration Email Sequence' (ID 6057): Status=sending but last enrollment 320 days ago (stale)
-- **mc_zombie_journey** (system): Journey 'Retreat Info – Auto Send' (ID 6059): Status=sending but last enrollment 317 days ago (stale)
-- **mc_zombie_journey** (system): Journey 'Palouse 2 free classes email sequence' (ID 6060): Status=sending but last enrollment 320 days ago (stale)
+- **mc_zombie_journey** (system): Journey 'Optimal Blueprint Series' (ID 3921): Status=sending but last enrollment 811 days ago (stale)
+- **mc_zombie_journey** (system): Journey 'YLM AD Campaign Sign Up' (ID 4635): Status=sending but last enrollment 264 days ago (stale)
+- **mc_zombie_journey** (system): Journey 'Palouse 2025 Welcome Email' (ID 6032): Status=sending but last enrollment 387 days ago (stale)
+- **mc_zombie_journey** (system): Journey 'FINAL Palouse 2025 Registration Email Sequence' (ID 6057): Status=sending but last enrollment 324 days ago (stale)
+- **mc_zombie_journey** (system): Journey 'Retreat Info – Auto Send' (ID 6059): Status=sending but last enrollment 321 days ago (stale)
+- **mc_zombie_journey** (system): Journey 'Palouse 2 free classes email sequence' (ID 6060): Status=sending but last enrollment 324 days ago (stale)
 - **missing_failure_wrappers** ([download](download/index.md)): Cron job missing failure wrapper: 15,45 * * * * cd /root/twy/download && /usr/bin/python3 src/zoom/zoom_download.py --days-back ...
 - **missing_failure_wrappers** ([announce](announce/index.md)): Cron job missing failure wrapper: 0 9,18 * * * cd /root/twy/announce && /usr/bin/python3 scripts/refresh_marvelous_events.py >>...
 - **missing_failure_wrappers** ([clips](clips/index.md)): Cron job missing failure wrapper: */5 * * * * cd /root/twy/clips && ./src/pipeline/class_recording_watchdog.sh >> logs/watchdo...
@@ -115,11 +114,11 @@
 - **mc_orphan_tag** (system): Tag 'Blitz – Dec 2025 – Yoga Lifestyle – Responded' (ID 3018802) has 0 members
 - **mc_orphan_tag** (system): Tag 'YLM Ad Hoc' (ID 3018913) has 0 members
 - **mc_orphan_tag** (system): Tag 'Status - Member Canceled' (ID 3018914) has 0 members
-- **mc_unused_template** (system): Template 'Mexico Retreat Template: Short' (ID 1831): Last used 1204 days ago
+- **mc_unused_template** (system): Template 'Mexico Retreat Template: Short' (ID 1831): Last used 1208 days ago
 - **mc_unused_template** (system): Template 'Mexico Retreat Template: Medium' (ID 1868): Never used
 - **mc_unused_template** (system): Template 'Mexico Retreat Template: Long' (ID 1870): Never used
 - **mc_unused_template** (system): Template '2023 Newsletter Template' (ID 2845): Never used
-- **mc_unused_template** (system): Template 'Mexico Welcome Email' (ID 4775): Last used 1153 days ago
+- **mc_unused_template** (system): Template 'Mexico Welcome Email' (ID 4775): Last used 1158 days ago
 - **mc_unused_template** (system): Template 'March 2023 Series Promo with Playable Video' (ID 5125): Never used
 - **orphan_env_vars** (system): Env var INSTAGRAM_ACCOUNT is defined but never referenced in code
 - **orphan_env_vars** ([announce](announce/index.md)): Env var INSTAGRAM_ACCOUNT is defined but never referenced in code

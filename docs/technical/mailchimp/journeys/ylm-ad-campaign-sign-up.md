@@ -1,7 +1,7 @@
 # YLM AD Campaign Sign Up
 
 **Classification**: ZOMBIE
-**Why**: Status=sending but last enrollment 260 days ago (stale)
+**Why**: Status=sending but last enrollment 264 days ago (stale)
 
 ## Trigger
 

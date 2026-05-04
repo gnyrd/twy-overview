@@ -67,6 +67,7 @@ Class plan dashboard, Tweee API, Flask web app on port 5003.
 ## Key Files
 
 - `classes/dashboard/app.py` (entry_point)
+- `classes/scripts/cleanup_plan_versions.py` (entry_point)
 - `classes/scripts/create_from_template.py` (entry_point)
 - `classes/scripts/create_next_habit_event.py` (entry_point)
 - `classes/scripts/duplicate_recordings.py` (entry_point)
@@ -88,10 +89,12 @@ Class plan dashboard, Tweee API, Flask web app on port 5003.
 - `classes/dashboard/tests/__init__.py` (module)
 - `classes/dashboard/views.py` (module)
 - `classes/scripts/create_habit_events.py` (module)
+- `classes/scripts/tests/__init__.py` (module)
 - `classes/dashboard/tests/test_data_write_plan.py` (test)
 - `classes/dashboard/tests/test_newsletter.py` (test)
 - `classes/dashboard/tests/test_newsletter_prompt.py` (test)
 - `classes/dashboard/tests/test_plan_versions.py` (test)
+- `classes/scripts/tests/test_cleanup_plan_versions.py` (test)
 
 ## Lint Findings
 

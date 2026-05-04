@@ -1,7 +1,7 @@
 # Retreat Info – Auto Send
 
 **Classification**: ZOMBIE
-**Why**: Status=sending but last enrollment 317 days ago (stale)
+**Why**: Status=sending but last enrollment 321 days ago (stale)
 
 ## Trigger
 

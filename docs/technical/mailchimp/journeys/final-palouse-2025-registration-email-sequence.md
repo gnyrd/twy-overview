@@ -1,7 +1,7 @@
 # FINAL Palouse 2025 Registration Email Sequence
 
 **Classification**: ZOMBIE
-**Why**: Status=sending but last enrollment 320 days ago (stale)
+**Why**: Status=sending but last enrollment 324 days ago (stale)
 
 ## Trigger
 

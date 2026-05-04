@@ -4,7 +4,7 @@
 
 | Tag | Members | Applied by | Classification |
 |-----|---------|------------|----------------|
-| `Status - Lead` | 16 | sync_mailchimp.py | LIVE |
+| `Status - Lead` | 15 | sync_mailchimp.py | LIVE |
 | `Status - Member` | 34 | sync_mailchimp.py | LIVE |
 | `Status - Member Canceled` | 0 | - | DEAD |
 | `Status - TWY Archive - Canceled` | 1 | sync_mailchimp.py | LIVE |
@@ -25,18 +25,19 @@
 | `Role - Admin` | 2 | sync_mailchimp.py | LIVE |
 | `Role - Owner` | 1 | sync_mailchimp.py | LIVE |
 
-## HABIT (2)
+## HABIT (3)
 
 | Tag | Members | Applied by | Classification |
 |-----|---------|------------|----------------|
-| `Yoga Habit - 2026-04` | 23 | - | LIVE |
-| `Yoga Habit - 2026-04 - Redeemed` | 7 | - | LIVE |
+| `Yoga Habit - 2026-04` | 23 | - | HISTORICAL |
+| `Yoga Habit - 2026-04 - Redeemed` | 7 | - | HISTORICAL |
+| `Yoga Habit - 2026-05` | 1 | - | LIVE |
 
 ## SOURCE (1)
 
 | Tag | Members | Applied by | Classification |
 |-----|---------|------------|----------------|
-| `Source - Website Footer` | 16 | - | LIVE |
+| `Source - Website Footer` | 15 | - | LIVE |
 
 ## LEGACY (113)
 
@@ -62,28 +63,28 @@
 | `Campaign Pasted Segment - 18 Apr 2023 12:49:48 pm` | 1 | - | ZOMBIE |
 | `Campaign Pasted Segment - 18 Apr 2023 12:52:58 pm` | 1 | - | ZOMBIE |
 | `Campaign Pasted Segment - 19 Jul 2024 03:59:58 pm` | 0 | - | DEAD |
-| `Constant Contact` | 579 | - | ZOMBIE |
+| `Constant Contact` | 578 | - | ZOMBIE |
 | `Durga Master Class` | 18 | - | ZOMBIE |
 | `Europe` | 3 | - | ZOMBIE |
 | `Event - Jan 3 2025 Free Class` | 34 | - | ZOMBIE |
-| `Foundations of Anusara Yoga - Four Class Series` | 192 | - | ZOMBIE |
+| `Foundations of Anusara Yoga - Four Class Series` | 190 | - | ZOMBIE |
 | `Foundations of Anusara Yoga - Four Class Series API` | 69 | - | ZOMBIE |
 | `Foundations of Anusara Yoga - Four Class Series Btests` | 0 | - | DEAD |
 | `Free - Memory Meditation` | 1 | - | ZOMBIE |
-| `Free Class` | 99 | - | ZOMBIE |
+| `Free Class` | 98 | - | ZOMBIE |
 | `Free Course Members` | 0 | - | DEAD |
 | `Free – Violet Flame Meditation` | 2 | - | ZOMBIE |
 | `Ganesha Master Class` | 19 | - | ZOMBIE |
 | `Goddess Series Participants 30 hour Online  2021` | 8 | - | ZOMBIE |
 | `Guru of You` | 2 | - | ZOMBIE |
-| `Hey Marvelous` | 97 | - | ZOMBIE |
+| `Hey Marvelous` | 96 | - | ZOMBIE |
 | `Immersion 100 hr 2020` | 9 | - | ZOMBIE |
 | `Joseph 2018` | 12 | - | ZOMBIE |
 | `Joseph 2019` | 29 | - | ZOMBIE |
-| `Joseph 2021` | 10 | - | ZOMBIE |
+| `Joseph 2021` | 9 | - | ZOMBIE |
 | `Joseph 2022` | 12 | - | ZOMBIE |
 | `Joseph Administrators` | 3 | - | ZOMBIE |
-| `Joseph Master List` | 50 | - | ZOMBIE |
+| `Joseph Master List` | 49 | - | ZOMBIE |
 | `Kali Master Class` | 9 | - | ZOMBIE |
 | `Kripalu` | 0 | - | DEAD |
 | `Kripalu 2017` | 2 | - | ZOMBIE |
@@ -110,7 +111,7 @@
 | `Online Yoga Students 2021-22` | 86 | - | ZOMBIE |
 | `Optimal Blueprint Series` | 2 | - | ZOMBIE |
 | `Palouse 2024 Registrants` | 17 | - | ZOMBIE |
-| `Palouse Yoga Retreat Promo Email 2024` | 145 | - | ZOMBIE |
+| `Palouse Yoga Retreat Promo Email 2024` | 144 | - | ZOMBIE |
 | `Park City` | 61 | - | ZOMBIE |
 | `Product - Members Favorites` | 8 | - | ZOMBIE |
 | `Product – ClassCard 10` | 1 | - | ZOMBIE |
@@ -125,8 +126,8 @@
 | `Shiva/Shakti Master Class` | 11 | - | ZOMBIE |
 | `Special` | 26 | - | ZOMBIE |
 | `Spring Cleanse 2025` | 2 | - | ZOMBIE |
-| `Summer Solstice 2025` | 23 | - | ZOMBIE |
-| `TWY Archive` | 7 | - | ZOMBIE |
+| `Summer Solstice 2025` | 22 | - | ZOMBIE |
+| `TWY Archive` | 6 | - | ZOMBIE |
 | `TYC (all)` | 11 | - | ZOMBIE |
 | `TYC Chakra Workshop` | 2 | - | ZOMBIE |
 | `TYC IMM` | 4 | - | ZOMBIE |
