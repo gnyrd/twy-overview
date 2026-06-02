@@ -13,9 +13,9 @@ import os
 import subprocess
 from datetime import datetime, timezone
 from pathlib import Path
-from dotenv import load_dotenv
+from twy_paths import load_env
 
-load_dotenv()
+load_env()
 
 import markdown
 from flask import Flask, render_template, abort, request, jsonify

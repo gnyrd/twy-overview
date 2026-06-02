@@ -11,10 +11,10 @@ Everything happens automatically after your Zoom class ends.
 
 ## Private sessions
 
-Private sessions with Diane are handled separately:
+Private-client sessions are handled separately:
 - Downloaded automatically from Zoom.
-- Uploaded to SharePoint daily.
-- Cleaned up after 7 days.
+- Uploaded to each client's Google Drive folder daily.
+- Cleaned up locally after 7 days.
 
 ## What you need to do
 
