@@ -222,4 +222,4 @@ def webhook_deploy():
 if __name__ == "__main__":
     print(f"{SITE_TITLE} on port {PORT}")
     print(f"Docs: {DOCS_DIR}")
-    app.run(host="127.0.0.1", port=PORT, debug=False, use_reloader=True)
+    app.run(host="127.0.0.1", port=PORT, debug=True, use_reloader=True)
