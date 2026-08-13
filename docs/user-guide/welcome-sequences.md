@@ -8,7 +8,7 @@ Open [https://classes.tiffanywoodyoga.com/journeys](https://classes.tiffanywoody
 
 ## What is built and what is not
 
-You can write, edit and preview a sequence now, and the system records who should receive it. **The sending part is not built yet**, so no sequence email has gone to anybody. JP will tell you when that is live. Until then a sequence sitting On is collecting its list, not mailing it.
+You can write, edit and preview a sequence, and the sending is now built and running: the system checks every fifteen minutes for anybody who is due an email and sends it. Nothing has gone to anybody yet, because the one sequence that exists is off.
 
 ## The one sequence that exists
 
@@ -39,6 +39,28 @@ Editing the wording of an email changes what everybody still waiting for that em
 ## One thing to know about punctuation
 
 Saving a sequence converts em-dashes to commas, which is the house rule for every TWY email. Colons, apostrophes and emoji come through exactly as you typed them.
+
+## Seeing what it has done
+
+Open a sequence and the top right of the page shows what has actually happened, without you asking anybody.
+
+**Entered** is how many people have ever started this sequence. Under it, one line per email shows how many were sent and how many were opened. A **zero in the sent column shows in red**. That is the number worth looking at: if people are entering and an email reads zero sent, that email is not going out.
+
+Opened is a floor, not a count. Apple Mail and other privacy features hide the open from us, so the real number is always at least what you see and usually higher. Sent is exact.
+
+## Who is where
+
+Below that, **Activity** lists people in three groups. Each line reads the same way: how far they got, then what is next or what happened. Click anybody to see every email they were sent, the day it went, and whether they opened or clicked it.
+
+- **Active** is still going. `2 of 8, #3 due Aug 14` means they have had two emails and the third is due on the fourteenth.
+- **Stopped** is the group worth a look. It gives the reason in plain words: **unsubscribed** means they chose to leave, and you leave that alone. **Bounced** means their mail server said there is no such address. **Blocked** means their mail server refused it for its own reasons, which is often temporary and not about them. **Invalid** means the address itself does not work.
+- **Completed** received all of it. Nothing to do.
+
+An empty Activity means nobody has entered, not that something failed. The page says which.
+
+## What is not on that page yet
+
+Somebody who cancels their membership partway through still receives the rest of the sequence, because a cancelled monthly membership still has two to four weeks of access left. There is no cancelled group for that reason. If you want cancelling to stop the emails, tell JP and it becomes a rule.
 
 ## What you need to do
 
