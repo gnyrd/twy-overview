@@ -8,11 +8,37 @@ Open [https://classes.tiffanywoodyoga.com/journeys](https://classes.tiffanywoody
 
 ## What is built and what is not
 
-You can write, edit and preview a sequence, and the sending is now built and running: the system checks every fifteen minutes for anybody who is due an email and sends it. Nothing has gone to anybody yet, because the one sequence that exists is off.
+You can write, edit and preview a sequence, and the sending is built and running: the system checks every fifteen minutes for anybody who is due an email and sends it. What each sequence has actually done is below, read live from the system every time this page is generated.
 
-## The one sequence that exists
+## The sequences that exist
 
-**Journey: Yoga Lifestyle: 2024_05** holds the eight welcome emails you wrote in May 2024, brought over from MailChimp. It is currently **off**.
+**Campaign: Transitions: 2026_09** is currently **off**.
+
+So far **0** people have entered it.
+
+Sent so far, one line per email:
+
+- Email 1 (A free class to meet the season: Transitions, Sept 12): 0 sent
+- Email 2 (This Saturday: your pause is waiting 🧘‍♀️): 0 sent
+- Email 3 (You paused with us. Here's what comes next 🌱): 0 sent
+- Email 4 (Not just classes. A place to keep coming home.): 0 sent
+- Email 5 ("I don't have time for yoga." Read this.): 0 sent
+- Email 6 (The $49 first month closes tomorrow): 0 sent
+
+**Journey: Yoga Lifestyle: 2024_05** is currently **on**.
+
+So far **2** people have entered it.
+
+Sent so far, one line per email:
+
+- Email 1 (TWY: Welcome to Your Yoga Lifestyle Journey 🌟): 2 sent
+- Email 2 (TWY: Setting Up Your Ideal Yoga Space 🧘): 2 sent
+- Email 3 (TWY: Align Your Space with Your Practice 🌄): 2 sent
+- Email 4 (TWY: Dive Deeper into Anusara Yoga’s Alignment Principles ✨): 2 sent
+- Email 5 (TWY: Customize How You Learn Best 🎓): 2 sent
+- Email 6 (TWY: Let's Chat About You 🌊): 2 sent
+- Email 7 (TWY: Planning Your Ideal Yoga Schedule 📅): 0 sent
+- Email 8 (TWY: Congratulations on Your First Week! 🎉): 0 sent
 
 ## Turning one on
 

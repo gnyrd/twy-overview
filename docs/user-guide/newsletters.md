@@ -54,7 +54,7 @@ Both emails include the monthly coupon code (format: `HABIT_MONYYYY`, e.g., `HAB
 
 ## Automation
 
-The `run_habit_followup.py` cron job runs every day at 11am MT. It checks whether today is a Yoga Habit class day. If yes, it creates and schedules PH1 and PH2 in MailChimp. If no, it exits.
+The `run_habit_followup.py` cron job runs every day at 11am MT. It checks whether today is a Yoga Habit class day. If yes, it creates and schedules PH1 and PH2. If no, it exits.
 
 ## What you need to do
 

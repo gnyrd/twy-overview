@@ -7,6 +7,7 @@ Quick answers to common questions about the TWY systems.
 | Create or edit a class plan | [Class Plans](class-plans) |
 | Understand the newsletter process | [Newsletters](newsletters) |
 | See how welcome sequences work | [Welcome Sequences](welcome-sequences) |
+| Build a campaign to an audience | [Campaigns](campaigns) |
 | See how class recordings get processed | [Video Recordings](video-recordings) |
 | Check on the Yoga Habit page | [Yoga Habit](yoga-habit) |
 | Edit the monthly overview | [Monthly Overview](monthly-overview) |

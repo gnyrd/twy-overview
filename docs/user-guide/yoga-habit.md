@@ -2,7 +2,7 @@
 
 ## The page
 
-Visit [https://habit.tiffanywoodyoga.com](https://habit.tiffanywoodyoga.com) to see the public landing page for the monthly free class.
+Visit [https://go.tiffanywoodyoga.com](https://go.tiffanywoodyoga.com) to see the public landing page for the monthly free class.
 
 ## What visitors see
 
@@ -30,4 +30,4 @@ This shows registration trends, where visitors come from, and which buttons are 
 
 Nothing for the page itself. It updates automatically based on the next scheduled Habit event.
 
-The [go.tiffanywoodyoga.com](https://go.tiffanywoodyoga.com) URL also points here. This is what the MailChimp logo links to.
+The [go.tiffanywoodyoga.com](https://go.tiffanywoodyoga.com) URL also points here. This is what the logo in the marketing emails links to.
