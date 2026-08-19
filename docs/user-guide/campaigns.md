@@ -55,6 +55,10 @@ Each email carries an **Approved** box in its editor. Tick it and save to approv
 
 The campaign page shows the running count, like **1 of 3 approved**, and each email reads **Approved** or **Needs approval**. A campaign can be launched only once the **whole set** is approved, not one email at a time. Until every email is approved, the launch button is replaced by a note saying how many are left.
 
+## Seeing what it has sent
+
+A campaign page has a **Sent history** section listing every month the campaign has ever sent, with each email's sent, opened and clicked. This reaches back before the new system: the monthly Yoga Habit and Yoga Lifestyle mailings that went out through the old setup show here too, so nothing is lost in the switch-over. Opened counts people, not the automatic scans some mail apps do, so it is a floor and the true number is a little higher. Sent is those actually delivered.
+
 ## One thing to know about punctuation
 
 Saving converts em-dashes to commas, the house rule for every TWY email and name. Colons, apostrophes and emoji come through exactly as you typed them.

@@ -25,6 +25,22 @@ Sent so far, one line per email:
 - Email 5 ("I don't have time for yoga." Read this.): 0 sent
 - Email 6 (The $49 first month closes tomorrow): 0 sent
 
+**Campaign: Yoga Habit: 2026_08** is currently **off**.
+
+So far **0** people have entered it.
+
+Sent so far, one line per email:
+
+- Email 1 (Draft: fill this in): 0 sent
+
+**Campaign: Yoga Lifestyle: 2026_08** is currently **off**.
+
+So far **0** people have entered it.
+
+Sent so far, one line per email:
+
+- Email 1 (Draft: fill this in): 0 sent
+
 **Journey: Yoga Lifestyle: 2024_05** is currently **on**.
 
 So far **2** people have entered it.
