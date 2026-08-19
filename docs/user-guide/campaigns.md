@@ -49,13 +49,19 @@ An anchored email hangs on one of two points and shifts by a number of days: **t
 
 A campaign email anchored to the class date cannot work out its own date until that month's class plans exist. Your class plans stay the single source everything else follows. The campaign only removes the manual step of retyping the copy; it never authors a class for you.
 
+## Approving a campaign
+
+Each email carries an **Approved** box in its editor. Tick it and save to approve that email's copy. Any later save without the box ticked clears the approval, because the copy just changed and a stale approval must not carry to words you have not signed off.
+
+The campaign page shows the running count, like **1 of 3 approved**, and each email reads **Approved** or **Needs approval**. A campaign can be launched only once the **whole set** is approved, not one email at a time. Until every email is approved, the launch button is replaced by a note saying how many are left.
+
 ## One thing to know about punctuation
 
 Saving converts em-dashes to commas, the house rule for every TWY email and name. Colons, apostrophes and emoji come through exactly as you typed them.
 
 ## What you need to do
 
-Write and edit the copy, set each email's audience, condition and resend. JP reviews the finished campaign, launches it, and handles the switch-over from the current newsletter system.
+Write and edit the copy, set each email's audience, condition and resend, and approve each email. JP launches the approved campaign and handles the switch-over from the current newsletter system.
 
 ## If something breaks
 
