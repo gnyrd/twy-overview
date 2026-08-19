@@ -55,6 +55,14 @@ Each email carries an **Approved** box in its editor. Tick it and save to approv
 
 The campaign page shows the running count, like **1 of 3 approved**, and each email reads **Approved** or **Needs approval**. A campaign can be launched only once the **whole set** is approved, not one email at a time. Until every email is approved, the launch button is replaced by a note saying how many are left.
 
+## When a campaign actually sends
+
+A **one-time** campaign, like a seasonal series, is launched by hand: JP reviews exactly what it would schedule and confirms.
+
+A **monthly** campaign launches itself. Once it is On and every email is approved, the system sends it each month on its own, on the dates each email is anchored to, with no button to press. The campaign page says so in place of the launch button. Nothing sends until it is both On and fully approved, so an unfinished monthly campaign sits quietly.
+
+One piece is not built yet: the email carrying the class recording waits for the recording to be attached to its free product before it may send. That check is not automated, so for now that one email holds and the recording goes out the old way until it is wired. Every other email in the campaign sends normally.
+
 ## Seeing what it has sent
 
 A campaign page has a **Sent history** section listing every month the campaign has ever sent, with each email's sent, opened and clicked. This reaches back before the new system: the monthly Yoga Habit and Yoga Lifestyle mailings that went out through the old setup show here too, so nothing is lost in the switch-over. Opened counts people, not the automatic scans some mail apps do, so it is a floor and the true number is a little higher. Sent is those actually delivered.
@@ -65,7 +73,7 @@ Saving converts em-dashes to commas, the house rule for every TWY email and name
 
 ## What you need to do
 
-Write and edit the copy, set each email's audience, condition and resend, and approve each email. JP launches the approved campaign and handles the switch-over from the current newsletter system.
+Write and edit the copy, set each email's audience, condition and resend, and approve each email. A monthly campaign then launches itself; JP launches a one-time campaign by hand and handles the switch-over from the current newsletter system.
 
 ## If something breaks
 
