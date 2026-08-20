@@ -57,6 +57,15 @@ Each campaign email has a **Copy source**. Left on **Written here**, it sends th
 
 An email set to a draft waits until that draft is ready. If the month comes and the draft has not been written, that one email holds and the rest of the campaign still sends, the same way a send condition holds an email. It never falls back to old placeholder text.
 
+## Who an email goes to
+
+Each campaign email has an audience. Most send to **the campaign audience**, the segment the whole campaign is set to. An email may instead pick **a specific segment** of its own, so one campaign can invite non-members and remind registrants.
+
+Two audiences are worked out fresh each time the campaign sends, so you never build a list by hand:
+
+- **Interested non-members**: everyone who registered for that month's free class and has not become a member. This is who the follow-up emails go to.
+- **Openers of an earlier email who did not register**: people who opened one earlier email in the same campaign (you pick which) and still have not registered. This is the gentle reminder's audience. Because it is built from that earlier email's opens, it only goes out after that email has sent; if that email held this month, the reminder holds too.
+
 ## Approving a campaign
 
 Each email carries an **Approved** box in its editor. Tick it and save to approve that email's copy. Any later save without the box ticked clears the approval, because the copy just changed and a stale approval must not carry to words you have not signed off.
