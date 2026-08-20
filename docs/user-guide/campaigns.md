@@ -51,6 +51,12 @@ Each email can also set its own **send time**, an hour and a minute, or leave bo
 
 A campaign email anchored to the class date cannot work out its own date until that month's class plans exist. Your class plans stay the single source everything else follows. The campaign only removes the manual step of retyping the copy; it never authors a class for you.
 
+## Where an email's copy comes from
+
+Each campaign email has a **Copy source**. Left on **Written here**, it sends the subject and body you type in its editor, which is how a one-time campaign works. Set to one of the monthly drafts (the member newsletter, the class invitation, and so on), it sends that month's draft instead, so a recurring campaign carries fresh copy each month with nothing retyped.
+
+An email set to a draft waits until that draft is ready. If the month comes and the draft has not been written, that one email holds and the rest of the campaign still sends, the same way a send condition holds an email. It never falls back to old placeholder text.
+
 ## Approving a campaign
 
 Each email carries an **Approved** box in its editor. Tick it and save to approve that email's copy. Any later save without the box ticked clears the approval, because the copy just changed and a stale approval must not carry to words you have not signed off.
