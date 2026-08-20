@@ -10,7 +10,7 @@ Open [https://classes.tiffanywoodyoga.com/journeys](https://classes.tiffanywoody
 
 You can build a campaign now: write its emails, set who each one goes to, set the conditions below, and see the whole thing laid out. When JP launches it, the system schedules every email for the period, honoring each of those settings.
 
-What is not switched on yet: your live monthly newsletters and class invitations still go out through the current system, unchanged. This new campaign builder runs alongside it until JP moves them over deliberately, so nothing you see here changes what sends this month. A campaign set to run every month also does not launch itself yet; JP launches each period until that is automated.
+What is not switched on yet: your live monthly newsletters and class invitations still go out through the current system, unchanged. This new campaign builder runs alongside it until JP moves them over deliberately, so nothing you see here changes what sends this month. A campaign set to run every month is different: once JP turns it On and every email is approved, it launches itself each month after that, with nothing more for JP to do per period.
 
 ## Who each email goes to
 
