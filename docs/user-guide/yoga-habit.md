@@ -8,9 +8,11 @@ Visit [https://go.tiffanywoodyoga.com](https://go.tiffanywoodyoga.com) to see th
 
 This same page also opens at three shorter addresses, one for each place a link lives:
 
-- **Instagram bio**: [https://go.tiffanywoodyoga.com/ig](https://go.tiffanywoodyoga.com/ig)
-- **Facebook Page**: [https://go.tiffanywoodyoga.com/fb](https://go.tiffanywoodyoga.com/fb)
-- **YouTube channel description**: [https://go.tiffanywoodyoga.com/yt](https://go.tiffanywoodyoga.com/yt)
+- **Instagram bio**: [https://habit.tiffanywoodyoga.com/ig](https://habit.tiffanywoodyoga.com/ig)
+- **Facebook Page**: [https://habit.tiffanywoodyoga.com/fb](https://habit.tiffanywoodyoga.com/fb)
+- **YouTube channel description**: [https://habit.tiffanywoodyoga.com/yt](https://habit.tiffanywoodyoga.com/yt)
+
+The same three addresses also work at go.tiffanywoodyoga.com.
 
 All three open the exact same page: same class date, same registration button, nothing different by platform. There is no separate content, offer, or price for any of the three, and registering looks and works identically no matter which address a visitor used. The only difference is invisible to the visitor: each address tags where they came from, so the stats above can show Instagram, Facebook, and YouTube separately.
 
