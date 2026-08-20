@@ -43,7 +43,9 @@ One resend per email. A resend does not get a resend of its own.
 
 A campaign is **One time** or **Every month**. A one-time campaign, like a seasonal series, runs once on the date you set. A monthly campaign runs every month with no new date picked each time, because each of its emails is anchored to the month instead of a fixed day.
 
-An anchored email hangs on one of two points and shifts by a number of days: **the first weekday of the month**, or **the class date**. A day offset of minus one on the class date means the day before class; plus one means the day after. That is what lets the same campaign send four days before whatever this month's class turns out to be, without anybody editing a date.
+An anchored email hangs on one of three points and shifts by a number of days: **the first weekday of the month**, **the class date**, or **a weekday before the class**. A day offset of minus one on the class date means the day before class; plus one means the day after. The weekday choice lands the email on, say, the Monday before whatever day the class falls on, so an invitation keeps its weekday even in a month when the class is not a Saturday. That is what lets the same campaign send before whatever this month's class turns out to be, without anybody editing a date.
+
+Each email can also set its own **send time**, an hour and a minute, or leave both blank to use the campaign's default time. This is optional and separate from the anchor.
 
 ## The class plans come first
 
