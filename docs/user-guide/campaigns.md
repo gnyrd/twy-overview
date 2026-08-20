@@ -10,7 +10,7 @@ Open [https://classes.tiffanywoodyoga.com/journeys](https://classes.tiffanywoody
 
 You can build a campaign now: write its emails, set who each one goes to, set the conditions below, and see the whole thing laid out. When JP launches it, the system schedules every email for the period, honoring each of those settings.
 
-What is not switched on yet: your live monthly newsletters and class invitations still go out through the current system, unchanged. This new campaign builder runs alongside it until JP moves them over deliberately, so nothing you see here changes what sends this month. A campaign set to run every month is different: once JP turns it On and every email is approved, it launches itself each month after that, with nothing more for JP to do per period.
+What is not switched on yet: your live monthly newsletters and class invitations still go out through the current system, unchanged, up until a campaign's own first period arrives. This new campaign builder runs alongside the current system until then. A campaign set to run every month is different: once JP turns it On and every email is approved, it can sit fully armed for a future period, then launches itself each month from its first period onward, with nothing more for JP to do per period.
 
 ## Who each email goes to
 
@@ -78,7 +78,7 @@ The campaign page shows the running count, like **1 of 3 approved**, and each em
 
 A **one-time** campaign, like a seasonal series, is launched by hand: JP reviews exactly what it would schedule and confirms.
 
-A **monthly** campaign launches itself. Once it is On and every email is approved, the system sends it each month on its own, on the dates each email is anchored to, with no button to press. The campaign page says so in place of the launch button. Nothing sends until it is both On and fully approved, so an unfinished monthly campaign sits quietly.
+A **monthly** campaign launches itself. Once it is On and every email is approved, the system sends it each month on its own, on the dates each email is anchored to, with no button to press. The campaign page says so in place of the launch button. Nothing sends until it is On, fully approved, and its first period has arrived, so a campaign can sit fully armed and still not be sending anything yet.
 
 The email carrying the class recording waits for the recording to be attached to its free product before it may send. The system now checks this on its own at send time: once the edited recording is attached to the month's free product, that email goes out with the rest of the campaign. Until it is attached, that one email holds and every other email in the campaign sends normally.
 

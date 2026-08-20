@@ -4,7 +4,7 @@ A welcome sequence is a set of emails that goes out by itself when somebody buys
 
 ## Where to go
 
-Open [https://classes.tiffanywoodyoga.com/journeys](https://classes.tiffanywoodyoga.com/journeys), or click **Journeys** in the toolbar above the class calendar.
+Open [https://classes.tiffanywoodyoga.com/journeys](https://classes.tiffanywoodyoga.com/journeys), or click **Emails** in the toolbar above the class calendar.
 
 ## What is built and what is not
 
@@ -25,7 +25,7 @@ Sent so far, one line per email:
 - Email 5 ("I don't have time for yoga." Read this.): 0 sent
 - Email 6 (The $49 first month closes tomorrow): 0 sent
 
-**Campaign: Yoga Habit: 2026_08** is currently **off**.
+**Campaign: Yoga Habit: 2026_08** is currently **on**.
 
 So far **0** people have entered it.
 
@@ -38,7 +38,7 @@ Sent so far, one line per email:
 - Email 5 (Follow up one (from the monthly draft)): 0 sent
 - Email 6 (Follow up two (from the monthly draft)): 0 sent
 
-**Campaign: Yoga Lifestyle: 2026_08** is currently **off**.
+**Campaign: Yoga Lifestyle: 2026_08** is currently **on**.
 
 So far **0** people have entered it.
 
@@ -58,7 +58,7 @@ Sent so far, one line per email:
 - Email 4 (TWY: Dive Deeper into Anusara Yoga’s Alignment Principles ✨): 2 sent
 - Email 5 (TWY: Customize How You Learn Best 🎓): 2 sent
 - Email 6 (TWY: Let's Chat About You 🌊): 2 sent
-- Email 7 (TWY: Planning Your Ideal Yoga Schedule 📅): 0 sent
+- Email 7 (TWY: Planning Your Ideal Yoga Schedule 📅): 2 sent
 - Email 8 (TWY: Congratulations on Your First Week! 🎉): 0 sent
 
 ## Turning one on
@@ -115,4 +115,4 @@ Write and edit the copy. JP handles attaching a sequence to a product and turnin
 
 ## If something breaks
 
-If the Journeys page will not load or a sequence will not save, contact JP.
+If the Emails page will not load or a sequence will not save, contact JP.
