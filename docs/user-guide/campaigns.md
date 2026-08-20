@@ -61,7 +61,7 @@ A **one-time** campaign, like a seasonal series, is launched by hand: JP reviews
 
 A **monthly** campaign launches itself. Once it is On and every email is approved, the system sends it each month on its own, on the dates each email is anchored to, with no button to press. The campaign page says so in place of the launch button. Nothing sends until it is both On and fully approved, so an unfinished monthly campaign sits quietly.
 
-One piece is not built yet: the email carrying the class recording waits for the recording to be attached to its free product before it may send. That check is not automated, so for now that one email holds and the recording goes out the old way until it is wired. Every other email in the campaign sends normally.
+The email carrying the class recording waits for the recording to be attached to its free product before it may send. The system now checks this on its own at send time: once the edited recording is attached to the month's free product, that email goes out with the rest of the campaign. Until it is attached, that one email holds and every other email in the campaign sends normally.
 
 ## Seeing what it has sent
 
