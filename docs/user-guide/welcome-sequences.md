@@ -31,7 +31,12 @@ So far **0** people have entered it.
 
 Sent so far, one line per email:
 
-- Email 1 (Draft: fill this in): 0 sent
+- Email 1 (Free class invitation (from the monthly draft)): 0 sent
+- Email 2 (Gentle reminder (from the monthly draft)): 0 sent
+- Email 3 (Registered reminder (from the monthly draft)): 0 sent
+- Email 4 (Class recording (from the monthly draft)): 0 sent
+- Email 5 (Follow up one (from the monthly draft)): 0 sent
+- Email 6 (Follow up two (from the monthly draft)): 0 sent
 
 **Campaign: Yoga Lifestyle: 2026_08** is currently **off**.
 
@@ -39,7 +44,7 @@ So far **0** people have entered it.
 
 Sent so far, one line per email:
 
-- Email 1 (Draft: fill this in): 0 sent
+- Email 1 (Monthly member newsletter (from the monthly draft)): 0 sent
 
 **Journey: Yoga Lifestyle: 2024_05** is currently **on**.
 

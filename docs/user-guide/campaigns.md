@@ -57,6 +57,8 @@ Each campaign email has a **Copy source**. Left on **Written here**, it sends th
 
 An email set to a draft waits until that draft is ready. If the month comes and the draft has not been written, that one email holds and the rest of the campaign still sends, the same way a send condition holds an email. It never falls back to old placeholder text.
 
+A draft can also name things that are not settled until later in the month, like the class title or the recording link. Those fill in automatically from that month's real details right before the email goes out. If one of them is not ready yet, for example the recording link before the recording is posted, that email waits too, the same way it waits on the draft itself. It never sends with a placeholder still sitting where a name or a link should be.
+
 ## Who an email goes to
 
 Each campaign email has an audience. Most send to **the campaign audience**, the segment the whole campaign is set to. An email may instead pick **a specific segment** of its own, so one campaign can invite non-members and remind registrants.
