@@ -6,6 +6,21 @@ A campaign sends a set of emails to a whole audience, on a schedule. That is the
 
 Open [https://classes.tiffanywoodyoga.com/journeys](https://classes.tiffanywoodyoga.com/journeys), or click **Emails** in the toolbar above the class calendar. A campaign sits in the same list as your welcome sequences and is labeled **Campaign**.
 
+## How do I send a one-off newsletter?
+
+**New Newsletter** is the fast path for when you just want to write one email and send it to one audience on one date. It skips everything below that a simple newsletter does not need: no sequence of other emails, no send condition, no resend, nothing recurring. Under the hood it saves as a one-time campaign, so once it exists it sits in your Emails list, tagged **Newsletter**, and from there it works exactly like any other one-time campaign.
+
+1. Open **Emails**.
+2. Click **New Newsletter**.
+3. Give it a title, choose who it goes to, and pick the date it runs.
+4. Write the subject, preheader and body.
+5. Save.
+6. On its own page, tick the email **Approved** and turn it **On**.
+7. Click **Review launch** to see exactly what it will send and to whom.
+8. Click **Confirm and schedule**. Nothing sends before that click.
+
+Your Emails list tags every row **Newsletter**, **Campaign** or **Journey**, and the checkboxes above the list show or hide each kind.
+
 ## What is built and what is not
 
 You can build a campaign now: write its emails, set who each one goes to, set the conditions below, and see the whole thing laid out. When JP launches it, the system schedules every email for the period, honoring each of those settings.
@@ -89,6 +104,12 @@ The email carrying the class recording waits for the recording to be attached to
 ## Seeing what it has sent
 
 A campaign page has a **Sent history** section listing every month the campaign has ever sent, with each email's sent, opened and clicked. This reaches back before the new system: the monthly Yoga Habit and Yoga Lifestyle mailings that went out through the old setup show here too, so nothing is lost in the switch-over. Opened counts people, not the automatic scans some mail apps do, so it is a floor and the true number is a little higher. Sent is those actually delivered.
+
+## Deleting one that never went out
+
+A campaign or journey that is off and has never sent can be deleted from its own page. A **Delete** button appears there only when that is true. The confirmation says plainly that deleting it is permanent and cannot be undone, and names the one you are about to delete.
+
+Anything that is on, has ever sent (even once, even a single email), or already has anyone in it, active, stopped or finished, cannot be deleted this way, and the button does not appear on its page. Turn it off instead if it should stop running.
 
 ## One thing to know about punctuation
 
