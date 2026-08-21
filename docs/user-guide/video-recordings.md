@@ -16,6 +16,10 @@ Private-client sessions are handled separately:
 - Uploaded to each client's Google Drive folder daily.
 - Cleaned up locally after 7 days.
 
+## When the apex pose needs correcting
+
+Sometimes the pose taught at the peak of class differs from what the plan said beforehand. JP can correct the apex pose from the video trim page after class. The corrected pose updates the class listing description on HeyMarvelous automatically. The thumbnail is created after the correction, so it always shows the right pose.
+
 ## What you need to do
 
 Nothing. The entire pipeline is automated. If a recording is missing or a thumbnail looks wrong, contact JP.
