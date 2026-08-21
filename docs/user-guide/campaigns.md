@@ -78,7 +78,7 @@ The campaign page shows the running count, like **1 of 3 approved**, and each em
 
 ## When a campaign actually sends
 
-A **one-time** campaign, like a seasonal series, is launched by hand: JP reviews exactly what it would schedule and confirms.
+A **one-time** campaign, like a seasonal series, is launched from its own page: **Review launch** shows exactly what it would schedule, who each email goes to and when, and **Confirm and schedule** sends it. Nothing sends before that second click.
 
 A **monthly** campaign launches itself. Once it is On and every email is approved, the system sends it each month on its own, on the dates each email is anchored to, with no button to press. The campaign page says so in place of the launch button. Nothing sends until it is On, fully approved, and its first period has arrived, so a campaign can sit fully armed and still not be sending anything yet.
 
@@ -96,7 +96,7 @@ Saving converts em-dashes to commas, the house rule for every TWY email and name
 
 ## What you need to do
 
-Write and edit the copy, set each email's audience, condition and resend, and approve each email. A monthly campaign then launches itself; JP launches a one-time campaign by hand and handles the switch-over from the current newsletter system.
+Write and edit the copy, set each email's audience, condition and resend, and approve each email. A monthly campaign then launches itself; a one-time campaign is launched with Review launch and Confirm and schedule, and JP handles the switch-over from the current newsletter system.
 
 ## If something breaks
 
