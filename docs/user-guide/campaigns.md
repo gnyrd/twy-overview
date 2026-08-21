@@ -12,12 +12,13 @@ Open [https://classes.tiffanywoodyoga.com/journeys](https://classes.tiffanywoody
 
 1. Open **Emails**.
 2. Click **New Newsletter**.
-3. Give it a title, choose who it goes to, and pick the date it runs.
-4. Write the subject, preheader and body.
-5. Save.
-6. On its own page, tick the email **Approved** and turn it **On**.
-7. Click **Review launch** to see exactly what it will send and to whom.
-8. Click **Confirm and schedule**. Nothing sends before that click.
+3. Give it a title and choose who it goes to.
+4. Pick the date and time it sends, or choose Send immediately.
+5. Write the subject, preheader and body.
+6. Save.
+7. On its own page, tick the email **Approved** and turn it **On**.
+8. Click **Review launch** to see exactly what it will send and to whom.
+9. Click **Confirm and schedule**. Nothing sends before that click. If the time you picked passes while you are writing, the confirm page says so and offers Send Now.
 
 Your Emails list tags every row **Newsletter**, **Campaign** or **Journey**, and the checkboxes above the list show or hide each kind.
 
