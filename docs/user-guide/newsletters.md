@@ -2,7 +2,7 @@
 
 ## Where to go
 
-Open [https://classes.tiffanywoodyoga.com](https://classes.tiffanywoodyoga.com) and click the **Newsletters** button for the month you want. Every email for that month sits on one timeline, in the order it will send.
+Open [https://classes.tiffanywoodyoga.com](https://classes.tiffanywoodyoga.com), or click **Emails** in the toolbar above the class calendar. From there, click **Newsletter Drafts** to open the timeline for the most recent month with drafts, one row per audience, in the order it will send.
 
 ## The eight emails
 

@@ -18,6 +18,8 @@ The campaign has one audience, and by default every email in it goes to that aud
 
 On each email, **Who this email goes to** is either *Use the campaign audience* or a segment you pick. Leave it on the campaign audience unless that one message really targets a different group.
 
+The Emails list on the campaign page states each row's real audience too, woven into its timing line, so you can see who everything goes to without opening each email.
+
 ## Only send when it makes sense
 
 Each email has a **send condition**. Most of the time it is *Always send*. The other choices hold an email back until a fact is true:
@@ -79,6 +81,8 @@ The campaign page shows the running count, like **1 of 3 approved**, and each em
 A **one-time** campaign, like a seasonal series, is launched by hand: JP reviews exactly what it would schedule and confirms.
 
 A **monthly** campaign launches itself. Once it is On and every email is approved, the system sends it each month on its own, on the dates each email is anchored to, with no button to press. The campaign page says so in place of the launch button. Nothing sends until it is On, fully approved, and its first period has arrived, so a campaign can sit fully armed and still not be sending anything yet.
+
+Nothing about a monthly campaign's emails locks once a period has sent: the subject, body and Approved box stay editable. Once that month's run has gone out, its campaign page and each email's editor show a plain note that the run is complete, so you know any change you save now is for the next period, not the one that already went.
 
 The email carrying the class recording waits for the recording to be attached to its free product before it may send. The system now checks this on its own at send time: once the edited recording is attached to the month's free product, that email goes out with the rest of the campaign. Until it is attached, that one email holds and every other email in the campaign sends normally.
 

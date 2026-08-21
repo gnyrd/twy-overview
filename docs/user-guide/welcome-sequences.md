@@ -18,12 +18,13 @@ So far **0** people have entered it.
 
 Sent so far, one line per email:
 
-- Email 1 (A free class to meet the season: Transitions, Sept 12): 0 sent
+- Email 1 (A free class to Hug In & Shine Out: Transitions, Sept 12): 0 sent
 - Email 2 (This Saturday: your pause is waiting 🧘‍♀️): 0 sent
 - Email 3 (You paused with us. Here's what comes next 🌱): 0 sent
 - Email 4 (Not just classes. A place to keep coming home.): 0 sent
 - Email 5 ("I don't have time for yoga." Read this.): 0 sent
 - Email 6 (The $49 first month closes tomorrow): 0 sent
+- Email 7 (ZZ DIAGNOSTIC TEST DELETE ME 2): 0 sent
 
 **Campaign: Yoga Habit: 2026_08** is currently **on**.
 
@@ -91,7 +92,7 @@ Saving a sequence converts em-dashes to commas, which is the house rule for ever
 
 Open a sequence and the top right of the page shows what has actually happened, without you asking anybody.
 
-**Entered** is how many people have ever started this sequence. Under it, one line per email shows how many were sent and how many were opened. A **zero in the sent column shows in red**. That is the number worth looking at: if people are entering and an email reads zero sent, that email is not going out.
+The header there splits by where people are now: **active** counts who is still partway through and **completed** counts who received every email, with a **stopped** count added only when somebody has left early. Under it, one line per email shows how many were sent and how many were opened. A **zero in the sent column shows in red**. That is the number worth looking at: if people are active and an email reads zero sent, that email is not going out.
 
 Opened is a floor, not a count. Apple Mail and other privacy features hide the open from us, so the real number is always at least what you see and usually higher. Sent is exact.
 
