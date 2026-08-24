@@ -18,13 +18,12 @@ So far **0** people have entered it.
 
 Sent so far, one line per email:
 
-- Email 1 (A free class to Hug In & Shine Out: Transitions, Sept 12): 0 sent
-- Email 2 (This Saturday: your pause is waiting 🧘‍♀️): 0 sent
-- Email 3 (You paused with us. Here's what comes next 🌱): 0 sent
+- Email 1 (Free class Sept 12: Bakasana, and the art of getting unstuck): 0 sent
+- Email 2 (This Saturday: Bakasana, and a little wriggle room 🧘‍♀️): 0 sent
+- Email 3 (You found the pause. Here's how to keep it 🌱): 0 sent
 - Email 4 (Not just classes. A place to keep coming home.): 0 sent
 - Email 5 ("I don't have time for yoga." Read this.): 0 sent
 - Email 6 (The $49 first month closes tomorrow): 0 sent
-- Email 7 (ZZ DIAGNOSTIC TEST DELETE ME 2): 0 sent
 
 **Campaign: Yoga Habit: 2026_08** is currently **on**.
 

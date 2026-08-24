@@ -34,11 +34,11 @@ The campaign has one audience, and by default every email in it goes to that aud
 
 On each email, **Who this email goes to** is either *Use the campaign audience* or a segment you pick. Leave it on the campaign audience unless that one message really targets a different group.
 
-The Emails list on the campaign page states each row's real audience too, woven into its timing line, so you can see who everything goes to without opening each email.
+The Emails list on the campaign page states each row's real audience too, woven into its timing line, so you can see who everything goes to without opening each email. Opening an email shows the same two facts in its top card: the calendar date it will actually send (worked out from the run date and the waits between emails) and who it goes to.
 
 ## Only send when it makes sense
 
-Each email has a **send condition**. Most of the time it is *Always send*. The other choices hold an email back until a fact is true:
+Each email has a **send condition**. Most of the time it is *No Sending Conditions*, meaning it sends on its schedule no matter what. The other choices hold an email back until a fact is true:
 
 - *Only if there is a class that month* skips the invitation set in a month with no free class. A class counts only once its plan is actually written: a date reserved with a placeholder does not send invitations, so nobody is ever invited to a class that has not been created yet.
 - *Only once the recording is ready* holds the recording email until the edited class video is attached to its free product.
