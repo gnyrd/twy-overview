@@ -40,7 +40,7 @@ The Emails list on the campaign page states each row's real audience too, woven 
 
 Each email has a **send condition**. Most of the time it is *Always send*. The other choices hold an email back until a fact is true:
 
-- *Only if there is a class that month* skips the invitation set in a month with no free class.
+- *Only if there is a class that month* skips the invitation set in a month with no free class. A class counts only once its plan is actually written: a date reserved with a placeholder does not send invitations, so nobody is ever invited to a class that has not been created yet.
 - *Only once the recording is ready* holds the recording email until the edited class video is attached to its free product.
 - *Only after the class has happened* keeps a follow-up from going out before the class.
 

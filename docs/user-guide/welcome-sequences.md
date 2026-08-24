@@ -60,7 +60,7 @@ Sent so far, one line per email:
 - Email 5 (TWY: Customize How You Learn Best 🎓): 2 sent
 - Email 6 (TWY: Let's Chat About You 🌊): 2 sent
 - Email 7 (TWY: Planning Your Ideal Yoga Schedule 📅): 2 sent
-- Email 8 (TWY: Congratulations on Your First Week! 🎉): 0 sent
+- Email 8 (TWY: Congratulations on Your First Week! 🎉): 2 sent
 
 ## Turning one on
 
