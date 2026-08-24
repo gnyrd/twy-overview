@@ -104,7 +104,9 @@ The email carrying the class recording waits for the recording to be attached to
 
 ## Seeing what it has sent
 
-A campaign page has a **Sent history** section listing every month the campaign has ever sent, with each email's sent, opened and clicked. This reaches back before the new system: the monthly Yoga Habit and Yoga Lifestyle mailings that went out through the old setup show here too, so nothing is lost in the switch-over. Opened counts people, not the automatic scans some mail apps do, so it is a floor and the true number is a little higher. Sent is those actually delivered.
+A campaign page has a **Sent history** section listing every month the campaign has ever sent, with each email's sent, opened and clicked. This reaches back before the new system: the monthly Yoga Habit and Yoga Lifestyle mailings that went out through the earlier version of the monthly setup show here too, so nothing is lost in the switch-over. Opened counts people, not the automatic scans some mail apps do, so it is a floor and the true number is a little higher. Sent is those actually delivered.
+
+The Emails list works as the same ledger. A monthly campaign's row lists the months it has already sent (those earlier-version months included), and its name always carries the month it is running next, so an October row says 2026_10 rather than the month the campaign was first created. A one-time campaign whose emails have all gone out shows **Completed** instead of On: it is finished work and will not send again.
 
 ## Deleting one that never went out
 
