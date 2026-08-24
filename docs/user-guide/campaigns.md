@@ -20,7 +20,7 @@ Open [https://classes.tiffanywoodyoga.com/journeys](https://classes.tiffanywoody
 8. Click **Review launch** to see exactly what it will send and to whom.
 9. Click **Confirm and schedule**. Nothing sends before that click. If the time you picked passes while you are writing, the confirm page says so and offers Send Now.
 
-Your Emails list tags every row **Newsletter**, **Campaign** or **Journey**, and the checkboxes above the list show or hide each kind.
+Your Emails list tags every row **Newsletter**, **Campaign** or **Journey**, and the checkboxes above the list show or hide each kind. A second row of checkboxes filters by where each one is in its life: **Active** has started and is not finished, **Approved** is ready and waiting for its start date, **Pending** is still waiting on approval or a sending condition, and **Completed** is all done. Both groups apply together, so you can look at, say, only campaigns that are still pending.
 
 ## What is built and what is not
 
