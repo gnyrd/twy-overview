@@ -98,6 +98,8 @@ A **one-time** campaign, like a seasonal series, is launched from its own page: 
 
 A **monthly** campaign launches itself. Once it is On and every email is approved, the system sends it each month on its own, on the dates each email is anchored to, with no button to press. The campaign page says so in place of the launch button. Nothing sends until it is On, fully approved, and its first period has arrived, so a campaign can sit fully armed and still not be sending anything yet.
 
+For a monthly campaign, approval starts over every month. The Approved boxes on its emails approve the setup (who, when, which draft each email reads). The words themselves are approved month by month, through that month's newsletter drafts: an email whose draft for the month is not yet approved simply waits, and sends once it is. So a new month always begins as Pending and becomes Approved when you approve that month's drafts, and last month's approval never sends this month's words.
+
 Nothing about a monthly campaign's emails locks once a period has sent: the subject, body and Approved box stay editable. Once that month's run has gone out, its campaign page and each email's editor show a plain note that the run is complete, so you know any change you save now is for the next period, not the one that already went.
 
 The email carrying the class recording waits for the recording to be attached to its free product before it may send. The system now checks this on its own at send time: once the edited recording is attached to the month's free product, that email goes out with the rest of the campaign. Until it is attached, that one email holds and every other email in the campaign sends normally.
@@ -105,6 +107,8 @@ The email carrying the class recording waits for the recording to be attached to
 ## Seeing what it has sent
 
 A campaign page has a **Sent history** section listing every month the campaign has ever sent, with each email's sent, opened and clicked. This reaches back before the new system: the monthly Yoga Habit and Yoga Lifestyle mailings that went out through the earlier version of the monthly setup show here too, so nothing is lost in the switch-over. Opened counts people, not the automatic scans some mail apps do, so it is a floor and the true number is a little higher. Sent is those actually delivered.
+
+Months that have not sent yet but come before the campaign takes over also appear as their own rows, so the list shows September even while the campaign itself starts in October. Their state follows that month's draft approvals.
 
 The Emails list works as the same ledger, one row per month. A monthly campaign appears once for every month it has sent, each marked **Complete** (months sent by the earlier version of the monthly setup included), plus one row for the month it runs next carrying its current state, so an October row says 2026_10 and an August row says 2026_08. All of a campaign's rows open the same campaign page. Months that finished before the campaign system took over sit at the very bottom of the list: they are the archive, not the news. A one-time campaign whose emails have all gone out shows **Complete**: it is finished work and will not send again.
 
