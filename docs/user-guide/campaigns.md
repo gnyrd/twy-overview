@@ -4,7 +4,7 @@ A campaign sends a set of emails to a whole audience, on a schedule. That is the
 
 ## Where to go
 
-Open [https://classes.tiffanywoodyoga.com/journeys](https://classes.tiffanywoodyoga.com/journeys), or click **Emails** in the toolbar above the class calendar. A campaign sits in the same list as your welcome sequences and is labeled **Campaign**.
+Open [https://classes.tiffanywoodyoga.com/journeys](https://classes.tiffanywoodyoga.com/journeys), or click **Emails** in the toolbar above the class calendar. A campaign sits in the same list as your welcome sequences. A one-time campaign is labeled **Campaign**; one that runs every month is labeled **Monthly**, in its own lavender capsule.
 
 ## How do I send a one-off newsletter?
 
@@ -20,7 +20,7 @@ Open [https://classes.tiffanywoodyoga.com/journeys](https://classes.tiffanywoody
 8. Click **Review launch** to see exactly what it will send and to whom.
 9. Click **Confirm and schedule**. Nothing sends before that click. If the time you picked passes while you are writing, the confirm page says so and offers Send Now.
 
-Your Emails list tags every row **Newsletter**, **Campaign** or **Journey**, and the checkboxes above the list show or hide each kind. A second row of checkboxes filters by where each one is in its life: **Active** has started and is not finished, **Approved** is ready and waiting for its start date, **Pending** is still waiting on approval or a sending condition, and **Complete** is all done. Each row's capsule shows the same four states, so the capsule you see and the boxes you filter with always speak the same language. Both groups apply together, so you can look at, say, only campaigns that are still pending.
+Your Emails list tags every row **Newsletter**, **Campaign**, **Monthly** or **Journey**, and the checkboxes above the list show or hide each kind. A second row of checkboxes filters by where each one is in its life: **Active** has started and is not finished, **Approved** is ready and waiting for its start date, **Pending** is still waiting on approval or a sending condition, and **Complete** is all done. Each row's capsule shows the same four states, so the capsule you see and the boxes you filter with always speak the same language. Both groups apply together, so you can look at, say, only campaigns that are still pending.
 
 ## What is built and what is not
 
@@ -110,7 +110,7 @@ A campaign page has a **Sent history** section listing every month the campaign 
 
 Months that have not sent yet but come before the campaign takes over also appear as their own rows, so the list shows September even while the campaign itself starts in October. Their state follows that month's draft approvals. When a month's push to the same audience already has its own campaign (the way Transitions carries September for non-members), only that campaign's row shows for the month.
 
-The Emails list works as the same ledger, one row per month. A monthly campaign appears once for every month it has sent, each marked **Complete** (months sent by the earlier version of the monthly setup included), plus one row for the month it runs next carrying its current state, so an October row says 2026_10 and an August row says 2026_08. All of a campaign's rows open the same campaign page. Months that finished before the campaign system took over sit at the very bottom of the list: they are the archive, not the news. A one-time campaign whose emails have all gone out shows **Complete**: it is finished work and will not send again.
+The Emails list works as the same ledger, one row per month. A monthly campaign appears once for every month it has sent, each marked **Complete** (months sent by the earlier version of the monthly setup included). Its rows read **Monthly: name: month**, so an August row says 2026_08. A month that has not arrived shows no row at all: the list never shows a future month it has nothing for. All of a Monthly's rows open the same page, and that page is headed with just the name, no month, because it is the machine that runs every month rather than any one month's sending. Months that finished before the campaign system took over sit at the very bottom of the list: they are the archive, not the news. A one-time campaign whose emails have all gone out shows **Complete**: it is finished work and will not send again.
 
 ## Deleting one that never went out
 
