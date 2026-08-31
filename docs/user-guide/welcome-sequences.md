@@ -12,14 +12,6 @@ You can write, edit and preview a sequence, and the sending is built and running
 
 ## The sequences that exist
 
-**Campaign: Test Newsletter: 2026_09** is currently **off**.
-
-So far **0** people have entered it.
-
-Sent so far, one line per email:
-
-- Email 1 (testing a newsletter): 0 sent
-
 **Campaign: Transitions: 2026_09** is currently **on**.
 
 So far **0** people have entered it.
@@ -68,6 +60,14 @@ Sent so far, one line per email:
 - Email 6 (TWY: Let's Chat About You 🌊): 2 sent
 - Email 7 (TWY: Planning Your Ideal Yoga Schedule 📅): 2 sent
 - Email 8 (TWY: Congratulations on Your First Week! 🎉): 2 sent
+
+**Newsletter: 2026_09_01: Test Newsletter** is currently **off**.
+
+So far **0** people have entered it.
+
+Sent so far, one line per email:
+
+- Email 1 (testing a newsletter): 0 sent
 
 ## Turning one on
 

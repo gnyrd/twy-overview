@@ -8,10 +8,10 @@ Open [https://classes.tiffanywoodyoga.com/journeys](https://classes.tiffanywoody
 
 ## How do I send a one-off newsletter?
 
-**New Newsletter** is the fast path for when you just want to write one email and send it to one audience on one date. It skips everything below that a simple newsletter does not need: no sequence of other emails, no send condition, no resend, nothing recurring. Under the hood it saves as a one-time campaign, so once it exists it sits in your Emails list, tagged **Newsletter**, and from there it works exactly like any other one-time campaign.
+**New**, then **Newsletter**, is the fast path for when you just want to write one email and send it to one audience on one date. It skips everything below that a simple newsletter does not need: no sequence of other emails, no send condition, no resend, nothing recurring. Under the hood it saves as a one-time campaign, so once it exists it sits in your Emails list, tagged **Newsletter**, and from there it works exactly like any other one-time campaign.
 
 1. Open **Emails**.
-2. Click **New Newsletter**.
+2. Click **New**, then **Newsletter**.
 3. Give it a title and choose who it goes to.
 4. Pick the date and time it sends, or choose Send immediately.
 5. Write the subject, preheader and body.
