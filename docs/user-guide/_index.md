@@ -13,3 +13,4 @@ Quick answers to common questions about the TWY systems.
 | Check on the Yoga Habit page | [Yoga Habit](yoga-habit) |
 | Edit the monthly overview | [Monthly Overview](monthly-overview) |
 | Use Tweee for class planning | [Tweee](tweee) |
+| See how the website gets found by Google and AI search | [Website search](website-search) |
