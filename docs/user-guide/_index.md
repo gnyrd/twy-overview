@@ -14,3 +14,4 @@ Quick answers to common questions about the TWY systems.
 | Edit the monthly overview | [Monthly Overview](monthly-overview) |
 | Use Tweee for class planning | [Tweee](tweee) |
 | See how the website gets found by Google and AI search | [Website search](website-search) |
+| Read the daily website traffic report in Slack | [Traffic report](traffic-report) |
