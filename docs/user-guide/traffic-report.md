@@ -2,7 +2,7 @@
 
 ## What it is
 
-Every morning at 7:10 Mountain time a message titled "Website traffic" is posted to the #twy-status channel in Slack, right after the daily membership report. It says how many people visited the websites and where they came from, measured by Plausible, the privacy-friendly analytics on the sites (no cookies, no personal data).
+Every morning at 7:10 Mountain time a website traffic message is posted to the #status-traffic channel in Slack, right after the daily membership report. It says how many people visited the websites and where they came from, measured by Plausible, the privacy-friendly analytics on the sites (no cookies, no personal data).
 
 ## What it shows
 

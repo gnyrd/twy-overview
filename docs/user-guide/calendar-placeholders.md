@@ -23,4 +23,4 @@ There is no way yet to mark a month as having no Integration class at all. If no
 
 ## How a new placeholder is announced
 
-Every placeholder the job creates is posted to the #twy-status Slack channel, so JP sees any class appearing on the calendar the day it appears, never discovered in class.
+Every placeholder the job creates is posted to the #status-members Slack channel, so JP sees any class appearing on the calendar the day it appears, never discovered in class.

@@ -57,7 +57,7 @@ Sent so far, one line per email:
 - Email 3 (TWY: Align Your Space with Your Practice 🌄): 3 sent
 - Email 4 (TWY: Dive Deeper into Anusara Yoga’s Alignment Principles ✨): 3 sent
 - Email 5 (TWY: Customize How You Learn Best 🎓): 3 sent
-- Email 6 (TWY: Let's Chat About You 🌊): 2 sent
+- Email 6 (TWY: Let's Chat About You 🌊): 3 sent
 - Email 7 (TWY: Planning Your Ideal Yoga Schedule 📅): 2 sent
 - Email 8 (TWY: Congratulations on Your First Week! 🎉): 2 sent
 
