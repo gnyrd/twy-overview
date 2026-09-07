@@ -16,6 +16,10 @@ Private-client sessions are handled separately:
 - Uploaded to each client's Google Drive folder daily.
 - Cleaned up locally after 7 days.
 
+## How long the class recording stays up for attendees
+
+Right after a live class, HeyMarvelous attaches the Zoom recording to that class so the people who attended (or registered) can watch it. It is the full Zoom recording, including whatever happened before and after class, not the trimmed version that goes into the On-demand Library. Breath classes keep it for 48 hours (set September 6, 2026). Every other class keeps it for 3 days. The window is set when the class is created from its plan, so it needs no attention week to week. Watching a recording requires being logged in to the studio; a visitor without an account cannot open it.
+
 ## What the library listing shows
 
 When a trimmed class is added to the On-demand Library, its listing carries the class plan's content: the title, the description, and the Level, Length, and Category tags all come from the plan (added August 29, 2026; before that the listing's description was whatever the raw recording carried, usually nothing). Fix the plan, not the listing, if something reads wrong before publish. A listing already published keeps what it has until JP refreshes it.

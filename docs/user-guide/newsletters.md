@@ -1,8 +1,27 @@
 # How do newsletters work?
 
+## How do I create a newsletter?
+
+This is for an email you decide to write: an announcement, a note to members, an invitation to one audience on one date. (The regular monthly emails are different: they arrive already drafted from your class plans, see The eight emails below.)
+
+1. Open [https://classes.tiffanywoodyoga.com](https://classes.tiffanywoodyoga.com) and click **Emails** in the toolbar.
+2. Click **New**, then **Newsletter** (https://classes.tiffanywoodyoga.com/journeys/newsletters/new).
+3. Give it a **Title** (for your own list, readers never see it).
+4. Choose the **Audience**: everyone on the list (**All Subscribers**), current members (**TYL Members**), or people who are not members (**TYL Non Members**).
+5. Under **When it sends**, pick **Send immediately** or a date and time. **Save**. You land on the newsletter's own page.
+6. Click the email to open the editor. Write the **Subject**, the **Preheader** (the line an inbox shows next to the subject) and the body. Tick **Approved** in the editor toolbar and **Save**.
+7. Back on the newsletter's page, click **Schedule** (it reads **Send** if you chose Send immediately). A review page shows exactly what will go out and to how many people.
+8. Click **Schedule** (or **Send**) on that page. Nothing goes out before this click. If your chosen time has already passed, the page offers **Send Now** or **Pick a new time**.
+
+Changed your mind? **Unschedule** on the newsletter's page pulls it back any time before it sends. Once sent, its delivery numbers appear on its page and it stays in your Emails list tagged **Newsletter**.
+
+## Where replies go
+
+Every email that goes out from here, a newsletter, a campaign email or a welcome sequence email, carries **tiffany@tiffanywoodyoga.com** as its reply-to address. When somebody hits Reply, their message lands in that inbox. The email itself still arrives from hello@tiffanywoodyoga.com, the address the sending service is verified for. The reply-to is what decides where replies go.
+
 ## Where to go
 
-Open [https://classes.tiffanywoodyoga.com](https://classes.tiffanywoodyoga.com), or click **Emails** in the toolbar above the class calendar. From there, click **Monthly Drafts** to open the timeline for the most recent month with drafts, one row per audience, in the order it will send. Links beside the month name step to the closest earlier or later month that has drafts.
+Open [https://classes.tiffanywoodyoga.com](https://classes.tiffanywoodyoga.com), or click **Emails** in the toolbar above the class calendar. From there, click **Monthly Drafts** (https://classes.tiffanywoodyoga.com/newsletters/drafts) to open the timeline for the most recent month with drafts, one row per audience, in the order it will send. Links beside the month name step to the closest earlier or later month that has drafts.
 
 ## The eight emails
 

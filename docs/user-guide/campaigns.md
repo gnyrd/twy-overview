@@ -16,9 +16,13 @@ Open [https://classes.tiffanywoodyoga.com/journeys](https://classes.tiffanywoody
 4. Pick the date and time it sends, or choose Send immediately.
 5. Write the subject, preheader and body.
 6. Save.
-7. On its own page, tick the email **Approved** and turn it **On**.
-8. Click **Review launch** to see exactly what it will send and to whom.
-9. Click **Confirm and schedule**. Nothing sends before that click. If the time you picked passes while you are writing, the confirm page says so and offers Send Now.
+7. Open the email, tick **Approved** in the editor toolbar, and save.
+8. On the newsletter's own page click **Schedule** (or **Send**, if you chose Send immediately). The review page shows exactly what it will send and to whom.
+9. Click **Schedule** (or **Send**) there. Nothing sends before that click. If the time you picked passes while you are writing, the review page offers Send Now or Pick a new time.
+
+## Where replies go
+
+Every email that goes out from here, a newsletter, a campaign email or a welcome sequence email, carries **tiffany@tiffanywoodyoga.com** as its reply-to address. When somebody hits Reply, their message lands in that inbox. The email itself still arrives from hello@tiffanywoodyoga.com, the address the sending service is verified for. The reply-to is what decides where replies go.
 
 Your Emails list tags every row **Newsletter**, **Campaign**, **Monthly** or **Journey**, and the checkboxes above the list show or hide each kind. A second row of checkboxes filters by where each one is in its life: **Active** has started and is not finished, **Approved** is ready and waiting for its start date, **Pending** is still waiting on approval or a sending condition, and **Complete** is all done. Each row's capsule shows the same four states, so the capsule you see and the boxes you filter with always speak the same language. Both groups apply together, so you can look at, say, only campaigns that are still pending.
 
@@ -94,7 +98,7 @@ The campaign page shows the running count, like **1 of 3 approved**, and each em
 
 ## When a campaign actually sends
 
-A **one-time** campaign, like a seasonal series, is launched from its own page: **Review launch** shows exactly what it would schedule, who each email goes to and when, and **Confirm and schedule** sends it. Nothing sends before that second click.
+A **one-time** campaign, like a seasonal series, is launched from its own page: **Schedule** opens a review page that shows exactly what it would schedule, who each email goes to and when, and **Schedule** there (or **Send**, for an immediate send) sends it. Nothing sends before that second click. **Unschedule** on the campaign's page pulls it back before it goes.
 
 A **monthly** campaign launches itself. Once it is On and every email is approved, the system sends it each month on its own, on the dates each email is anchored to, with no button to press. The campaign page says so in place of the launch button. Nothing sends until it is On, fully approved, and its first period has arrived, so a campaign can sit fully armed and still not be sending anything yet.
 
@@ -124,7 +128,7 @@ Saving converts em-dashes to commas, the house rule for every TWY email and name
 
 ## What you need to do
 
-Write and edit the copy, set each email's audience, condition and resend, and approve each email. A monthly campaign then launches itself; a one-time campaign is launched with Review launch and Confirm and schedule, and JP handles the switch-over from the current newsletter system.
+Write and edit the copy, set each email's audience, condition and resend, and approve each email. A monthly campaign then launches itself; a one-time campaign is launched with Schedule and a second Schedule on its review page, and JP handles the switch-over from the current newsletter system.
 
 ## If something breaks
 
