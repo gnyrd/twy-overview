@@ -5,6 +5,7 @@ Quick answers to common questions about the TWY systems.
 | I want to... | Go here |
 |-------------|---------|
 | Create or edit a class plan | [Class Plans](class-plans) |
+| Cancel a class | [Cancel a class](cancel-class) |
 | Create a newsletter | [Newsletters](newsletters) |
 | Understand the newsletter process | [Newsletters](newsletters) |
 | See how welcome sequences work | [Welcome Sequences](welcome-sequences) |
