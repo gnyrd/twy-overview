@@ -61,6 +61,14 @@ Sent so far, one line per email:
 - Email 7 (TWY: Planning Your Ideal Yoga Schedule 📅): 3 sent
 - Email 8 (TWY: Congratulations on Your First Week! 🎉): 3 sent
 
+**Newsletter: 2026_09_07: Class CANCELLED TONIGHT and...** is currently **on**.
+
+So far **0** people have entered it.
+
+Sent so far, one line per email:
+
+- Email 1 (class cancellations Today Sept. 7 and 8, 9): 0 sent
+
 ## Turning one on
 
 A sequence has an On and an Off. Off is the safe state and it is where a new sequence starts.
