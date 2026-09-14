@@ -12,9 +12,10 @@ Everything happens automatically after your Zoom class ends.
 ## Private sessions
 
 Private-client sessions are handled separately:
-- Downloaded automatically from Zoom.
-- Uploaded to each client's Google Drive folder daily.
-- Cleaned up locally after 7 days.
+- Diane's and Leigh's sessions are downloaded from Zoom to the server automatically, the only private sessions that land there since 2026-09-14.
+- Each is uploaded to that client's Google Drive folder daily, and the Zoom copy goes to Zoom's trash once Drive has it.
+- The server copy is cleaned up after 7 days.
+- Tiffany's own private sessions, Anita's and the weekly call are held by the Mac mini instead, pulled straight from Zoom within minutes, and the mini moves the Zoom copy to Zoom's trash once it has every file.
 
 ## How long the class recording stays up for attendees
 

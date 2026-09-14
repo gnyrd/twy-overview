@@ -1,6 +1,6 @@
 # How do I see the files behind the TWY systems?
 
-Everything TWY runs on lives in one folder on the Hetzner server, and [files.tiffanywoodyoga.com](https://files.tiffanywoodyoga.com/) shows that folder in the browser. Sign in as admin@tiffanywoodyoga.com with the same password as classes and clips. Live since 2026-09-14. The Files button at the top of the Classes calendar opens it, on the second row of buttons beside Docs (this guide) and Stats, the three tools that only show things.
+Everything TWY runs on lives in one folder on the Hetzner server, and [files.tiffanywoodyoga.com](https://files.tiffanywoodyoga.com/) shows that folder in the browser. Sign in as admin@tiffanywoodyoga.com with the same password as classes and clips. Live since 2026-09-14. The Files button in the Classes calendar menu opens it, in the last group with Docs (this guide) and Stats, the three tools that only show things.
 
 ## What you will find
 
