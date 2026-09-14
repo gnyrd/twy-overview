@@ -15,6 +15,7 @@ A dialog names the class, its day and time, and asks once. **Cancel class** on t
 - No Instagram story or clip posts for it, and one already queued is withdrawn.
 - No recording is expected for it, so nobody is asked where it is.
 - The Habit page and the newsletter tokens skip a cancelled class when they look for the next one.
+- The nightly placeholder top-up leaves the cancelled slot alone. It does not put a new class in that spot, and the cancelled one stays in HeyMarvelous marked cancelled.
 
 ## Telling people
 

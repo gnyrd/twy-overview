@@ -34,13 +34,18 @@ All posting goes through Zernio, the scheduling service connected to the Instagr
 **Facebook**
 - Three Clips a week, Tuesday 9:00, Thursday 9:00 and Friday 7:00 Mountain. Each one promotes the next class after that slot, and in a Habit week one of the three promotes the Habit class instead.
 - Facebook takes the highest-scoring approved clip; Instagram picks at random among the approved ones. That difference is deliberate.
+- One blog post a week, Wednesday 7:00 Mountain, since 2026-09-13: a post tagged Evergreen in the blog editor, shared as a link so Facebook shows the post's own picture and title, with the post's summary above the link. Posts never shared go first, then the one shared longest ago, and no post comes back within 12 weeks. Tagging a post Dated in the blog editor takes it out of this rotation; the Page never shares Dated or untagged posts.
 - Quotes are back on Facebook from 2026-09-07: four a week, Monday 12:30, Wednesday 12:30, Saturday 9:00 and Sunday 12:30 Mountain, from the same Quotes Queue as Instagram, so one quote can appear on both. Two of the four are Reels with your voice and two are photo cards, and which slots get which flips each week, the same format test as Instagram. A Reel slot takes the next quote that has voice audio; a photo slot takes the next quote. The weekly review compares the Facebook Reels and photo cards as groups too.
+
+**YouTube**
+- Since 2026-09-13 the approved Clips can go to YouTube as Shorts, two a week to start, Tuesday and Saturday 10:00 Mountain, and three a week (Thursday joins) from 2026-10-04: the Clips Queue first, best score first, then clips Instagram already posted, each clip once and never two from the same class in a week. The title is the clip's own first thought, the description quotes the line, names the class and date, and carries the free Habit class link.
+- The Shorts start posting once the YouTube channel is connected in Zernio and its account id is in the settings. Until then the job runs every half hour and only keeps its own copy of every clip it may post, so nothing is cleaned up before YouTube gets to it: class folders are cleared about four weeks after class, and the Instagram copy of a posted clip is removed once it is archived, so YouTube holds its own.
 
 ## What this will not do
 
 - It will not post anything nobody picked. An empty queue means nothing goes out, and the daily reports will show the gap.
 - Cues are a review list only. A Cue can be added to its queue and looked at, but nothing posts a Cue anywhere yet.
-- The YouTube queue holds the openings a person has chosen, but nothing uploads them. Putting them on YouTube is still a manual step.
+- The YouTube queue of class openings is a list only: nothing uploads an opening, that is still a manual step.
 - The WhatsApp queue is a list, nothing sends to WhatsApp from it.
 - Once a post is up, this system cannot take it down. Removing a published Facebook or Instagram post is done on the Page or the app itself.
 

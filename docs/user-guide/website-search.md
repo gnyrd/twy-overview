@@ -7,8 +7,9 @@ Since 2 September 2026 the public site at [https://tiffanywoodyoga.com](https://
 - A short description under the title in Google results, taken from the first real paragraph of the page (or written by hand for the home, membership, about, blog, events, donations and privacy pages).
 - A share card, so a link pasted into Facebook, Instagram, iMessage or Slack shows the page title, description and an image. Blog posts use their own cover image; other pages use a studio photo of Tiffany.
 - Structured facts about the business and the author (Tiffany Wood, Tiffany Wood Yoga, the Instagram, Facebook and YouTube profiles, and for blog posts the headline and publication date). AI tools such as ChatGPT, Perplexity and Google's AI Overviews use these to cite a page.
-- A sitemap at [https://tiffanywoodyoga.com/sitemap.xml](https://tiffanywoodyoga.com/sitemap.xml) listing the 34 pages worth indexing: the home page, membership, about, blog, events, donations, the new-year offer, the privacy policy and every blog post.
+- A sitemap at [https://tiffanywoodyoga.com/sitemap.xml](https://tiffanywoodyoga.com/sitemap.xml) listing the 34 pages worth indexing: the home page, membership, about, blog, events, donations, the new-year offer, the privacy policy and every blog post. Each entry is dated by the page's last real change (for a blog post, its last edit or its publication on this site), which tells Google which pages are worth crawling again.
 - A plain-text summary of the site for AI tools at [https://tiffanywoodyoga.com/llms.txt](https://tiffanywoodyoga.com/llms.txt).
+- A push to Bing every time the site is deployed (the IndexNow protocol, since 2026-09-13): the pages that changed are sent to Bing, and DuckDuckGo, Yandex and the AI answer tools that search through Bing pick them up within minutes instead of waiting for a crawl. Google does not take these pushes and finds pages through the sitemap.
 
 Date archives, author pages, category pages and page 2 and 3 of the blog are deliberately marked as not worth indexing. They repeat the posts and would dilute the real pages.
 
