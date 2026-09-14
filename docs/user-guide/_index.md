@@ -20,3 +20,4 @@ Quick answers to common questions about the TWY systems.
 | Use Tweee for class planning | [Tweee](tweee) |
 | See how the website gets found by Google and AI search | [Website search](website-search) |
 | Read the daily website traffic report in Slack | [Traffic report](traffic-report) |
+| See the files behind the TWY systems on the server | [Files](files) |
