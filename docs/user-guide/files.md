@@ -1,6 +1,6 @@
 # How do I see the files behind the TWY systems?
 
-Everything TWY runs on lives in one folder on the Hetzner server, and [files.tiffanywoodyoga.com](https://files.tiffanywoodyoga.com/) shows that folder in the browser. Sign in as admin@tiffanywoodyoga.com with the same password as classes and clips. Live since 2026-09-14. The Files button in the Classes calendar menu opens it, in the last group with Docs (this guide) and Stats, the three tools that only show things.
+Everything TWY runs on lives in one folder on the Hetzner server, and [files.tiffanywoodyoga.com](https://files.tiffanywoodyoga.com/) shows that folder in the browser. Sign in as admin@tiffanywoodyoga.com with the same password as classes and clips. Live since 2026-09-14. The Files button at the bottom of the Classes calendar menu opens it, below Docs (this guide) and Stats.
 
 ## What you will find
 
@@ -19,3 +19,7 @@ Open any folder, preview a file, or download a copy. A search box at the top fin
 - It never changes anything. There is no upload, edit, rename or delete, and the server itself refuses writes from this tool, whatever button might appear.
 - It hides the secrets folder and every settings file that holds a key or a password. Those are not missing, they are kept out of the browser on purpose.
 - It is not a way to edit the website. Blog posts are edited in the blog editor. Other pages of the site still change through JP.
+
+## Who has been here
+
+Visits are counted by Plausible, the same privacy-friendly analytics as the website (no cookies, no personal data), so files.tiffanywoodyoga.com has its own page at analytics.tiffanywoodyoga.com next to the website, the studio and the Habit page: how many people came, which folders they opened, from where. Since 2026-09-14. Plausible only sees browsers, so on top of it the server keeps a log of every request to this address, and that log is what answers whether anyone besides Tiffany and JP has reached the sign-in page or tried a password. JP reads it on request.
