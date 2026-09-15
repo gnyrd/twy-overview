@@ -48,11 +48,11 @@ Sent so far, one line per email:
 
 **Journey: Yoga Lifestyle: 2024_05** is currently **on**.
 
-So far **3** people have entered it.
+So far **4** people have entered it.
 
 Sent so far, one line per email:
 
-- Email 1 (TWY: Welcome to Your Yoga Lifestyle Journey 🌟): 3 sent
+- Email 1 (TWY: Welcome to Your Yoga Lifestyle Journey 🌟): 4 sent
 - Email 2 (TWY: Setting Up Your Ideal Yoga Space 🧘): 3 sent
 - Email 3 (TWY: Align Your Space with Your Practice 🌄): 3 sent
 - Email 4 (TWY: Dive Deeper into Anusara Yoga’s Alignment Principles ✨): 3 sent
