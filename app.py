@@ -126,6 +126,8 @@ def _git_last_modified(path: Path) -> str | None:
 # ---------------------------------------------------------------------------
 
 app = Flask(__name__)
+from twy_platform import device_id
+device_id.install(app)
 app.secret_key = os.getenv("FLASK_SECRET_KEY", "change-me-please")
 app.config["SESSION_COOKIE_SECURE"]   = True
 app.config["SESSION_COOKIE_HTTPONLY"] = True

@@ -5,6 +5,7 @@ Matches the auth model used in the clips and class-plans dashboards.
 import os
 from functools import wraps
 from flask import Blueprint, session, redirect, url_for, render_template, request
+from twy_platform import device_id
 
 auth_bp = Blueprint("auth", __name__)
 
@@ -24,6 +25,7 @@ def login():
         password = request.form.get("password", "")
         if os.getenv("DASHBOARD_PASS") and password == os.getenv("DASHBOARD_PASS"):
             session["logged_in"] = True
+            device_id.record("login")
             return redirect(url_for("index"))
         return render_template("login.html", error="Invalid password")
     return render_template("login.html")
