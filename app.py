@@ -146,9 +146,11 @@ DOCS_FEATURE = "docs_site" if DOCS_DIR.name == "user-guide" else None
 def contribution_gate():
     if DOCS_FEATURE is None:
         return None
-    from twy_platform.contribution import continued
+    from twy_platform.contribution import continued, resting_page
     if continued(DOCS_FEATURE):
         return None
+    if request.method == "GET":
+        return resting_page("User Guide", site="TWY")
     abort(404)
 
 
