@@ -2,7 +2,7 @@
 
 ## Where to go
 
-Open the class on [https://classes.tiffanywoodyoga.com](https://classes.tiffanywoodyoga.com) by clicking its day on the calendar. At the bottom of the page, next to Save, is **Cancel class**. It is only offered for a class that is still ahead and already has its HeyMarvelous event.
+Labs. Open the class on [https://classes.tiffanywoodyoga.com](https://classes.tiffanywoodyoga.com) by clicking its day on the calendar. In the Labs menu, the small column centred on the right edge of the page under a Labs label (hover it: Exploratory), is **Cancel class**. It is only offered for a class that is still ahead and already has its HeyMarvelous event. Exploratory: with the switch off the button and its Restore twin leave the page, and a class is cancelled in HeyMarvelous instead.
 
 ## What happens when you confirm
 

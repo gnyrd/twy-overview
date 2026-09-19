@@ -13,6 +13,7 @@ Quick answers to common questions about the TWY systems.
 | Change a person's email address | [Change an email address](change-email-address) |
 | See how class recordings get processed | [Video Recordings](video-recordings) |
 | See how Clips and Quotes get picked and posted | [Clips and Quotes](clips-and-quotes) |
+| See every clip and quote ever approved, and where each one went | [Inventory](inventory) |
 | Review the old blog posts and pick the ones to bring back | [Old posts](legacy-posts) |
 | Understand the placeholder classes on the calendar | [Calendar Placeholders](calendar-placeholders) |
 | Check on the Yoga Habit page | [Yoga Habit](yoga-habit) |

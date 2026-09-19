@@ -135,10 +135,30 @@ app.config["SESSION_COOKIE_SAMESITE"] = "Lax"
 
 app.register_blueprint(auth_bp)
 
+# The same app serves docs.tiffanywoodyoga.com (the user guide, DOCS_DIR
+# user-guide) and tech.tiffanywoodyoga.com (the technical reference). The
+# user guide is contribution (JP 2026-09-19, "gate Docs.twy"): off, every
+# page answers 404. The technical reference is not gated.
+DOCS_FEATURE = "docs_site" if DOCS_DIR.name == "user-guide" else None
+
+
+@app.before_request
+def contribution_gate():
+    if DOCS_FEATURE is None:
+        return None
+    from twy_platform.contribution import continued
+    if continued(DOCS_FEATURE):
+        return None
+    abort(404)
+
 
 @app.context_processor
 def inject_globals():
-    return {"nav_pages": build_nav(), "site_title": SITE_TITLE}
+    from twy_platform.contribution import labs_badge, labs_css
+    # The user guide wears the Labs badge beside its title (JP 2026-09-19);
+    # the technical reference (DOCS_FEATURE None) wears none.
+    return {"nav_pages": build_nav(), "site_title": SITE_TITLE,
+            "labs_badge": labs_badge, "labs_css": labs_css, "labs_feature": DOCS_FEATURE}
 
 
 @app.route("/")

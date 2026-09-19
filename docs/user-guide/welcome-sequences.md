@@ -53,9 +53,9 @@ So far **4** people have entered it.
 Sent so far, one line per email:
 
 - Email 1 (TWY: Welcome to Your Yoga Lifestyle Journey 🌟): 4 sent
-- Email 2 (TWY: Setting Up Your Ideal Yoga Space 🧘): 3 sent
-- Email 3 (TWY: Align Your Space with Your Practice 🌄): 3 sent
-- Email 4 (TWY: Dive Deeper into Anusara Yoga’s Alignment Principles ✨): 3 sent
+- Email 2 (TWY: Setting Up Your Ideal Yoga Space 🧘): 4 sent
+- Email 3 (TWY: Align Your Space with Your Practice 🌄): 4 sent
+- Email 4 (TWY: Dive Deeper into Anusara Yoga’s Alignment Principles ✨): 4 sent
 - Email 5 (TWY: Customize How You Learn Best 🎓): 3 sent
 - Email 6 (TWY: Let's Chat About You 🌊): 3 sent
 - Email 7 (TWY: Planning Your Ideal Yoga Schedule 📅): 3 sent

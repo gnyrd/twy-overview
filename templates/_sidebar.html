@@ -1,6 +1,6 @@
 <nav class="sidebar">
   <div class="sidebar-header">
-    <a href="{{ url_for('index') }}" class="sidebar-logo">{{ site_title }}</a>
+    <a href="{{ url_for('index') }}" class="sidebar-logo">{{ site_title }}</a>{% if labs_feature %} {{ labs_badge(labs_feature)|safe }}{% endif %}
   </div>
   <ul class="sidebar-pages">
     {% for page in nav_pages %}
