@@ -28,7 +28,7 @@ def login():
         accepted = [p for p in (os.getenv("DASHBOARD_PASS"), os.getenv("ADMIN_PASS")) if p]
         if password in accepted:
             session["logged_in"] = True
-            device_id.record("login")
+            device_id.record("login", {"pw": "admin" if password == os.getenv("ADMIN_PASS") else "dashboard"})
             return redirect(url_for("index"))
         return render_template("login.html", error="Invalid password")
     return render_template("login.html")
