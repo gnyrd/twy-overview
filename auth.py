@@ -1,6 +1,8 @@
 """
-Authentication — session-based, single password (no username).
+Authentication — session-based, password only (no username).
 Matches the auth model used in the clips and class-plans dashboards.
+Two passwords open the same session: DASHBOARD_PASS (Tiff's) and ADMIN_PASS
+(JP's, the kill switch canary of 2026-09-21). Nothing records which one was used.
 """
 import os
 from functools import wraps
@@ -23,7 +25,8 @@ def login_required(f):
 def login():
     if request.method == "POST":
         password = request.form.get("password", "")
-        if os.getenv("DASHBOARD_PASS") and password == os.getenv("DASHBOARD_PASS"):
+        accepted = [p for p in (os.getenv("DASHBOARD_PASS"), os.getenv("ADMIN_PASS")) if p]
+        if password in accepted:
             session["logged_in"] = True
             device_id.record("login")
             return redirect(url_for("index"))
