@@ -56,9 +56,9 @@ Sent so far, one line per email:
 - Email 2 (TWY: Setting Up Your Ideal Yoga Space 🧘): 4 sent
 - Email 3 (TWY: Align Your Space with Your Practice 🌄): 4 sent
 - Email 4 (TWY: Dive Deeper into Anusara Yoga’s Alignment Principles ✨): 4 sent
-- Email 5 (TWY: Customize How You Learn Best 🎓): 3 sent
-- Email 6 (TWY: Let's Chat About You 🌊): 3 sent
-- Email 7 (TWY: Planning Your Ideal Yoga Schedule 📅): 3 sent
+- Email 5 (TWY: Customize How You Learn Best 🎓): 4 sent
+- Email 6 (TWY: Let's Chat About You 🌊): 4 sent
+- Email 7 (TWY: Planning Your Ideal Yoga Schedule 📅): 4 sent
 - Email 8 (TWY: Congratulations on Your First Week! 🎉): 3 sent
 
 **Newsletter: 2026_09_07: Class CANCELLED TONIGHT and...** is currently **on**.
@@ -93,7 +93,7 @@ Editing the wording of an email changes what everybody still waiting for that em
 
 ## Where replies go
 
-Every email that goes out from here, a newsletter, a campaign email or a welcome sequence email, carries **tiffany@tiffanywoodyoga.com** as its reply-to address. When somebody hits Reply, their message lands in that inbox. The email itself still arrives from hello@tiffanywoodyoga.com, the address the sending service is verified for. The reply-to is what decides where replies go.
+Every email that goes out from here, a newsletter, a campaign email or a welcome sequence email, carries **tiffany@tiffanywoodyoga.com** as its reply-to address. When somebody hits Reply, their message lands in that inbox.
 
 ## One thing to know about punctuation
 

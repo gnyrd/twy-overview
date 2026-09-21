@@ -17,7 +17,7 @@ Changed your mind? **Unschedule** on the newsletter's page pulls it back any tim
 
 ## Where replies go
 
-Every email that goes out from here, a newsletter, a campaign email or a welcome sequence email, carries **tiffany@tiffanywoodyoga.com** as its reply-to address. When somebody hits Reply, their message lands in that inbox. The email itself still arrives from hello@tiffanywoodyoga.com, the address the sending service is verified for. The reply-to is what decides where replies go.
+Every email that goes out from here, a newsletter, a campaign email or a welcome sequence email, carries **tiffany@tiffanywoodyoga.com** as its reply-to address. When somebody hits Reply, their message lands in that inbox.
 
 ## Where to go
 
@@ -32,7 +32,7 @@ A month can carry up to eight emails, one row per audience:
 - **Yoga Habit: Resend** -- a second try at the invitation, to people who did not open it.
 - **Yoga Habit: Gentle Reminder** -- a nudge to people who opened the invitation but have not registered.
 - **Yoga Habit: Registered Reminder** -- a reminder to people who did register.
-- **Yoga Habit: Class Recording** -- points everyone who registered to the recording.
+- **Yoga Habit: Class Recording** -- points everyone who registered to the recording. While that month's Habit coupon is still open, it also carries one sentence offering the first month of the membership at the coupon price, with the closing date. The sentence appears on its own from the coupon; if the coupon has closed or does not exist, the email goes out without it.
 - **Yoga Habit: Follow Up 1** -- the first note after the class.
 - **Yoga Habit: Follow Up 2** -- the second note, a week later.
 

@@ -22,7 +22,7 @@ Open [https://classes.tiffanywoodyoga.com/journeys](https://classes.tiffanywoody
 
 ## Where replies go
 
-Every email that goes out from here, a newsletter, a campaign email or a welcome sequence email, carries **tiffany@tiffanywoodyoga.com** as its reply-to address. When somebody hits Reply, their message lands in that inbox. The email itself still arrives from hello@tiffanywoodyoga.com, the address the sending service is verified for. The reply-to is what decides where replies go.
+Every email that goes out from here, a newsletter, a campaign email or a welcome sequence email, carries **tiffany@tiffanywoodyoga.com** as its reply-to address. When somebody hits Reply, their message lands in that inbox.
 
 Your Emails list tags every row **Newsletter**, **Campaign**, **Monthly** or **Journey**, and the checkboxes above the list show or hide each kind. A second row of checkboxes filters by where each one is in its life: **Active** has started and is not finished, **Approved** is ready and waiting for its start date, **Pending** is still waiting on approval or a sending condition, and **Complete** is all done. Each row's capsule shows the same four states, so the capsule you see and the boxes you filter with always speak the same language. Both groups apply together, so you can look at, say, only campaigns that are still pending.
 
