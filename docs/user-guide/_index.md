@@ -15,6 +15,7 @@ Quick answers to common questions about the TWY systems.
 | See how Clips and Quotes get picked and posted | [Clips and Quotes](clips-and-quotes) |
 | See every clip and quote ever approved, and where each one went | [Inventory](inventory) |
 | Review the old blog posts and pick the ones to bring back | [Old posts](legacy-posts) |
+| Say yes or not now to something JP could build, or ask for something yourself | [Features?](features) |
 | Understand the placeholder classes on the calendar | [Calendar Placeholders](calendar-placeholders) |
 | Check on the Yoga Habit page | [Yoga Habit](yoga-habit) |
 | Edit the monthly overview | [Monthly Overview](monthly-overview) |

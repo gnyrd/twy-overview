@@ -59,7 +59,7 @@ Sent so far, one line per email:
 - Email 5 (TWY: Customize How You Learn Best 🎓): 4 sent
 - Email 6 (TWY: Let's Chat About You 🌊): 4 sent
 - Email 7 (TWY: Planning Your Ideal Yoga Schedule 📅): 4 sent
-- Email 8 (TWY: Congratulations on Your First Week! 🎉): 3 sent
+- Email 8 (TWY: Congratulations on Your First Week! 🎉): 4 sent
 
 **Newsletter: 2026_09_07: Class CANCELLED TONIGHT and...** is currently **on**.
 

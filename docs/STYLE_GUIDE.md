@@ -1,6 +1,6 @@
-# Documentation Style Guide
+# TWY Style Guide
 
-Rules for maintaining TWY documentation. The automated doc agent MUST read and follow this file before making any changes.
+Rules for the TWY documentation and for the dashboard pages. Every human and every minion reads this file before writing a doc or building a page.
 
 ## Audience
 
@@ -49,3 +49,83 @@ If changes affect architecture (new services, changed ports, new dependencies), 
 
 ### No fluff
 Do not add speculative documentation. Only document what the code actually does.
+
+## Dashboard UI (read before building or changing a page)
+
+Added 2026-09-22 after a new page shipped with its create form at the bottom
+of the list instead of a New button in the toolbar. Nothing here is new
+policy: every rule below is read off the templates that were already live.
+The guide had covered documentation only, so a page could be built without
+ever meeting these, which is what happened.
+
+The macOS HIG is the tiebreaker for anything this section does not settle
+(`.claude/rules/twy.md`): the confirming button sits at the far right of an
+action row, segmented controls stay compact, card headers are nouns.
+
+### Which theme a page wears
+
+- **Tiff-facing** (classes.tiffanywoodyoga.com): the warm gradient in
+  `base_layout.html`, `linear-gradient(135deg, #f6d365 0%, #fda085 50%, #d4a574 100%)`.
+- **JP-facing operational** (tech.tiffanywoodyoga.com): the blue gradient in
+  `overview/static/style.css`,
+  `linear-gradient(160deg, #a8d8f0 0%, #1a85c2 40%, #0d5a8a 70%, #062540 100%)`.
+- A page in the classes app that is JP's overrides `body { background: ... }`
+  in its own `page_styles` block. Classify a mixed-use page by its primary
+  user, not by which app happens to host it.
+
+### Page skeleton
+
+Every page extends `base_layout.html` and fills its blocks:
+
+| Block | Holds |
+| --- | --- |
+| `title` | `<Page> \| TWY Class Plans` |
+| `site_title` | the page name, plus `labs_badge('<feature>')` when gated |
+| `back_link` | one `<a class="back-link">` to the parent page |
+| `header_right` | the page's primary action, top right |
+| `page_styles` | page-scoped CSS only |
+| `content` | the page body, inside `.card` |
+
+### The primary action is a button in the top-right toolbar
+
+`header_right` carries it, as `btn btn-primary`: **Add Class** on the calendar,
+**New** on Emails and Blog. Secondary actions beside it are `btn btn-outline`.
+
+A form for creating something is **its own page**, reached by that button, never
+a form at the foot of the list and never a modal. Live examples: `/blog/new`,
+`/journeys/new`, `/journeys/newsletters/new`, `/features/new`. The form page
+carries its own `back_link` to the list.
+
+### Forms
+
+- The form lives in a `.card`.
+- Labels: `display: block; font-size: 12px; text-transform: uppercase;
+  letter-spacing: 0.04em; color: #777; margin: 0 0 6px`.
+- Inputs and textareas: full width, `border: 1px solid #d5d5d5`, `border-radius: 8px`,
+  `padding: 10px 12px`, `margin-bottom: 14px`, `font: inherit`.
+- Side-by-side fields use a grid that collapses to one column under 760px.
+- The action row is last: `.actions { display: flex; gap: 12px;
+  align-items: center; justify-content: flex-end; margin-top: 8px; }`, with an
+  optional `.hint` to the left of the button and the confirming button last.
+- **No placeholder text in an input.** A label says what the field is; a
+  placeholder that looks like a value reads as one (JP 2026-09-22).
+
+### Buttons
+
+`btn-primary` blue `#007aff` confirming, `btn-outline` white with a `#ccc`
+border, `btn-ghost` translucent on a coloured header, `btn-success` `#34c759`,
+`btn-danger` `#ff3b30`. All are defined in `base_layout.html`; never restyle
+one in a page.
+
+### Cards
+
+`.card` is white, `border-radius: 12px`, `box-shadow: 0 4px 18px rgba(0,0,0,0.12)`,
+`padding: 20px`. Page content goes inside one. A page-local class must not be
+called `card`: it shadows the layout's and the page loses its panel.
+
+### Gated surfaces
+
+A page behind a contribution gate wears `labs_badge('<feature>')` in its
+`site_title`, and its entry in the Labs column on the calendar uses
+`labs_host('<feature>')` with `labs_disabled('<feature>')`. An off surface
+stays visible, dimmed and inert (JP 2026-09-19); it does not vanish.
