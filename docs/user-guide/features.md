@@ -9,7 +9,7 @@ Every item says the same four things, so two of them can be compared at a glance
 - **Benefit**, what it changes for the studio.
 - **Estimated hours**, how long it would take.
 
-## Waiting on you
+## Pending
 
 Open an item and you have two buttons:
 
