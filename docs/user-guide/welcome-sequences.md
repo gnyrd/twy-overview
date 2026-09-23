@@ -18,7 +18,7 @@ So far **0** people have entered it.
 
 Sent so far, one line per email:
 
-- Email 1 (Tomorrow morning: {CLASS_TITLE}): 0 sent
+- Email 1 ({CLASS_DATE}: {CLASS_TITLE}): 0 sent
 - Email 2 (This morning at {CLASS_TIME}: {CLASS_TITLE}): 0 sent
 
 **Campaign: Transitions: 2026_09** is currently **on**.

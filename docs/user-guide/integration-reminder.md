@@ -6,7 +6,7 @@ Two emails go to members before each month's Integration class. You set them up 
 
 | Email | When it sends | What it says |
 |-------|---------------|--------------|
-| Email 1 | 9:00 in the morning the day before the class | The class name, the date, the time and the link |
+| Email 1 | 9:00 in the morning, two days before the class | The class name, the date, the time and the link |
 | Email 2 | 7:00 in the morning on the day of the class | A short note that it is this morning |
 
 Both go to **Audience: TYL Members**, your current Yoga Lifestyle members, which is kept current every night from HeyMarvelous. Nobody else receives them.
