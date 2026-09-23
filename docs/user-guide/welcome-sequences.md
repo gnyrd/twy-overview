@@ -12,15 +12,6 @@ You can write, edit and preview a sequence, and the sending is built and running
 
 ## The sequences that exist
 
-**Campaign: Integration Reminder: 2026_09** is currently **on**.
-
-So far **0** people have entered it.
-
-Sent so far, one line per email:
-
-- Email 1 (Tomorrow morning: {CLASS_TITLE}): 0 sent
-- Email 2 (This morning at {CLASS_TIME}: {CLASS_TITLE}): 0 sent
-
 **Campaign: Transitions: 2026_09** is currently **on**.
 
 So far **0** people have entered it.
