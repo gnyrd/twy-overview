@@ -18,6 +18,7 @@ Quick answers to common questions about the TWY systems.
 | Say yes or not now to something JP could build, or ask for something yourself | [Features?](features) |
 | Understand the placeholder classes on the calendar | [Calendar Placeholders](calendar-placeholders) |
 | Check on the Yoga Habit page | [Yoga Habit](yoga-habit) |
+| Understand the Integration class reminder to members | [Integration reminder](integration-reminder) |
 | Edit the monthly overview | [Monthly Overview](monthly-overview) |
 | Use Tweee for class planning | [Tweee](tweee) |
 | See how the website gets found by Google and AI search | [Website search](website-search) |
