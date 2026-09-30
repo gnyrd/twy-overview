@@ -22,7 +22,7 @@ Open [https://classes.tiffanywoodyoga.com/journeys](https://classes.tiffanywoody
 
 ## Where replies go
 
-Every email that goes out from here, a newsletter, a campaign email or a welcome sequence email, carries **tiffany@tiffanywoodyoga.com** as its reply-to address. When somebody hits Reply, their message lands in that inbox.
+Every email that goes out from here, a newsletter, a campaign email or a welcome sequence email, carries **tiffany@tiffanywoodyoga.com** as its reply-to address. When somebody hits Reply, their message lands in that inbox. The email itself still arrives from hello@tiffanywoodyoga.com, the address the sending service is verified for. The reply-to is what decides where replies go.
 
 Your Emails list tags every row **Newsletter**, **Campaign**, **Monthly** or **Journey**, and the checkboxes above the list show or hide each kind. A second row of checkboxes filters by where each one is in its life: **Active** has started and is not finished, **Approved** is ready and waiting for its start date, **Pending** is still waiting on approval or a sending condition, and **Complete** is all done. Each row's capsule shows the same four states, so the capsule you see and the boxes you filter with always speak the same language. Both groups apply together, so you can look at, say, only campaigns that are still pending.
 
@@ -100,11 +100,11 @@ The campaign page shows the running count, like **1 of 3 approved**, and each em
 
 A **one-time** campaign, like a seasonal series, is launched from its own page: **Schedule** opens a review page that shows exactly what it would schedule, who each email goes to and when, and **Schedule** there (or **Send**, for an immediate send) sends it. Nothing sends before that second click. **Unschedule** on the campaign's page pulls it back before it goes.
 
-A **monthly** campaign launches itself. Once it is On and every email is approved, the system sends it each month on its own, on the dates each email is anchored to, with no button to press. The campaign page says so in place of the launch button. Nothing sends until it is On, fully approved, and its first period has arrived, so a campaign can sit fully armed and still not be sending anything yet.
+A **monthly** campaign launches itself. Once it is On and its first month has arrived, the system sends it each month on its own, on the dates each email is anchored to, with no button to press. The campaign page says so in place of the launch button. Each email still goes out only once it is approved, as below, so a campaign can be On and not be sending anything yet.
 
-For a monthly campaign, approval starts over every month. The Approved boxes on its emails approve the setup (who, when, which draft each email reads). The words themselves are approved month by month, through that month's newsletter drafts: an email whose draft for the month is not yet approved simply waits, and sends once it is. So a new month always begins as Pending and becomes Approved when you approve that month's drafts, and last month's approval never sends this month's words.
+An email that reads one of the monthly drafts is approved in one place only: that month's draft in Newsletter Drafts. It has no Approved box of its own. Its page says whether this month's draft is approved and links to it. An email whose draft for the month is not approved yet simply waits, and goes out once it is, as long as its date has not passed. So a new month always begins as Pending and becomes Approved as you approve that month's drafts, and last month's approval never sends this month's words. An email with its own typed words is approved with the Approved box on its page.
 
-Nothing about a monthly campaign's emails locks once a period has sent: the subject, body and Approved box stay editable. Once that month's run has gone out, its campaign page and each email's editor show a plain note that the run is complete, so you know any change you save now is for the next period, not the one that already went.
+Nothing about a monthly campaign's emails locks once a period has sent: the subject, body and approval stay editable. Once that month's run has gone out, its campaign page and each email's editor show a plain note that the run is complete, so you know any change you save now is for the next period, not the one that already went.
 
 The email carrying the class recording waits for the recording to be attached to its free product before it may send. The system now checks this on its own at send time: once the edited recording is attached to the month's free product, that email goes out with the rest of the campaign. Until it is attached, that one email holds and every other email in the campaign sends normally.
 
