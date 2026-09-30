@@ -17,11 +17,11 @@ Changed your mind? **Unschedule** on the newsletter's page pulls it back any tim
 
 ## Where replies go
 
-Every email that goes out from here, a newsletter, a campaign email or a welcome sequence email, carries **tiffany@tiffanywoodyoga.com** as its reply-to address. When somebody hits Reply, their message lands in that inbox.
+Every email that goes out from here, a newsletter, a campaign email or a welcome sequence email, carries **tiffany@tiffanywoodyoga.com** as its reply-to address. When somebody hits Reply, their message lands in that inbox. The email itself still arrives from hello@tiffanywoodyoga.com, the address the sending service is verified for. The reply-to is what decides where replies go.
 
 ## Where to go
 
-Open [https://classes.tiffanywoodyoga.com](https://classes.tiffanywoodyoga.com), or click **Emails** in the toolbar above the class calendar. From there, click **Monthly Drafts** (https://classes.tiffanywoodyoga.com/newsletters/drafts) to open the timeline for the most recent month with drafts, one row per audience, in the order it will send. Links beside the month name step to the closest earlier or later month that has drafts.
+Open [https://classes.tiffanywoodyoga.com](https://classes.tiffanywoodyoga.com), or click **Emails** in the toolbar above the class calendar. There, click a month's **Yoga Habit** or **Yoga Lifestyle** row (for example Monthly: Yoga Habit: 2026_10) to open that month's drafts at that program's emails: the month's timeline, one row per audience, in the order it will send. The row also says how many of its drafts are approved. Links beside the month name step to the closest earlier or later month that has drafts, and the buttons at the top open each program's settings.
 
 ## The eight emails
 
