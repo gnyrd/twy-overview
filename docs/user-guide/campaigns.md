@@ -56,7 +56,7 @@ Any email can resend itself to the people who did not open it the first time. Tu
 
 - Its audience is fixed: the people who did not open the original. You do not pick it.
 - It goes a set number of days **after the original sends**, so the opens have time to come in first.
-- It reuses the original's subject and words unless you give it a new subject or body, which most people do to catch a second glance.
+- It reuses the original's subject and words unless you give it a new subject or body, which most people do to catch a second glance. Or pick a **Copy source for the resend** and it sends that month's draft of another newsletter instead: the Yoga Habit invitation's resend sends the Non-Opener Resend draft this way. If that draft is not approved when the resend is due, the resend waits and the original still sends.
 - If the original never sent, held by its condition, the resend does not send either. There is no one to be a non-opener of.
 
 One resend per email. A resend does not get a resend of its own.
