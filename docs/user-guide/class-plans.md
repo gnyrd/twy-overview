@@ -21,7 +21,7 @@ Your changes are saved immediately.
 Each plan can include:
 
 - **Title** -- the name of the class
-- **Class type** -- regular, workshop, Yoga Habit, etc.
+- **Class type** -- Principles of Anusara, Flow, Strength, Habit and so on. Required when you save in the editor. Tweee can save a plan without one, and when Tweee leaves it out the plan keeps the class type it already had. The class type names the class everywhere it appears, including HeyMarvelous and the recording folder.
 - **Apex pose** -- the peak pose for the class
 - **Affirmation** -- the theme phrase
 - **Series** -- which monthly series this belongs to

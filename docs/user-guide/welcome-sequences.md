@@ -102,7 +102,7 @@ Editing the wording of an email changes what everybody still waiting for that em
 
 ## Naming the next live classes
 
-Labs. Since 2026-09-28 the first two Yoga Lifestyle welcome emails name the next live classes. Email 1 lists the next two in a short block after its opening lines, and email 2 names the next one just before your sign-off. Each class reads like "Tuesday, September 29, 8:00am Mountain: The Space Between", with the name linking to the class in HeyMarvelous. The classes are filled in the moment each email goes out, from your published class plans, so every new member sees the classes coming up for them.
+Trial. Since 2026-09-28 the first two Yoga Lifestyle welcome emails name the next live classes. Email 1 lists the next two in a short block after its opening lines, and email 2 names the next one just before your sign-off. Each class reads like "Tuesday, September 29, 8:00am Mountain: The Space Between", with the name linking to the class in HeyMarvelous. The classes are filled in the moment each email goes out, from your published class plans, so every new member sees the classes coming up for them.
 
 - A class is named only when its plan is published to HeyMarvelous and it starts within the next two weeks. A calendar placeholder is never promised to anybody.
 - If fewer than two published classes start in the next two weeks, email 1 leaves the whole block out and reads as it did before. Email 2's line needs only one class.
@@ -112,7 +112,7 @@ Labs. Since 2026-09-28 the first two Yoga Lifestyle welcome emails name the next
 
 ## Where replies go
 
-Every email that goes out from here, a newsletter, a campaign email or a welcome sequence email, carries **tiffany@tiffanywoodyoga.com** as its reply-to address. When somebody hits Reply, their message lands in that inbox.
+Every email that goes out from here, a newsletter, a campaign email or a welcome sequence email, carries **tiffany@tiffanywoodyoga.com** as its reply-to address. When somebody hits Reply, their message lands in that inbox. The email itself still arrives from hello@tiffanywoodyoga.com, the address the sending service is verified for. The reply-to is what decides where replies go.
 
 ## One thing to know about punctuation
 
