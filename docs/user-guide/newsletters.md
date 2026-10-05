@@ -23,9 +23,9 @@ Every email that goes out from here, a newsletter, a campaign email or a welcome
 
 Open [https://classes.tiffanywoodyoga.com](https://classes.tiffanywoodyoga.com), or click **Emails** in the toolbar above the class calendar. There, click a month's **Yoga Habit** or **Yoga Lifestyle** row (for example Monthly: Yoga Habit: 2026_10) to open that month's drafts at that program's emails: the month's timeline, one row per audience, in the order it will send. The row also says how many of its drafts are approved. Links beside the month name step to the closest earlier or later month that has drafts, and the buttons at the top open each program's settings.
 
-## The eight emails
+## The seven emails
 
-A month can carry up to eight emails, one row per audience:
+A month can carry up to seven emails, one row per audience:
 
 - **Yoga Lifestyle: Monthly** -- the regular newsletter to current members.
 - **Yoga Habit: General Invitation** -- the free class invitation to everyone else.
@@ -33,10 +33,11 @@ A month can carry up to eight emails, one row per audience:
 - **Yoga Habit: Gentle Reminder** -- a nudge to people who opened the invitation but have not registered.
 - **Yoga Habit: Registered Reminder** -- a reminder to people who did register.
 - **Yoga Habit: Class Recording** -- points everyone who registered to the recording. While that month's Habit coupon is still open, it also carries one sentence offering the first month of the membership at the coupon price, with the closing date. The sentence appears on its own from the coupon; if the coupon has closed or does not exist, the email goes out without it.
-- **Yoga Habit: Follow Up 1** -- the first note after the class.
-- **Yoga Habit: Follow Up 2** -- the second note, a week later.
+- **Yoga Habit: Follow Up 1** -- the note after the class. It goes out on the Tuesday after and carries the first month offer.
 
-Not every month uses all eight. A row only appears once that email has a real send date to anchor to. Draft rows for next month start appearing on the timeline on or after the 25th.
+Not every month uses all seven. A row only appears once that email has a real send date to anchor to. Draft rows for next month start appearing on the timeline on or after the 25th.
+
+Until October 2026 there was also a Follow Up 2, a week after the class. Months before then still show its row.
 
 ## Editing a draft
 
