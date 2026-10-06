@@ -1,6 +1,6 @@
 # Who should I reach out to personally?
 
-Two kinds of post appear in the #member-activity Slack channel, next to the joins and cancellations, each naming a member worth a personal note from you. Each name links to that person in HeyMarvelous.
+Two kinds of post appear in the #member-activity Slack channel, next to the joins and cancellations, each naming a member worth a personal note from you. In the new member post the name links to that person in HeyMarvelous. In the weekly Kula hello, clicking the name opens a new email to that member.
 
 ## A new member who hasn't come to a live class yet
 
@@ -8,9 +8,9 @@ When somebody new to The Yoga Lifestyle Membership has gone their first two week
 
 The post waits until the class attendance for the whole of their first two weeks has come through from HeyMarvelous, so a class they took near the end of the two weeks is never missed. That can make it a day or two later than day 14.
 
-## One member every Monday for a check-in
+## A Kula hello every Monday
 
-Every Monday at 2:15 in the afternoon, one member is named for a personal check-in that week. There is no agenda: a note to say you're glad they're practicing with you is the whole idea.
+Every Monday at 2:15 in the afternoon, the week's Kula hello names one member for a personal note that week. Clicking the name opens a new email to them, ready to write. There is no agenda: a few words to say you're glad they're practicing with you is the whole idea.
 
 The weeks alternate between two groups:
 
@@ -21,7 +21,7 @@ Everybody gets a turn. Within each of those two groups, nobody is named a second
 
 ## What it will NOT do
 
-- It never contacts anyone. It only tells you who; the note is yours.
+- It never contacts anyone. Clicking the name only opens a new email. What it says, and whether it goes, is up to you.
 - Somebody in their first 30 days is not picked for a check-in. The welcome emails and the two-week post cover that stretch.
 - Both posts are only about members of The Yoga Lifestyle Membership.
 - A member who rejoins after leaving is not treated as new.
