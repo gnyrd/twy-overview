@@ -8,9 +8,9 @@ When somebody new to The Yoga Lifestyle Membership has gone their first two week
 
 The post waits until the class attendance for the whole of their first two weeks has come through from HeyMarvelous, so a class they took near the end of the two weeks is never missed. That can make it a day or two later than day 14.
 
-## A Kula hello every Monday
+## A Kula hello every Tuesday
 
-Every Monday at 2:15 in the afternoon, the week's Kula hello names one member for a personal note that week. Clicking the name opens a new email to them, ready to write. There is no agenda: a few words to say you're glad they're practicing with you is the whole idea.
+Every Tuesday at 2:15 in the afternoon, the week's Kula hello names one member for a personal note that week. Clicking the name opens a new email to them, ready to write. There is no agenda: a few words to say you're glad they're practicing with you is the whole idea.
 
 The Kula hello also comes to you as a direct message from JP, a link to the post in #member-activity, so it is easy to find.
 
@@ -27,4 +27,4 @@ Everybody gets a turn. Within each of those two groups, nobody is named a second
 - Somebody in their first 30 days is not picked for a check-in. The welcome emails and the two-week post cover that stretch.
 - Both posts are only about members of The Yoga Lifestyle Membership.
 - A member who rejoins after leaving is not treated as new.
-- The first check-ins, on September 29, 2026, named two members for the two weeks that followed. The weekly post starts on October 12, 2026.
+- The first check-ins, on September 29, 2026, named two members for the two weeks that followed. The first weekly Kula hello is on October 6, 2026.
