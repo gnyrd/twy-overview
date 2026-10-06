@@ -12,6 +12,8 @@ The post waits until the class attendance for the whole of their first two weeks
 
 Every Monday at 2:15 in the afternoon, the week's Kula hello names one member for a personal note that week. Clicking the name opens a new email to them, ready to write. There is no agenda: a few words to say you're glad they're practicing with you is the whole idea.
 
+The Kula hello also comes to you as a direct message from JP, a link to the post in #member-activity, so it is easy to find.
+
 The weeks alternate between two groups:
 
 - Somebody in their first year of membership, which is when people are most likely to leave.
