@@ -1,6 +1,6 @@
 # Who should I reach out to personally?
 
-Two kinds of post appear in the #member-activity Slack channel, next to the joins and cancellations, each naming a member worth a personal note from you. In the new member post the name links to that person in HeyMarvelous. In the weekly Kula hello, clicking the name opens a new email to that member.
+Two kinds of post name a member worth a personal note from you. The new member post appears in the #member-activity Slack channel, next to the joins and cancellations, and the name in it links to that person in HeyMarvelous. The weekly Kula Hello appears in the #updates channel, and clicking the name in it opens a new email to that member.
 
 ## A new member who hasn't come to a live class yet
 
