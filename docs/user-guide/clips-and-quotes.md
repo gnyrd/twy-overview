@@ -17,7 +17,9 @@ The queues each have a page: the Clips Queue (/ig/queue), the Quotes Queue (/quo
 
 ## Who picks
 
-Today JP picks. Picking is looking through a class's clips and clicking the ones that feel right into the Clips Queue, and marking the lines worth a Quote. The queues are the only thing the schedulers read, so the eye that picks is the editorial control over everything that goes out.
+Tiffany picks. Picking is looking through a class's clips and clicking the ones that feel right into the Clips Queue, and marking the lines worth a Quote. The queues are the only thing the schedulers read, so the eye that picks is the editorial control over everything that goes out.
+
+Trial. Since 2026-10-13, every day at 9:15 Mountain a short note in the Slack updates channel, also sent to Tiffany as a direct message from JP, names the two oldest classes whose clips have been ready for three days with nothing picked from them (no Clip, Quote or Cue), oldest first, each by its Class Plan title with a link straight to its class page. It names two at most, so a long backlog comes two classes a day. It also says when the Clips or Quotes queue is running low, which means under 44, without giving the numbers. Picking one thing from a class takes that class off the list, and so does the class folder being archived after 28 days. Nothing is sent on a day when no class is waiting and both queues hold 44 or more. With the switch off, no note is sent.
 
 ## What gets posted, and when
 

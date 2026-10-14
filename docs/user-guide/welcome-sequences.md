@@ -45,7 +45,6 @@ Sent so far, one line per email:
 - Email 3 (Registered reminder (from the monthly draft)): 0 sent
 - Email 4 (Class recording (from the monthly draft)): 0 sent
 - Email 5 (Follow up one (from the monthly draft)): 0 sent
-- Email 6 (Follow up two (from the monthly draft)): 0 sent
 
 **Campaign: Yoga Lifestyle: 2026_08** is currently **on**.
 
