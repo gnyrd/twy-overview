@@ -20,8 +20,10 @@ Quick answers to common questions about the TWY systems.
 | Check on the Yoga Habit page | [Yoga Habit](yoga-habit) |
 | Understand the Integration class reminder to members | [Integration reminder](integration-reminder) |
 | Edit the monthly overview | [Monthly Overview](monthly-overview) |
+| See how each month's Series gets its cover photo | [Series covers](series-covers) |
 | Use Tweee for class planning | [Tweee](tweee) |
 | See how the website gets found by Google and AI search | [Website search](website-search) |
 | Read the daily website traffic report in Slack | [Traffic report](traffic-report) |
 | See who to reach out to personally, and why | [Member check-ins](member-check-ins) |
+| See how each Yoga Habit class did, a week later | [Yoga Habit report](habit-report) |
 | See the files behind the TWY systems on the server | [Files](files) |
