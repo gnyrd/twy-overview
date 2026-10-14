@@ -21,6 +21,8 @@ Tiffany picks. Picking is looking through a class's clips and clicking the ones 
 
 Trial. Since 2026-10-13, every day at 9:15 Mountain a short note in the Slack updates channel, also sent to Tiffany as a direct message from JP, names the two oldest classes whose clips have been ready for three days with nothing picked from them (no Clip, Quote or Cue), oldest first, each by its Class Plan title with a link straight to its class page. It names two at most, so a long backlog comes two classes a day. It also says when the Clips or Quotes queue is running low, which means under 44, without giving the numbers. Picking one thing from a class takes that class off the list, and so does the class folder being archived after 28 days. Nothing is sent on a day when no class is waiting and both queues hold 44 or more. With the switch off, no note is sent.
 
+Trial. A class nothing has been picked from stays on the server past its 28 days, so its clips page is still there when you get to it. At the very bottom of every class page with nothing picked is a Done button. Press it when you have looked through the class and nothing is worth picking: the class is then archived on its usual day, and the daily note stops naming it. Picking anything from a class does the same, so Done is only for a class with nothing in it worth keeping. Done can not be undone from the page.
+
 ## What gets posted, and when
 
 All posting goes through Zernio, the scheduling service connected to the Instagram and Facebook accounts.
