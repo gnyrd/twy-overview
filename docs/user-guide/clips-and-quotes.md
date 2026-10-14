@@ -15,6 +15,10 @@ The queues each have a page: the Clips Queue (/ig/queue), the Quotes Queue (/quo
 3. Those moments are cut as vertical clips with captions burned in, plus a thumbnail. Captioned and uncaptioned versions are kept.
 4. They appear on the class page, waiting to be picked. Unpicked clips are cleared out after about four weeks.
 
+## Fixing a caption
+
+The words under each clip on its class page are its captions. When the transcription got a word wrong, correct it in that box and press Save captions: the clip is captioned again with your words, at the same moments as before, in about half a minute, and the new version is what gets posted. Revert puts the box back to the saved words. A clip already in a queue, or already posted, can not be changed, and its box says so. A Quote takes the words in the box at the moment you add it, so correct the words first.
+
 ## Who picks
 
 Tiffany picks. Picking is looking through a class's clips and clicking the ones that feel right into the Clips Queue, and marking the lines worth a Quote. The queues are the only thing the schedulers read, so the eye that picks is the editorial control over everything that goes out.
