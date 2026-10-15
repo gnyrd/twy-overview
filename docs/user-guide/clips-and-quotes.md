@@ -17,7 +17,7 @@ The queues each have a page: the Clips Queue (/ig/queue), the Quotes Queue (/quo
 
 ## Fixing a caption
 
-The words under each clip on its class page are its captions. When the transcription got a word wrong, correct it in that box and press Save captions: the clip is captioned again with your words, at the same moments as before, in about half a minute, and the new version is what gets posted. Revert puts the box back to the saved words. A clip already in a queue, or already posted, can not be changed, and its box says so. A Quote takes the words in the box at the moment you add it, so correct the words first.
+The words under each clip on its class page are its captions. When the transcription got a word wrong, correct it in that box and press Save captions: the clip is captioned again with your words, at the same moments as before, in about half a minute, and the new version is what gets posted. Revert puts the box back to the saved words. A clip already in a queue, or already posted, can not be changed, and its box says so. A Quote takes the words in the box at the moment you add it, so correct the words first. Cues work the same way on the Cues tab of a class page: two captions to a line, Save captions puts your words on the Cue, and a Cue already in the Cue Queue can not be changed.
 
 ## Who picks
 
